@@ -1,4 +1,3 @@
- 
 module Jekyll
   class CategoryListTag < Liquid::Tag
     def render(context)
@@ -15,4 +14,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('category_list', Jekyll::CategoryListTag)
+Liquid::Template.register_tag('category_list', Jekyll::CategoryListTag) 
