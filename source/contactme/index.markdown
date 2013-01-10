@@ -13,7 +13,7 @@ wordpress_id: 33
 
 也可以向我发送邮件  baham_msn@live.com      或者    admin@baham.co
 
-也可以登录[论坛](http://baham.co/forums/forum/bahams-forum)。
+
 
 
 

@@ -1,0 +1,4 @@
+<p>
+  Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
+  <span class="credit">Powered by <a href="http://baham.co/07_18_40.html">本站采用创作共用版权协议</a></span>
+</p>
