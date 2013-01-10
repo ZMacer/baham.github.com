@@ -3,11 +3,11 @@ comments: true
 date: 2012-08-03 22:33:42
 layout: page
 slug: bearfox
-title: BearFox
+title: '359'
 wordpress_id: 359
 ---
 
-[![bearfox-browser-介绍-截图](http://baham.co/images/bearfox/课表1.png)](http://baham.co/wp-content/uploads/2012/08/课表1.png)
+[![bearfox-browser-介绍-截图](http://baham.co/wp-content/uploads/2012/08/课表1.png)](http://baham.co/wp-content/uploads/2012/08/课表1.png)
 
 
 

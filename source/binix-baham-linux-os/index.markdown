@@ -9,11 +9,11 @@ wordpress_id: 446
 
 [![Binix-KDE桌面](http://baham.co/images/binix-baham-linux-os/抓图3-300x224.png)](http://baham.co/wp-content/uploads/2012/08/抓图3.png)
 
-[">![Binix登录界面](http://baham.co/images/binix-baham-linux-os/抓图2-300x225.png)](<img alt=)
+[![Binix登录界面](http://baham.co/images/binix-baham-linux-os/抓图2-300x225.png)](http://baham.co/wp-content/uploads/2012/08/抓图2.png)
 
 
 
-[Binix详细介绍](http://baham.co/2012-08-25-binix-baham-linux-ose8afa6e7bb86e4bb8be7bb8d)
+[Binix详细介绍](http://baham.co/08_25_447.html)
 
 
 

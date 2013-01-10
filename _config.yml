@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /:month/:day/:title/
+permalink: /:month_:day_:title.html
 source: source
 destination: public
 plugins: plugins
@@ -47,12 +47,12 @@ titlecase: true       # Converts page and post titles to titlecase
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'              custom/asides/about.html, custom/asides/subscribe.html,          
 popular_posts_count: 10      # Posts in the sidebar Popular Posts section        
 
-default_asides: [custom/asides/popular_posts.html,  asides/recent_posts.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [custom/asides/popular_posts.html,  asides/recent_posts.html, custom/asides/category_list.html,  asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
 # blog_index_asides:
-post_asides: [custom/asides/popular_posts.html,  asides/recent_posts.html,  asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+post_asides: [custom/asides/popular_posts.html,  asides/recent_posts.html, custom/asides/category_list.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 # page_asides:
 
 # ----------------------- #
@@ -91,14 +91,14 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: baham
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-33861107-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
 
 
 

@@ -3,7 +3,7 @@ comments: true
 date: 2012-07-18 17:12:09
 layout: page
 slug: contactme
-title: 联系我
+title: '33'
 wordpress_id: 33
 ---
 
@@ -13,6 +13,7 @@ wordpress_id: 33
 
 也可以向我发送邮件  baham_msn@live.com      或者    admin@baham.co
 
+也可以登录[论坛](http://baham.co/forums/forum/bahams-forum)。
 
 
 
@@ -20,4 +21,4 @@ wordpress_id: 33
 
 
 
-
+[![扭曲的谷歌](http://baham.co/wp-content/uploads/2012/07/捕获6_副00.png)](http://baham.co/%e8%81%94%e7%b3%bb%e6%88%91/6_%e5%89%af00-png)
