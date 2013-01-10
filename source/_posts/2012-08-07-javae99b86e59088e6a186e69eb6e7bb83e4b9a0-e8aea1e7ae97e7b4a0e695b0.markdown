@@ -1,0 +1,122 @@
+---
+comments: true
+date: 2012-08-07 20:06:05
+layout: post
+slug: java%e9%9b%86%e5%90%88%e6%a1%86%e6%9e%b6%e7%bb%83%e4%b9%a0-%e8%ae%a1%e7%ae%97%e7%b4%a0%e6%95%b0
+title: Java集合框架练习-计算素数
+wordpress_id: 398
+categories:
+- Java练习题
+- Tips
+- 源码
+tags:
+- Java集合框架
+- 算法
+- 素数
+---
+
+## 要求：
+
+
+
+
+
+	
+  * 使用**链表**（LinkedList）；
+
+	
+  * 使用“**埃拉托塞尼筛法**”（源自古希腊数学家Eratosthenes）。使用两个列表，一个存储所有待检查数（要求第一个数必须为素数），一个存储发现的素数。步骤如下：
+
+
+
+
+> 
+
+> 
+> 
+	
+>   1. 第一步是将数字列表中第一个书删除并将其加入素数列表；
+> 
+	
+>   2. 将列表中所有被删除输的数的倍数删除；
+> 
+	
+>   3. 删除下一个素数并将其加入素数列表，然后重复第二步。
+> 
+
+
+
+
+
+
+## 示例：
+
+
+<!-- more -->
+
+    
+    import java.util.Iterator;
+    import java.util.LinkedList;
+    import java.util.List;
+    import java.util.Scanner;
+    
+    public class Sieve {
+            public static void main(String[] args){
+                System.out.println("This is a program to calculate sieve. You need to input a max number.");
+                Scanner s=new Scanner(System.in);
+                int max=s.nextInt();
+    
+                List<Integer> newlst=sieve(max);
+                System.out.println(newlst);
+            }
+    
+            private static List<Integer>  sieve(int max) {
+                // TODO Auto-generated method stub
+                LinkedList<Integer> lst=new LinkedList<Integer>();
+                //lst用于保存原数据
+                for (int i=3;i<=max;i+=2){
+                    lst.add(i);
+                }
+                //此处为24行
+                List<Integer> newlst=new LinkedList<Integer>();//newlst-素数列表
+                int front=0;
+    
+                newlst.add(2);
+                while(!lst.isEmpty()){
+                    front=lst.remove(0);//删除列表中第一个数
+                    newlst.add(front);//将列表中第一个数加入素数列表
+                    if(front>Math.ceil(Math.sqrt(max))){
+                        newlst.addAll(lst);
+                        return newlst;
+                    }//第一个元素大于最大值平方根，则将原数据列表中元素全部加入素数列表
+                    Iterator<Integer> itr=lst.iterator();//36行，刚开始在此处犯错，见代码块下面
+                    while(itr.hasNext()){
+                        int  current= itr.next();
+                        if(current%front==0){
+                            itr.remove();//删除倍数
+                        }
+                    }
+                }
+    
+                return newlst;
+            }
+    }
+
+
+
+
+##  迭代器（Iterator）刚开始使用时所犯错误
+
+
+刚开始将**迭代器**的声明语句放在了第24行，也就是循环外。
+
+结果返回了如下错误：
+`Exception in thread "main" java.util.ConcurrentModificationException
+at java.util.LinkedList$ListItr.checkForComodification(Unknown Source)
+at java.util.LinkedList$ListItr.next(Unknown Source)
+at Sieve.sieve(Sieve.java:38)
+at Sieve.main(Sieve.java:13)`
+
+翻译为：**并发修改异常**。
+
+后来一想，如果把**迭代器**的声明语句放在循环外，显然在内部while循环结束后，next已经到达尾部，没有下一个元素了，内部循环将会终止，原数据列表永远不为空，将会无限循环下去。

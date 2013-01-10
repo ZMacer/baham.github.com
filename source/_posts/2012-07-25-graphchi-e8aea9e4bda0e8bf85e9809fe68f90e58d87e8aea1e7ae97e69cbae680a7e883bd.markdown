@@ -1,0 +1,21 @@
+---
+comments: true
+date: 2012-07-25 22:34:58
+layout: post
+slug: graphchi-%e8%ae%a9%e4%bd%a0%e8%bf%85%e9%80%9f%e6%8f%90%e5%8d%87%e8%ae%a1%e7%ae%97%e6%9c%ba%e6%80%a7%e8%83%bd
+title: GraphChi—让你迅速提升计算机性能
+wordpress_id: 225
+categories:
+- Ted
+- 软件
+tags:
+- GraphChi
+---
+
+GraphChi是从卡内基 - 梅隆大学的[GraphLab](http://www.graphlab.org)项目之一。可以让一台普通PC处理N倍于以往的数据。
+
+特点便是能然硬盘当作内存来使用（包括出传统硬盘或固态硬盘）。
+
+[项目Google Code地址 以及完整介绍](https://code.google.com/p/graphchi/)
+
+GraphChi [Java版项目地址](http://code.google.com/p/graphchi-java)

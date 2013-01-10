@@ -1,0 +1,52 @@
+---
+comments: true
+date: 2012-07-23 19:25:05
+layout: post
+slug: java-zone-%e8%a7%86%e9%a2%91%e9%9b%86%e9%94%a6
+title: Java Zone 视频集锦
+wordpress_id: 134
+categories:
+- Java
+- Java Zone
+- 油兔博
+tags:
+- Java其他
+- 油兔博
+---
+
+# Java大盗(**The Java Heist**)
+
+
+————Java Zone 2012
+
+
+"No f**king checking in on f**cking facebook!"
+
+"With the java platform,we can do anything."
+
+"This is f**king brilliant."全都是出自这里，3分58秒的视频中出现了15个f**k  or f**king，如果不看到最后，真让人怀疑这是以java为主题的宣传片。<!-- more -->
+
+
+# Lady Java
+
+
+![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
+Lady Java    超棒的 javaMV。
+
+
+#  Java Zone Trailer
+
+
+![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
+2分40秒时亮点，告诉你Java的魅力。
+
+
+# JavaZone X  The Streaming
+![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
+
+像部惊悚片一样，有点吓人！
+
+

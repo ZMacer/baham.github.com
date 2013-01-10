@@ -1,0 +1,145 @@
+---
+comments: true
+date: 2012-08-26 23:02:58
+layout: post
+slug: javadoc%e6%b3%a8%e9%87%8a%e8%af%a6%e8%a7%a3
+title: JavaDoc注释详解
+wordpress_id: 470
+categories:
+- Tips
+tags:
+- javadoc
+---
+
+在**JavaAPI**中，有完整的Java说明，而如果想生成想JavaAPI一样的说明文件，就需要使用**javadoc工具**，同时需要用到Javadoc格式的注释。
+
+
+#  1 使用/** 而非/*开头
+
+
+示例如下：
+
+/**
+
+*This is a line about javadoc.
+
+*This the next line.
+
+*/
+
+即javadoc的注释以/**开头，以*作为每一段开头,*/结尾
+
+<!-- more -->
+
+
+# 2 需要使用特有标记
+
+
+在javadoc格式的注释中，使用@XXX表示标签，**以@开头，后面是标记名，再后面是其他信息。**
+
+常用javadoc标记名如下：
+
+_author,param,return,throws,version_
+
+**javadoc标记概述**：
+
+
+
+
+
+
+
+
+标记名称
+
+
+介绍
+
+
+
+
+
+
+@author <name>
+
+
+编写该类的作者信息
+
+
+
+
+
+
+@param <name><description>
+
+
+该方法参数的详细说明
+
+
+
+
+
+
+@return <description>
+
+
+该方法**返回值**的详细说明
+
+
+
+
+
+
+@throws <type> <description>
+
+
+该方法可能抛出的异常类型，以及在什么情况下抛出该异常
+
+
+
+
+
+
+@version <number>
+
+
+标记文件版本号
+
+
+
+
+
+
+# 3 javadoc注释完整示例
+
+
+下面以HelloWorld程序为例，进行javadoc格式的注释。
+
+    
+    /**
+    *这是HelloWorld的javadoc追时范例，@author和@version通常放在类头部的注释块中
+    *@author Baham
+    *@version 0.01
+    *XXXXXXXX
+    */
+    public class HelloWorld{
+    	private String s=”HelloWorld”;
+    
+    	public static void main(String args[]){
+    		show();
+    	}
+    /**
+    *通常在方法头部的注释块中，放置@param和@throws标记，对于有返回值的方法还要使用@return
+    *标记返回值
+    *@param show This method is to show “”HelloWorld”
+    *@return here is not return value
+    *@throws null
+    *xxxxxxxxxx
+    */
+    	public void show(){
+    		System.out.println(s);
+    	}
+    }
+
+
+

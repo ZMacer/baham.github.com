@@ -1,0 +1,46 @@
+---
+comments: true
+date: 2012-12-05 22:19:40
+layout: post
+slug: '%e8%bf%98%e5%9c%a8%e7%94%a8360%e5%90%97%ef%bc%9f%e8%af%95%e8%af%95%e6%96%b0%e5%8a%a0%e5%9d%a1toolwiz%e7%9a%84toolwizcare%e5%90%a7%e3%80%82'
+title: 还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。
+wordpress_id: 738
+categories:
+- 软件
+post_format:
+- 日志
+tags:
+- Toolwiz
+---
+
+[![toolwizcare主界面](http://baham.co/wp-content/uploads/2012/12/toolwizcare-300x198.png)](http://baham.co/wp-content/uploads/2012/12/toolwizcare.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+小清新的界面，不像国产安全软件一样，喜欢打仗。
+
+全球装机量不断提升。
+
+是时候让他也回到中国了。
+
+Toolwiz Care 创建之初就是模仿国内的安全辅助软件。
+
+比如开机时间、温度条、密盘、还有图片编辑器（仿美图秀秀）……
+
+甚至界面上显示位置都和360很像。
+
+看一款国外克隆国内软件的软件，真是别有一番风味。

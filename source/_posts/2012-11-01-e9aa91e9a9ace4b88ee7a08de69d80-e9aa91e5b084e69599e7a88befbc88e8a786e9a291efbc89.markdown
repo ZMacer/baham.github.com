@@ -1,0 +1,16 @@
+---
+comments: true
+date: 2012-11-01 19:40:55
+layout: post
+slug: '%e9%aa%91%e9%a9%ac%e4%b8%8e%e7%a0%8d%e6%9d%80-%e9%aa%91%e5%b0%84%e6%95%99%e7%a8%8b%ef%bc%88%e8%a7%86%e9%a2%91%ef%bc%89'
+title: 骑马与砍杀-骑射教程（视频）
+wordpress_id: 673
+categories:
+- Baham
+post_format:
+- 视频
+---
+
+<!-- more -->
+
+

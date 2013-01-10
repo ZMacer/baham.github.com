@@ -1,0 +1,25 @@
+---
+comments: true
+date: 2012-07-29 13:13:27
+layout: post
+slug: bearfox-browser-%e7%86%8a%e7%8b%90%e6%b5%8f%e8%a7%88%e5%99%a8
+title: BearFox Browser-熊狐浏览器
+wordpress_id: 271
+categories:
+- Baham Software
+tags:
+- BearFox
+- Firefox
+---
+
+**BearFox Browser**（**熊狐浏览器**），来自[Baham.co](http://baham.co)， 由Baham定制。 插件包括 Adblock Plus，Auto Proxy，NoScript，Flagfox等安全插件； DownThemAll，IE Tab+，NetVideoHunter，Firebug，Xthunder，TabMixPlus，CreaseMonkey等其他常用插件。 书签包括Baham’s Blog，英文（NCR）、英文（印度）、印地语、德文、法文、中文（简繁）、日文俄语、西班牙语Google站点，以及MIT杂志的中文站、 EDXonline在线教育网站……以及一些其他很有用但国内访问量较少的网站。 主题及皮肤均采用默认。
+
+BearFox 1.0对应Firefox14.1，随火狐更新BearFox会动态更新。
+
+BearFox2.2 于2012年11月6日发布。
+
+下载地址：
+
+[本站下载  ](http://baham.co/wp-files/BearFox1.0.exe)(BearFox1.0)(14.1)<!-- more -->
+
+[火狐社区分流下载](http://diy.mozilla.com.cn/profiles/user157620/browsers/QxNzYwNDgwNg/downloads/win32/zh-CN/Firefox%20Setup%2016.0.2.exe) (BearFox2.2)(16.2)

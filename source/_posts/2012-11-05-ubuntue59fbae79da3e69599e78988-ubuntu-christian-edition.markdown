@@ -1,0 +1,73 @@
+---
+comments: true
+date: 2012-11-05 21:21:00
+layout: post
+slug: ubuntu%e5%9f%ba%e7%9d%a3%e6%95%99%e7%89%88-ubuntu-christian-edition
+title: Ubuntu基督教版-Ubuntu Christian Edition
+wordpress_id: 687
+categories:
+- Linux
+- 信仰
+post_format:
+- 日志
+tags:
+- Ubuntu CE
+---
+
+![](http://ubuntuce.com/screenshots/12.04/login.png)
+
+[Ubuntu](https://zh.wikipedia.org/wiki/Ubuntu)自从诞生以来，就有很多一期定制的发行版。
+
+比如非常火的[Linux Mint](http://www.linuxmint.com/)，国内的YLMF，深度。
+
+
+
+对于**基督徒**，有一款专门为之设计的发行版，[Ubuntu CE](http://ubuntuce.com/)。<!-- more -->
+
+**Ubuntu Christian Edition**：
+
+
+> Ubuntu Christian Edition is a free, open source operating system geared towards Christians. It is based on the popular Ubuntu Linux. Ubuntu is a complete Linux-based operating system, freely available with both community and professional support. The goal of Ubuntu Christian Edition is to bring the power and security of Ubuntu to Christians. The current_ Ubuntu Christian Edition release_ supports both 32 bit and 64 bit PCs. Ubuntu Christian Edition covers every standard desktop application from word processing and spreadsheet applications to web server software and programming tools.
+
+
+Ubuntu CE 基于Ubuntu，如同其他GNU/Linux系统一样，是一款**自由开放**的系统。特点在于包含很棒的基督教相关的软件，**强大的防火墙**以及**家**![Desktop](http://ubuntuce.com/screenshots/12.04/desktop.png)**长控制系统**。
+
+
+
+Ubuntu CE更新很快,最新版基于12.04。
+
+下载地址：
+
+
+> **Ubuntu 12.04 Christian Edition 32 bit **
+
+> 
+> 
+	
+>   * [iso Download](http://phillw.net/isos/uce/precise/uce-12.04-desktop-i386.iso) -- [md5sum](http://phillw.net/isos/uce/precise/uce.md5sums)
+> 
+	
+>   * [Torrent](http://www.livingtorrents.com/torrents-details.php?id=749)
+> 
+
+
+
+**Ubuntu 12.04 Christian Edition 64 bit **
+
+> 
+> 
+	
+>   * [iso Download](http://phillw.net/isos/uce/precise/uce-12.04-desktop-amd64.iso) -- [md5sum](http://phillw.net/isos/uce/precise/uce.md5sums)
+> 
+	
+>   * [Torrent](http://www.livingtorrents.com/torrents-details.php?id=750)
+> 
+
+
+
+
+
+
+
+
+

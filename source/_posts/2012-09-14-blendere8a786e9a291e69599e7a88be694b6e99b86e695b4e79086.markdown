@@ -1,0 +1,45 @@
+---
+comments: true
+date: 2012-09-14 23:49:43
+layout: post
+slug: blender%e8%a7%86%e9%a2%91%e6%95%99%e7%a8%8b%e6%94%b6%e9%9b%86%e6%95%b4%e7%90%86
+title: Blender视频教程收集整理
+wordpress_id: 595
+categories:
+- Blender
+- slider
+tags:
+- Blender教程
+---
+
+# 1 Super3Boy系列教程：
+
+
+
+<!-- more -->
+
+_Super3Boy_系列**Blender教程**Youku播放地址：http://www.youku.com/playlist_show/id_4120562.html
+
+总时长约4小时。
+
+
+# 2 Sintel全系列教程
+
+
+
+
+网易公开课视频教程:http://open.sina.com.cn/Sintel.html
+
+已经翻译完成，共27集
+
+
+# 3 火星网Blender相关中文教程
+
+
+http://www.vhxsd.com/list/483
+
+纯中文教程，比较初级，时长较短，内容较少，总共15集。
+
+
+
+

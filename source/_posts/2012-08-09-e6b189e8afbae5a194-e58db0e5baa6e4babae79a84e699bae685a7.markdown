@@ -1,0 +1,20 @@
+---
+comments: true
+date: 2012-08-09 22:37:27
+layout: post
+slug: '%e6%b1%89%e8%af%ba%e5%a1%94-%e5%8d%b0%e5%ba%a6%e4%ba%ba%e7%9a%84%e6%99%ba%e6%85%a7'
+title: 汉诺塔-印度人的智慧
+wordpress_id: 410
+categories:
+- Java练习题
+tags:
+- 递归
+---
+
+[汉诺塔](https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94#.E4.BB.BB.E6.84.8F.E5.88.9D.E5.A7.8B.E7.B5.90.E6.A7.8B.EF.BC.88arbitrary_initial_configuration.EF.BC.89.E7.9A.84.E8.A7.A3.E6.B3.95)，指在三个不同的塔之间移动盘子![汉诺塔](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/220px-Tower_of_Hanoi.jpeg)。三个塔中一个上面有一定数目的盘子，盘子**直径递减**，最上面的最小，如图（图为8层）。
+
+**汉诺塔**的目的是把所有盘子从一个塔移动到另一个，第三个塔用来过渡。
+
+一次只能移动一个盘子，而且不能把盘子放到比它直径小的盘子上。
+
+要求：使用**递归**解决该问题。

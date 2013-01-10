@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2012-07-21 20:23:46
+layout: post
+slug: '%e9%a6%99%e6%b8%af%e5%b0%8f%e5%ad%a6%e5%b0%86%e4%bb%8e9%e6%9c%88%e4%bb%bd%e5%bc%80%e5%a7%8b%e8%af%95%e8%a1%8c%e5%9b%bd%e6%b0%91%e6%95%99%e8%82%b2%e8%af%be'
+title: 香港小学将从9月份开始试行国民教育课
+wordpress_id: 89
+categories:
+- 坑爹
+tags:
+- 坑爹
+---
+
+None

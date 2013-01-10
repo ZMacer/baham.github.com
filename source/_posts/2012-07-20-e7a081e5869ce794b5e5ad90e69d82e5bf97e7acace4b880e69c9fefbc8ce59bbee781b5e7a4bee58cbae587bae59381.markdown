@@ -1,0 +1,77 @@
+---
+comments: true
+date: 2012-07-20 09:32:53
+layout: post
+slug: '%e7%a0%81%e5%86%9c%e7%94%b5%e5%ad%90%e6%9d%82%e5%bf%97%e7%ac%ac%e4%b8%80%e6%9c%9f%ef%bc%8c%e5%9b%be%e7%81%b5%e7%a4%be%e5%8c%ba%e5%87%ba%e5%93%81'
+title: 码农电子杂志第一期，图灵社区出品
+wordpress_id: 51
+categories:
+- Geek
+tags:
+- 程序员
+---
+
+[caption id="attachment_52" align="alignnone" width="642"][![码农电子杂志](http://baham.co/wp-content/uploads/2012/07/图灵社区-图书-码农-第1期-Mozilla-Firefox_2012-07-20_09-18-22.png)](http://baham.co/07_20_51.html/%e5%9b%be%e7%81%b5%e7%a4%be%e5%8c%ba-%e5%9b%be%e4%b9%a6-%e7%a0%81%e5%86%9c-%e7%ac%ac1%e6%9c%9f-mozilla-firefox_2012-07-20_09-18-22) 码农第一期[/caption]
+
+
+该图片来自图灵[社区截图](http://www.ituring.com.cn/book/1074#jtss-tsina)
+
+
+
+
+<!-- more -->
+
+
+
+
+
+# 码农内容梗概
+
+
+
+
+
+
+	
+  *  所谓码农
+
+	
+  *  对话归隐的大师——Donald E. Knuth（高德纳）
+
+	
+  *  关于TAOCP中用集合论对算法进行严格数学定义的理解
+
+	
+  *  海量用户积分排名算法探讨
+
+	
+  *  图说归并排序
+
+	
+  *  终身Coder，可以吗？
+
+	
+  *  Matrix67的Aha！Moment
+
+	
+  *   柳泽大辅谈如何想出好创意
+
+	
+  *   移动为什么重要？
+
+	
+  *   Android 应用该是个啥样子？
+
+	
+  *  为什么Pinterest是最让人失望的社交网络?
+
+	
+  *    JavaScript并行运算新机遇——Web Workers的神奇魔法
+
+	
+  *   别把自己当个超人——给初级程序员的⼀一点小小建议
+
+
+
+
+码农第一期 [下载****](http://www.ituring.com.cn/book/download/cedd7a8b-3a98-493a-a8b2-710b162af9af)

@@ -1,0 +1,60 @@
+---
+comments: true
+date: 2012-08-26 22:13:11
+layout: post
+slug: jdk%e5%b7%a5%e5%85%b7%e4%bb%8b%e7%bb%8d
+title: JDK工具介绍
+wordpress_id: 464
+categories:
+- Tips
+tags:
+- JDK
+---
+
+javac
+
+   java**编译器**。将java源码转换成为二进制文件。
+
+java 
+
+直接执行.class文件
+
+appletviewer 
+
+**用于执行Applet程序**
+
+javadoc
+
+基于Java源码中的注释提供HTML版本的程序文档（注释需要遵循javadoc标准格式）
+
+rmic 
+
+创建支持**远程方法调用（RMI）**的class文件
+
+rmiregistry
+
+使用该工具用以获取对支持RMI对象的访问权限
+
+rmid 
+
+为RMI对象的注册、激活，系统**守护进程**
+
+native2ascii 
+
+转换编码为**ASCII**
+
+jar
+
+JAR文件创建工具。允许将多个Java二进制文件和其他资源集合在一起创建一个压缩文件<!-- more -->
+
+keytool
+
+用来管理和创建安全Key
+
+jarsigner
+
+java注册认证工具
+
+policytool
+
+**隐私策略**配置工具
