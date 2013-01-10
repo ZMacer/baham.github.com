@@ -1,0 +1,105 @@
+---
+comments: true
+date: 2012-08-02 12:19:34
+layout: post
+slug: '318'
+title: Learn to hack-如何成为一个黑客
+wordpress_id: 318
+categories:
+- Geek
+- Linux
+tags:
+- BackTrack
+- Hack
+- 安全
+---
+
+**[![安全-learn to hack-如何成为黑客](http://baham.co/wp-content/uploads/2012/08/security.png)](http://baham.co/wp-content/uploads/2012/08/security.png)攻击服务器**、**爆破密码**、**利用漏洞**、**破解加密**，和所有一切保护你图里邪恶的东西。
+
+安全的计算机需要两种规则可以实现，
+
+
+
+	
+  1. **不买，**
+
+	
+  2. **买来计算机后，不去开机**
+
+
+打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。
+
+**黑客行为**是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取**root权限**（类Unix系统中最高权限）的方式达到我们想做的一切-**盗取信息**、**破坏硬件**。<!-- more -->
+
+攻击是在真实的Linux系统上进行的，阅读下文找出黑客们如何窃取你的信息以及如何劫持你的计算机-然后学会如何保护好自己的系统。**因为想保护好自己，就应该知道保护自己的什么。**
+
+
+> 提醒，请进在家里进行试验
+
+我们必须清醒的认识到，破坏计算机系统是违法的，你不可以去破坏或者偷取数据，因为这样做可能会给你带来麻烦。
+
+在多数国家，尝试去破坏计算机系统是一项严重的罪行。
+
+幸运的是，虚拟机让我们可以在一台电脑上开始测试黑客的过程，正如我们所演示的那样。
+
+如果你的家里有局域网连接，也可以在多台电脑上进行测试，演练攻击，以免自己日后被攻击。
+
+但是如果你使用这些技术区攻击一个正在运行的服务器，除非你有该机器的所有权，否则您将因此承担严重的法律后果，不要做这种傻事。
+
+
+
+
+#  攻击服务器：
+
+
+当人们想到黑客行为是，首先想到的画面是，某个人的电脑通过网络连接着已经被攻击并获取了权限的其他电脑。
+
+这个就称为攻击服务器。此处，我们使用[BackTrack](http://www.backtrack-linux.org)（Baham注：一款重视安全技术的Linux发行版）进行一次特殊的**渗透测试**（攻击自己的系统）。
+
+一款虚拟的镜像系统[Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Main_Page)（Baham注：一款虚拟机软件，常用于安全测试）,特点是容易被攻击，将成为受害者。
+
+Metasploit Framework是一款集**漏洞**、**后门**、**系统扫描**、**有效载荷测试**于一身的工具。它是一款命令行工具，但我们可以使用图形界面。
+
+
+
+	
+  1. 在Backtrack上，运 行Applications> BackTrack > Exploitation Tools > Network Exploitation Tools > Metasploit Framework > Armitage，在新窗口，点击Start MSF，然后等待主窗口打开。
+
+	
+  2. 然后点击Hosts > Nmap Scan > Intense Scan,按提示输入Ip范围192.168.56.0/24（提醒，如果您更改过VirtualBox的DHCP服务器设置，您需要更改为相应值），然后等待直到程序提示你扫描完成。
+
+
+这将找到我们的所有主机，一个是使用的主机，一个是**DHCP服务器**，一个是**Backtrack**，一个是Metasploitable，进入Attracks> Find Attacks > By Port，找到我们可以发动攻击的主机，等待知道我们得到信息“Attack Analysis Complete（攻击分析完成）”
+
+攻击最困难的部分是得知**如何利用漏洞**，此处我们得知受害者使用的是[**TikiWiki**](http://info.tiki.org/)(有PHP漏洞让我们释放代码)。
+
+[![Learn to hack-成为一个黑客](http://baham.co/wp-content/uploads/2012/08/LXF154.feat_hacklinux.hack1_-300x211.jpg)](http://baham.co/08_02_318.html/lxf154-feat_hacklinux-hack1)
+
+
+
+	
+  1. 右键单击Metasploitable host（如果不确定哪一个是，可以在Terminal（终端）中输入_ifconfig_，将返回当前BackTrack的ip，主机会是 192.168.56.1，DHCP会是192.168.56.100，另一个就是Metasploitable server的）
+
+	
+  2. 点击Attack > webapp > Tikiwiki_graph_formula_exec，确认LHOST设置成BackTrack的ip
+
+	
+  3. 然后点击Launch，注入工具运行之 后，Host图标处将变为红色以示成功
+
+	
+  4. 右键单击host地址，点击Shell>interact
+
+
+将会打开一个标签，一个最小化的Shell就会运行在被攻击系统上，输入whoami会告诉你被劫持的用户www-date目录，这个shell收到诸多限制，您甚至不能使用cd（Baham注：linux中切换目录的命令），但可以使用通过别的方式获取一些信息，如：
+
+
+> ls /home
+
+
+
+
+
+
+未完待续
+
+[英文版原文地址](http://www.tuxradar.com/content/learn-hack/)

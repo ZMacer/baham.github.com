@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2012-07-21 20:23:46
+layout: post
+slug: '89'
+title: 香港小学将从9月份开始试行国民教育课
+wordpress_id: 89
+categories:
+- 坑爹
+tags:
+- 坑爹
+---
+
+None

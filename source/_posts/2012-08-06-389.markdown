@@ -1,0 +1,49 @@
+---
+comments: true
+date: 2012-08-06 23:00:55
+layout: post
+slug: '389'
+title: 《Building Java Programs》-Java集合框架（Java Collection Framework）
+wordpress_id: 389
+categories:
+- Tips
+tags:
+- Java集合框架
+- 数据结构
+- 映射
+- 集合
+---
+
+[caption id="attachment_390" align="alignleft" width="300"][![Java集合框架-java collection framework-示意图](http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png)](http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png) Java集合框架（点击浏览大图）[/caption]
+
+ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用**node（节点）**存储元素的**LinkedList（链表）**。LinkedList满足**Collection接口**，而**Collection接口**和**Map接口**构成了**Java集合框架**的主体。
+
+
+
+
+
+	
+  1. 集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于**保存、组织和查询**数据。
+
+	
+  2. **链表(LinkedList)**是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“**节点**”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。
+
+	
+  3. **迭代器（Iterator）**是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快**顺序访问**列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。
+
+	
+  4. **抽象数据类型（ADT）**，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。
+
+	
+  5. **数学集合（Set）**中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。
+
+	
+  6. Java中有两个主要的数学集合类：**TreeSet**和**HashSet**。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。
+
+	
+  7. **映射**将一组**键（Key）**对象关联（映射）到一组**值（Value）**对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。
+
+	
+  8. Java中使用**Map接口**表示映射，其中有两个主要的映射类：**TreeMap**和**HashMap**。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。
+
+

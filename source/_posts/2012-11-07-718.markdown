@@ -1,0 +1,94 @@
+---
+comments: true
+date: 2012-11-07 15:53:59
+layout: post
+slug: '718'
+title: 如何删除libgooglepinyin和ibus-googlepinyin
+wordpress_id: 718
+categories:
+- Linux
+post_format:
+- 日志
+tags:
+- libgooglepinyin
+---
+
+_How to remove libgooglepinyin and ibus-google pinyin?_
+
+之前用Xubuntu，配置安装[goolgepinyin](http://code.google.com/p/libgooglepinyin/)，很容易。后来换到了KDE桌面的Fedora，使用googlepinyin，就不那么简单了。
+
+首先安装，需要[编译安装](http://code.google.com/p/libgooglepinyin/wiki/INSTALL)。
+
+安装很简单，只有几条命令，复制粘贴即可。问题是，如何卸载？
+
+sudo make uninstall
+
+不能直接卸载。后来搜索了一下，才知道，cmake不支持直接make uninstall
+
+
+
+万幸，最终还是找到了解决办法。
+
+
+## 1 对于ibus-google-pinyin
+
+
+只需要删除一个目录、一个文件。
+
+    
+    sudo rm -fr /usr/share/ibus-googlepinyin
+    
+    sudo rm /usr/share/ibus/component/googlepinyin.xml
+
+
+
+
+
+## 2 对于libgooglepinyin<!-- more -->
+
+
+稍微麻烦一点。
+
+将一下内容，复制进libgooglepinyin根目录内，创建 **cmake_uninstall.cmake.in **文件_（后缀为.in）_
+
+
+
+    
+    # http://www.vtk.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
+    
+    IF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
+    MESSAGE(FATAL_ERROR "Cannot find install manifest: \"@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt\"")
+    ENDIF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
+    
+    FILE(READ "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt" files)
+    STRING(REGEX REPLACE "\n" ";" files "${files}")
+    FOREACH(file ${files})
+    MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
+    IF(EXISTS "$ENV{DESTDIR}${file}")
+    EXEC_PROGRAM(
+    "@CMAKE_COMMAND@" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+    OUTPUT_VARIABLE rm_out
+    RETURN_VALUE rm_retval
+    )
+    IF(NOT "${rm_retval}" STREQUAL 0)
+    MESSAGE(FATAL_ERROR "Problem when removing \"$ENV{DESTDIR}${file}\"")
+    ENDIF(NOT "${rm_retval}" STREQUAL 0)
+    ELSE(EXISTS "$ENV{DESTDIR}${file}")
+    MESSAGE(STATUS "File \"$ENV{DESTDIR}${file}\" does not exist.")
+    ENDIF(EXISTS "$ENV{DESTDIR}${file}")
+    ENDFOREACH(file)
+
+
+
+
+
+
+在build目录下
+
+    
+    make
+    
+    sudo make uninstall
+
+
+

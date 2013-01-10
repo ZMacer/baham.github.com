@@ -1,0 +1,98 @@
+---
+comments: true
+date: 2012-12-17 19:28:37
+layout: post
+published: false
+slug: '754'
+title: Git 常用命令速查表
+wordpress_id: 754
+categories:
+- Linux
+tags:
+- G
+---
+
+Git 常用命令速查表
+master origin :默认远程版本库
+:默认开发分支
+Head Head^ :Head :默认开发分支
+的父提交
+创建版本库
+$ git clone <url>
+$ git init
+修改和提交
+$ git status
+$ git diff
+$ git add .
+$ git add <file>
+$ git mv <old> <new>
+$ git rm <file>
+$ git rm --cached <file>
+$ git commit -m "commit message"
+$ git commit --amend<!-- more -->
+查看提交历史
+$ git log
+$ git log -p <file>
+$ git blame <file>
+撤消
+$ git reset --hard HEAD
+$ git checkout HEAD <file>
+$ git revert <commit>
+#克隆远程版本库
+#初始化本地版本库
+#查看状态
+#查看变更内容
+#跟踪所有改动过的文件
+#跟踪指定的文件
+#文件改名
+#删除文件
+#停止跟踪文件但不删除
+#提交所有更新过的文件
+#修改最后一次提交
+#查看提交历史
+#查看指定文件的提交历史
+#以列表方式查看指定文件
+的提交历史
+#撤消工作目录中所有未提交
+文件的修改内容
+#撤消指定的未提交文件的修
+改内容
+#撤消指定的提交
+# Git Cheat Sheet <CN> (Version 0.1)
+# 2012/10/26
+-- by分支与标签
+$ git branch
+#显示所有本地分支
+$ git checkout <branch/tag>
+#切换到指定分支或标签
+$ git
+branch <new-branch>
+#创建新分支
+$ git branch -d <branch>
+#删除本地分支
+$ git tag
+#列出所有本地标签
+$ git tag <tagname>
+#基于最新提交创建标签
+$ git tag -d <tagname>
+#删除标签
+合并与衍合
+$ git merge <branch>
+$ git rebase <branch>
+#合并指定分支到当前分支
+#衍合指定分支到当前分支
+远程操作
+$ git remote -v
+#查看远程版本库信息
+$ git remote show <remote>
+#查看指定远程版本库信息
+$ git remote add <remote> <url>
+#添加远程版本库
+$ git fetch <remote>
+#从远程库获取代码
+$ git pull <remote> <branch> #下载代码及快速合并
+$ git push <remote> <branch> #上传代码及快速合并
+$ git push <remote> :<branch/tag-name>
+#删除远程分支或标签
+$ git push --tags
+#上传所有标签

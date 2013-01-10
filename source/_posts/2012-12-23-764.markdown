@@ -1,0 +1,16 @@
+---
+comments: true
+date: 2012-12-23 15:42:06
+layout: post
+slug: '764'
+title: Enlightenment-V0.17发布
+wordpress_id: 764
+categories:
+- Linux
+post_format:
+- 日志
+---
+
+历经12年,Enlightenment正式版终于发布。从2000年项目开始到2012年11月发布alpha版，在到12月19号发布RC版，在到昨天发布正式版。Enlightenment一路走到今天。向Enlightenment忠诚的开发者们致敬！
+
+![EFL Block Diagram](http://enlightenment.org/p/index/d/diagram-efl-simple-small.png)

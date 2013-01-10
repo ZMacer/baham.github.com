@@ -1,0 +1,18 @@
+---
+comments: true
+date: 2012-08-15 23:34:42
+layout: post
+slug: '433'
+title: 谷歌和微软到底什么关系
+wordpress_id: 433
+categories:
+- Geek
+tags:
+- Google
+- Win8
+- 搜索引擎
+---
+
+很久很久以前，谷歌推出了Chrome，有人告诉我们，Chrome和微软是这样的关系。
+
+[![Google-Chrome-Microsoft-Windows-logo-关系](http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows3.png)](http://baham.co/08_15_433.html/google-chrome-is-new-microsoft-windows-4)现在呢，谷歌更换了自己的favicon，然后我们知道，谷歌的搜索引擎和Windows8也是一样的关系。<!-- more --> [![google和windows8的关系](http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows_副本.png)](http://baham.co/08_15_433.html/google-chrome-is-new-microsoft-windows_%e5%89%af%e6%9c%ac)

@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2012-10-21 00:00:59
+layout: post
+slug: '651'
+title: 纪念文章-Baham Blog 第一篇通过客户端发布的博文
+wordpress_id: 651
+categories:
+- Baham
+tags:
+- Wordpress
+---
+
+支持 **加粗**，_斜体_，下划线，<del>删除线</del>，[链接](http://baham.co/10_21_651.html)，**引用**，**more标签**。如果支持html代码可能会更好用。 另外支持上传照片及视频。 并且可以直接访问dashboard
