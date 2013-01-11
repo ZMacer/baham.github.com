@@ -1,0 +1,197 @@
+---
+comments: true
+date: 2012-07-21 20:18:52
+layout: post
+slug: '69'
+title: 可恶的中国电信
+wordpress_id: 69
+categories:
+- Baham
+- 坑爹
+tags:
+- 中国电信
+- 坑爹
+---
+
+[![可恶的中国电信](http://baham.co/wp-content/uploads/2012/07/江苏电信-Mozilla-Firefox_2012-07-21_18-54-16_副本-300x204.png)] 中国电信真可恶，上着网，访问自己的网站，给我弹出了这个
+
+
+
+
+        今天刚打开电脑，刚刚进入自己的网站，刚刚准备输入密码，电信给我来了个这个。坑爹啊，我知道你电信无视用户体验，但这也太烦人了。
+
+
+
+
+        既然如此，就慢慢分析一下电信的无耻行为。
+
+
+
+
+
+# 
+
+
+
+
+# 
+
+
+
+
+# 
+
+
+
+
+# 电信可耻行为列表：
+
+
+
+
+<!-- more -->
+
+
+
+
+
+
+	
+    1. 
+
+
+##### **恼人的114站点**
+
+
+
+
+	
+    2. 
+
+
+##### **部分地区的诈骗行为**
+
+
+
+
+	
+    3. 
+
+
+##### **霸王条款**
+
+
+
+
+	
+    4. 
+
+
+##### **[骚扰电话](骚扰电话)**
+
+
+
+
+	
+    5. 
+
+
+##### **高网费，低网速**
+
+
+
+
+
+
+<!-- more -->
+
+
+## 114站点
+
+
+[![可恶的电信114](http://baham.co/wp-content/uploads/2012/07/解决打开网页跳转到114搜索页域名劫持的问题_耗子的小窝_百度空间-Mozilla-Firefox_2012-07-21_19-30-18.png)] 电信域名劫持至114
+
+解决办法：
+
+
+### 1 更改DNS（貌似不管用了）
+
+
+用谷歌的
+
+8.8.8.8
+
+4.4.4.4
+
+或者opendns的
+
+208.67.222.222
+208.67.220.220
+
+等纯净的DNS
+
+
+### 2修改host
+
+
+修改C:\WINDOWS\system32\drivers\etc\hosts.txt
+
+以127.0.0.1代替114的域名
+
+
+### 3家用路由的防火墙功能
+
+
+
+
+具体例子如下:
+
+[![解决电信的可恶行为](http://baham.co/wp-content/uploads/2012/07/家用路由解决114.png)] 家用路由解决电信域名劫持
+
+//其实也可以使用一些功能较全防火墙软件,如Comodo Fire Wall 。
+
+
+
+
+
+
+## 诈骗行为
+
+
+[caption id="attachment_76" align="aligncenter" width="997"][![中国电信诈骗](http://baham.co/wp-content/uploads/2012/07/八卦江湖中国电信可恶.png)](http://baham.co/?attachment_id=76) 中国电信诈骗[/caption]
+
+
+## 霸王条款
+
+
+[caption id="attachment_77" align="aligncenter" width="978"][![坑爹的电信，霸王条款](http://baham.co/wp-content/uploads/2012/07/黑心的电信，可恶的霸王条款.png)](http://baham.co/?attachment_id=77) 电信黑心，捆绑霸王条款[/caption]
+
+
+## 骚扰电话
+
+
+[![可恶的电信骚扰电话](http://baham.co/wp-content/uploads/2012/07/可恶的电信，可恶的骚扰电话.png)](http://baham.co/?attachment_id=78) 电信骚扰电话[/caption]
+
+
+## 高网费,低网速
+
+
+这个怎么说呢，拿数据说话
+
+[![中国高昂的矿戴妃](http://baham.co/wp-content/uploads/2012/07/中国宽带费为何上百倍于韩国.png)](http://baham.co/?attachment_id=79) 可恶的电信，中国高昂的宽带费[/caption]
+
+
+
+尼玛，速度和非洲持平，还低于越南。
+
+
+
+
+
+[![可恶的中国ISP](http://baham.co/wp-content/uploads/2012/07/中国互联网还有多少令人汗颜的指标.png)](http://baham.co/07_21_69.html/%e4%b8%ad%e5%9b%bd%e4%ba%92%e8%81%94%e7%bd%91%e8%bf%98%e6%9c%89%e5%a4%9a%e5%b0%91%e4%bb%a4%e4%ba%ba%e6%b1%97%e9%a2%9c%e7%9a%84%e6%8c%87%e6%a0%87) 中国宽带环境倒数第二[/caption]
+
+
+
+
+
+部分截图取自天涯社区。部分资料来自腾讯新闻。

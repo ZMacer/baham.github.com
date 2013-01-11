@@ -26,19 +26,7 @@ Octopress没有独立的留言系统，不过可以使用Disqus，垃圾信息�
 4 优化内链
 
 在_include/custom下的footer.html 可以改变foot处的链接。
-使用related_posts插件:
-{% codeblock  %}
-<section>
-    <h1>Related Posts</h1>
-    <ul class="posts">
-    {% for post in site.related_posts limit:5 %}
-        <li class="related">
-        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-    </ul>
-</section>
-{% endcodeblock %}
+使用<a href=https://github.com/jcftang/octopress-relatedposts>related_posts</a>插件:
 以及tag_cloud等插件。
 
 

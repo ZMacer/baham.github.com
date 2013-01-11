@@ -31,8 +31,5 @@ tags:
   5. 禁止显示目录索引
 
 
-<!-- more -->
 
 
-全文pdf下载
-[加强Wordpress安全的18项措施](http://baham.co/09_14_577.html/%e5%8a%a0%e5%bc%bawordpress%e5%ae%89%e5%85%a8%e7%9a%8418%e9%a1%b9%e6%8e%aa%e6%96%bd)

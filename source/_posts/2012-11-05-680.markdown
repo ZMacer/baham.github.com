@@ -25,4 +25,4 @@ tags:
 
 epub电子书格式：
 
-[HolyBible](http://baham.co/11_05_680.html/holybible)
+[HolyBible](http://baham.co/files/The_Holy_Bible_-_King_James_Version.epub)

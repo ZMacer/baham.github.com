@@ -36,7 +36,7 @@ _**Blender**_拥有**丰富的快捷键**，当然快捷键使用并非必须的
 ## Blender快捷键分类一览(图示)
 
 
-[caption id="attachment_602" align="alignleft" width="2273"][![blender快捷键-分类汇总](http://baham.co/wp-content/uploads/2012/09/blendervisualhotkeys.png)](http://baham.co/09_15_601.html/blendervisualhotkeys) Blender快捷键图示[/caption]
+[![blender快捷键-分类汇总](http://baham.co/wp-content/uploads/2012/09/blendervisualhotkeys.png)] Blender快捷键图示
 
 
 
@@ -62,6 +62,5 @@ _**Blender**_拥有**丰富的快捷键**，当然快捷键使用并非必须的
 
 想系介绍，请阅读完整版本PDF文档。
 
-下载 [BlenderHotkeyReference.pdf](http://baham.co/09_15_601.html/blenderhotkeyreference)
 
 

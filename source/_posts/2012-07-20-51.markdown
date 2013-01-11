@@ -11,7 +11,7 @@ tags:
 - 程序员
 ---
 
-[caption id="attachment_52" align="alignnone" width="642"][![码农电子杂志](http://baham.co/wp-content/uploads/2012/07/图灵社区-图书-码农-第1期-Mozilla-Firefox_2012-07-20_09-18-22.png)](http://baham.co/07_20_51.html/%e5%9b%be%e7%81%b5%e7%a4%be%e5%8c%ba-%e5%9b%be%e4%b9%a6-%e7%a0%81%e5%86%9c-%e7%ac%ac1%e6%9c%9f-mozilla-firefox_2012-07-20_09-18-22) 码农第一期[/caption]
+[![码农电子杂志](http://baham.co/wp-content/uploads/2012/07/图灵社区-图书-码农-第1期-Mozilla-Firefox_2012-07-20_09-18-22.png)] 码农第一期[/caption]
 
 
 该图片来自图灵[社区截图](http://www.ituring.com.cn/book/1074#jtss-tsina)

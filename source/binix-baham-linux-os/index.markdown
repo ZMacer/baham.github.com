@@ -17,6 +17,6 @@ wordpress_id: 446
 
 
 
-[Binix 下载地址  ](http://susestudio.com/download/9250b985e2cc16ff5dbc868f11c2d383/Binix.i686-0.0.1.iso)
+Binix 下载地址  susestudio.com/download/9250b985e2cc16ff5dbc868f11c2d383/Binix.i686-0.0.1.iso  已失效
 
-[Binix 种子下载](http://baham.co/wp-files/Binix.torrent)（做种时间较短，可能速度较慢，补丁期补种）
+[Binix 种子下载](http://baham.co/wp-files/Binix.torrent)（做种时间较短，可能速度较慢，不定期补种）

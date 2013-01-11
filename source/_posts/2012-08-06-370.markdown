@@ -14,7 +14,7 @@ tags:
 - 演讲视频
 ---
 
-# [![JavaZone视频演讲-Coolcode](http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png)](http://baham.co/08_06_370.html/javazone-coolcode)
+# [![JavaZone视频演讲-Coolcode](http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png)]
 
 
 

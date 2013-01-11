@@ -73,7 +73,7 @@ Metasploit Framework是一款集**漏洞**、**后门**、**系统扫描**、**�
 
 攻击最困难的部分是得知**如何利用漏洞**，此处我们得知受害者使用的是[**TikiWiki**](http://info.tiki.org/)(有PHP漏洞让我们释放代码)。
 
-[![Learn to hack-成为一个黑客](http://baham.co/wp-content/uploads/2012/08/LXF154.feat_hacklinux.hack1_-300x211.jpg)](http://baham.co/08_02_318.html/lxf154-feat_hacklinux-hack1)
+[![Learn to hack-成为一个黑客](http://baham.co/wp-content/uploads/2012/08/LXF154.feat_hacklinux.hack1_-300x211.jpg)]
 
 
 

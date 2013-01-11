@@ -2,4 +2,7 @@
 layout: nil
 ---
 User-agent: *
-Disallow: /
+Disallow: /javascripts
+Disallow: /font
+Disallow: /assets
+Sitemap: http://baham.co/sitemap.xml

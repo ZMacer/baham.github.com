@@ -13,7 +13,7 @@ tags:
 - 坑爹
 ---
 
-[caption id="attachment_70" align="alignleft" width="300"][![可恶的中国电信](http://baham.co/wp-content/uploads/2012/07/江苏电信-Mozilla-Firefox_2012-07-21_18-54-16_副本-300x204.png)](http://baham.co/07_21_69.html/%e6%b1%9f%e8%8b%8f%e7%94%b5%e4%bf%a1-mozilla-firefox_2012-07-21_18-54-16_%e5%89%af%e6%9c%ac) 中国电信真可恶，上着网，访问自己的网站，给我弹出了这个[/caption]
+[![可恶的中国电信](http://baham.co/wp-content/uploads/2012/07/江苏电信-Mozilla-Firefox_2012-07-21_18-54-16_副本-300x204.png)] 中国电信真可恶，上着网，访问自己的网站，给我弹出了这个
 
 
 
@@ -109,7 +109,7 @@ tags:
 ## 114站点
 
 
-[caption id="attachment_73" align="aligncenter" width="779"][![可恶的电信114](http://baham.co/wp-content/uploads/2012/07/解决打开网页跳转到114搜索页域名劫持的问题_耗子的小窝_百度空间-Mozilla-Firefox_2012-07-21_19-30-18.png)](http://baham.co/?attachment_id=73) 电信域名劫持至114[/caption]
+[![可恶的电信114](http://baham.co/wp-content/uploads/2012/07/解决打开网页跳转到114搜索页域名劫持的问题_耗子的小窝_百度空间-Mozilla-Firefox_2012-07-21_19-30-18.png)] 电信域名劫持至114
 
 解决办法：
 
@@ -136,17 +136,17 @@ tags:
 
 修改C:\WINDOWS\system32\drivers\etc\hosts.txt
 
-以127.0.0.1代替114的域名（114域名列表[114domainlist.txt](http://baham.co/07_21_69.html/114domainlist)）
+以127.0.0.1代替114的域名
 
 
 ### 3家用路由的防火墙功能
 
 
-将114domainlist.txt.中的域名添加到过滤列表中
+
 
 具体例子如下:
 
-[caption id="attachment_75" align="aligncenter" width="774"][![解决电信的可恶行为](http://baham.co/wp-content/uploads/2012/07/家用路由解决114.png)](http://baham.co/07_21_69.html/%e5%ae%b6%e7%94%a8%e8%b7%af%e7%94%b1%e8%a7%a3%e5%86%b3114) 家用路由解决电信域名劫持[/caption]
+[![解决电信的可恶行为](http://baham.co/wp-content/uploads/2012/07/家用路由解决114.png)] 家用路由解决电信域名劫持
 
 //其实也可以使用一些功能较全防火墙软件,如Comodo Fire Wall 。
 
@@ -170,7 +170,7 @@ tags:
 ## 骚扰电话
 
 
-[caption id="attachment_78" align="aligncenter" width="991"][![可恶的电信骚扰电话](http://baham.co/wp-content/uploads/2012/07/可恶的电信，可恶的骚扰电话.png)](http://baham.co/?attachment_id=78) 电信骚扰电话[/caption]
+[![可恶的电信骚扰电话](http://baham.co/wp-content/uploads/2012/07/可恶的电信，可恶的骚扰电话.png)](http://baham.co/?attachment_id=78) 电信骚扰电话[/caption]
 
 
 ## 高网费,低网速
@@ -178,9 +178,9 @@ tags:
 
 这个怎么说呢，拿数据说话
 
-[caption id="attachment_79" align="aligncenter" width="651"][![中国高昂的矿戴妃](http://baham.co/wp-content/uploads/2012/07/中国宽带费为何上百倍于韩国.png)](http://baham.co/?attachment_id=79) 可恶的电信，中国高昂的宽带费[/caption]
+[![中国高昂的矿戴妃](http://baham.co/wp-content/uploads/2012/07/中国宽带费为何上百倍于韩国.png)](http://baham.co/?attachment_id=79) 可恶的电信，中国高昂的宽带费[/caption]
 
-[swf:http://mat1.gtimg.com/view/botong/flash/worldmap.swf 800 600]
+
 
 尼玛，速度和非洲持平，还低于越南。
 
@@ -188,7 +188,7 @@ tags:
 
 
 
-[caption id="attachment_82" align="aligncenter" width="613"][![可恶的中国ISP](http://baham.co/wp-content/uploads/2012/07/中国互联网还有多少令人汗颜的指标.png)](http://baham.co/07_21_69.html/%e4%b8%ad%e5%9b%bd%e4%ba%92%e8%81%94%e7%bd%91%e8%bf%98%e6%9c%89%e5%a4%9a%e5%b0%91%e4%bb%a4%e4%ba%ba%e6%b1%97%e9%a2%9c%e7%9a%84%e6%8c%87%e6%a0%87) 中国宽带环境倒数第二[/caption]
+[![可恶的中国ISP](http://baham.co/wp-content/uploads/2012/07/中国互联网还有多少令人汗颜的指标.png)] 中国宽带环境倒数第二[/caption]
 
 
 

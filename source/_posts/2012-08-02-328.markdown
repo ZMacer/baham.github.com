@@ -14,7 +14,7 @@ tags:
 - Tic-Tac-Toe
 ---
 
-[caption id="attachment_329" align="alignleft" width="217"][![井字棋棋盘 tic-tac-toe 棋盘](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_18-53-21.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_18-53-21) 井字棋棋盘[/caption]
+[caption id="attachment_329" align="alignleft" width="217"][![井字棋棋盘 tic-tac-toe 棋盘](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_18-53-21.png)] 井字棋棋盘[/caption]
 
 **Tic-Tac-Toe**又称**井字棋**，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。
 
@@ -32,9 +32,9 @@ Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常�
 # 关于棋盘：
 
 
-[caption id="attachment_330" align="alignleft" width="221"][![Tic-tac-toe棋盘坐标 井字棋 坐标](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_18-58-43.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_18-58-43) 井字棋棋盘坐标版[/caption]
+[caption id="attachment_330" align="alignleft" width="221"][![Tic-tac-toe棋盘坐标 井字棋 坐标](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_18-58-43.png)] 井字棋棋盘坐标版[/caption]
 
-整个棋盘可以连接出**8条线**。[![tic-tac-toe 井字棋 胜利方式](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-12-42.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_19-12-42)（如右图）---->
+整个棋盘可以连接出**8条线**。[![tic-tac-toe 井字棋 胜利方式](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-12-42.png)]（如右图）---->
 
 在中心的位置（2，2）有**四条线**穿过。
 
@@ -72,7 +72,7 @@ Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常�
 ## 开局落子：
 
 
-[caption id="attachment_332" align="alignright" width="164"][![Tic-tac-toe 井字棋 AI先手](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-26-48.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_19-26-48) 井字棋 AI先手[/caption]
+[caption id="attachment_332" align="alignright" width="164"][![Tic-tac-toe 井字棋 AI先手](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-26-48.png)] 井字棋 AI先手[/caption]
 
 开局时，分为两种状况，一是AI先手，二是AI后手。AI先手时，毫无疑问，让AI落子在(2,2)位置（以X表示AI）。如图：
 
@@ -97,13 +97,13 @@ Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常�
 ### 1、玩家落子在中心位置：
 
 
-[caption id="attachment_333" align="aligncenter" width="171"][![tic-tac-toe 井字棋 AI落子棱位](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-34-15.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_19-34-15) 图1[/caption]
+[caption id="attachment_333" align="aligncenter" width="171"][![tic-tac-toe 井字棋 AI落子棱位](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-34-15.png)] 图1[/caption]
 
 此时，AI需要落子在角位。原因在于，如果落子在棱位，将出现如下**必输的情形**，示例如下，AI此时落子在（1，2）位置：玩家只需要在（3，1）或（3，3）位置落子，如图在（3，1），下一步则必须落子在（1，3），对手跟进落子在（1，1），
 
 
 
-[![tic-tac-toe 井字棋 大势已去](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-39-59.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_19-39-59)
+[![tic-tac-toe 井字棋 大势已去](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-39-59.png)]
 ——则AI大势已去！
 
 
@@ -116,7 +116,7 @@ Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常�
 ## 第二步棋（先角原则）：
 
 
-[![tic-tac-toe 井字棋 先角原则](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-12-42.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_19-12-42)由上可知，当中心被玩家占据，需要避免上边提到的“**必输的情形**”跟进落子在角上，而非棱上。
+[![tic-tac-toe 井字棋 先角原则](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_19-12-42.png)]由上可知，当中心被玩家占据，需要避免上边提到的“**必输的情形**”跟进落子在角上，而非棱上。
 
 而如果，自己占据中心，玩家落子在棱上，根据“必输情形”，此时也应该落在角上，而且如上图图1，应该落子在玩家棋子对面的角位上，此时“必输情形”将属于玩家。
 
@@ -146,9 +146,9 @@ Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常�
 
 在以以上方式实现AI时，出现了一种比较特殊情况。即玩家先手，落子在角位以（1，1）为例，AI根据“**开局落子**”的原则3，落子在（2，2）。而玩家在第一步棋子位置（1，1）的对角（3，3）位置落子，
 
-[caption id="attachment_335" align="aligncenter" width="161"][![Tic-tac-toe-ai 井字棋 特殊情况](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_20-13-02.png)](http://baham.co/08_02_328.html/%e6%97%a0%e6%a0%87%e9%a2%98-%e7%94%bb%e5%9b%be_2012-08-02_20-13-02) 井字棋 特殊情况[/caption]
+[caption id="attachment_335" align="aligncenter" width="161"][![Tic-tac-toe-ai 井字棋 特殊情况](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_20-13-02.png)] 井字棋 特殊情况[/caption]
 
-依据“**角先原则**”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。[![tic-tac-toe-ai 特殊情况 AI输 井字棋](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_20-14-49.png)](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_20-14-49.png)
+依据“**角先原则**”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。[![tic-tac-toe-ai 特殊情况 AI输 井字棋](http://baham.co/wp-content/uploads/2012/08/无标题-画图_2012-08-02_20-14-49.png)]
 
 所以，唯有此种情况不能执行“**角先原则**”。
 

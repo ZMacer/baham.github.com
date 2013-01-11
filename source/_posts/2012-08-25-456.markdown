@@ -14,7 +14,7 @@ tags:
 - 小游戏
 ---
 
-[![Tic-Tac-Toe-AI_Gui-开始](http://baham.co/wp-content/uploads/2012/08/tttui-300x273.png)](http://baham.co/08_25_456.html/tttui)之前写的一直是NoUI版本，最近基于Java **Swing**写了一个GUI版本，部分代码有了变化，不过整个AI设计并没有变化，还是那个涉及**博弈论**的老问题。
+[![Tic-Tac-Toe-AI_Gui-开始](http://baham.co/wp-content/uploads/2012/08/tttui-300x273.png)]之前写的一直是NoUI版本，最近基于Java **Swing**写了一个GUI版本，部分代码有了变化，不过整个AI设计并没有变化，还是那个涉及**博弈论**的老问题。
 
 Java最大的特点莫过于面向对象，不过在改写整个程序过程中，发现其实自己刚开始写的NoUI版本的扩展性并不好，很多代码需要修改，而不是只在客户代码中修改、或者通过集成修改子类。
 

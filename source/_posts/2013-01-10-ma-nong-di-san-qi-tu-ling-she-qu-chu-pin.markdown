@@ -11,15 +11,12 @@ categories: [Geek, 程序员]
 
 <img src="/images/码农第三期.png">
 本期专题：开源意味着什么？
-{% blockquote %}
+
 目录：
+<!-- more -->
+{% blockquote %}
 专题:
  开源意味着什么?
-1
-11
-19
-32
-38
 大教堂?多怪异
 Linux/Unix 哲学的印证
 ——对话 Mike Gancarz
@@ -61,3 +58,4 @@ Mozilla 首席技术官的工作进行时
 专家审读 6-8 期
 12 月,跟着图灵听课去!
 {% endblockquote %}
+下载地址 <a href="http://www.ituring.com.cn/book/download/a15c9bac-33c0-4ba0-92dc-2d29ce2b24f4>码农第三期 </a>
