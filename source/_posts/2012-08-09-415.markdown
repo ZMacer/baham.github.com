@@ -9,7 +9,7 @@ categories:
 - Java练习题
 ---
 
-[![Baham-八皇后问题一个解决方法](http://baham.co/wp-content/uploads/2012/08/IMG_20120809_224205_副本-225x300.jpg)]
+![Baham-八皇后问题一个解决方法](http://baham.co/wp-content/uploads/2012/08/IMG_20120809_224205_副本-225x300.jpg)
 
 在国际象棋棋盘上（8X8）
 

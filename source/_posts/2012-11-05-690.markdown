@@ -87,9 +87,7 @@ tags:
 
 
 
-下载：
 
-[Bible.apk](http://baham.co/wp-content/uploads/2012/11/Bible.apk_.zip)
 
 
 # 
@@ -149,9 +147,7 @@ tags:
 
 
 
-下载：
 
-[DailyBible.apk](http://baham.co/wp-content/uploads/2012/11/DailyBible.apk_.zip)
 
 
 
@@ -207,9 +203,7 @@ tags:
 
 
 
-下载：
 
-[QuickBible.apk](http://baham.co/wp-content/uploads/2012/11/QuickBible.apk_.zip)
 
 
 # 
@@ -267,9 +261,7 @@ Bible.is/Bible+， 3万下载量。300多个版本的圣经，185种语言支持
 
 
 
-下载：
 
-[Bible+.apk](http://baham.co/wp-content/uploads/2012/11/Bible+.apk_.zip)
 
 
 
@@ -283,4 +275,10 @@ Bible.is/Bible+， 3万下载量。300多个版本的圣经，185种语言支持
 
 
 
-其实四款软件**差别不大**，主要是**UI设计**以不同。如果不惜换装软件，也可以下载[电子书](http://baham.co/11_05_680.html)用来阅读。
+其实四款软件**差别不大**，主要是**UI设计**以不同。如果不喜欢单独安装软件，也可以下载[电子书](http://baham.co/11_05_680.html)用来阅读。
+
+下载地址
+[Bible](https://docs.google.com/file/d/0B4GRRqxWzRx7QmltQm4yMG9URUE/edit)
+[Bible+](https://docs.google.com/file/d/0B4GRRqxWzRx7VVBHenhBZzBYOXc/edit)
+[DailyBible](https://docs.google.com/file/d/0B4GRRqxWzRx7a0RDX3VGNGk0LVk/edit)
+[HolyBible](https://docs.google.com/file/d/0B4GRRqxWzRx7cFZuOUg5RFZOWXc/edit)

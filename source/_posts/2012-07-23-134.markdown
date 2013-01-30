@@ -17,7 +17,9 @@ tags:
 # Java大盗(**The Java Heist**)
 
 
-————Java Zone 2012
+<embed src="http://player.youku.com/player.php/Type/Folder/Fid/17905217/Ob/1/sid/XNDMwODk5Nzk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
+
+Java Zone 2012
 
 
 "No f**king checking in on f**cking facebook!"
@@ -30,7 +32,7 @@ tags:
 # Lady Java
 
 
-![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
 
 Lady Java    超棒的 javaMV。
 
@@ -38,15 +40,15 @@ Lady Java    超棒的 javaMV。
 #  Java Zone Trailer
 
 
-![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
 
 2分40秒时亮点，告诉你Java的魅力。
 
 
 # JavaZone X  The Streaming
-![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
+
 
 
 像部惊悚片一样，有点吓人！
 
-
+有于网站迁移，请移步<a href="http://www.youku.com/playlist_show/id_17905217.html">这里</a>进行观看。

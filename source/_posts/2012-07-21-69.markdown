@@ -13,7 +13,7 @@ tags:
 - 坑爹
 ---
 
-[![可恶的中国电信](http://baham.co/wp-content/uploads/2012/07/江苏电信-Mozilla-Firefox_2012-07-21_18-54-16_副本-300x204.png)] 中国电信真可恶，上着网，访问自己的网站，给我弹出了这个
+![可恶的中国电信](http://baham.co/wp-content/uploads/2012/07/江苏电信-Mozilla-Firefox_2012-07-21_18-54-16_副本-300x204.png) 中国电信真可恶，上着网，访问自己的网站，给我弹出了这个
 
 
 
@@ -109,7 +109,7 @@ tags:
 ## 114站点
 
 
-[![可恶的电信114](http://baham.co/wp-content/uploads/2012/07/解决打开网页跳转到114搜索页域名劫持的问题_耗子的小窝_百度空间-Mozilla-Firefox_2012-07-21_19-30-18.png)] 电信域名劫持至114
+![可恶的电信114](http://baham.co/wp-content/uploads/2012/07/解决打开网页跳转到114搜索页域名劫持的问题_耗子的小窝_百度空间-Mozilla-Firefox_2012-07-21_19-30-18.png) 电信域名劫持至114
 
 解决办法：
 
@@ -146,7 +146,7 @@ tags:
 
 具体例子如下:
 
-[![解决电信的可恶行为](http://baham.co/wp-content/uploads/2012/07/家用路由解决114.png)] 家用路由解决电信域名劫持
+![解决电信的可恶行为](http://baham.co/wp-content/uploads/2012/07/家用路由解决114.png) 家用路由解决电信域名劫持
 
 //其实也可以使用一些功能较全防火墙软件,如Comodo Fire Wall 。
 
@@ -158,19 +158,19 @@ tags:
 ## 诈骗行为
 
 
-[caption id="attachment_76" align="aligncenter" width="997"][![中国电信诈骗](http://baham.co/wp-content/uploads/2012/07/八卦江湖中国电信可恶.png)](http://baham.co/?attachment_id=76) 中国电信诈骗[/caption]
+![中国电信诈骗](http://baham.co/wp-content/uploads/2012/07/八卦江湖中国电信可恶.png) 中国电信诈骗
 
 
 ## 霸王条款
 
 
-[caption id="attachment_77" align="aligncenter" width="978"][![坑爹的电信，霸王条款](http://baham.co/wp-content/uploads/2012/07/黑心的电信，可恶的霸王条款.png)](http://baham.co/?attachment_id=77) 电信黑心，捆绑霸王条款[/caption]
+![坑爹的电信，霸王条款](http://baham.co/wp-content/uploads/2012/07/黑心的电信，可恶的霸王条款.png) 电信黑心，捆绑霸王条款
 
 
 ## 骚扰电话
 
 
-[![可恶的电信骚扰电话](http://baham.co/wp-content/uploads/2012/07/可恶的电信，可恶的骚扰电话.png)](http://baham.co/?attachment_id=78) 电信骚扰电话[/caption]
+![可恶的电信骚扰电话](http://baham.co/wp-content/uploads/2012/07/可恶的电信，可恶的骚扰电话.png) 电信骚扰电话
 
 
 ## 高网费,低网速
@@ -178,7 +178,7 @@ tags:
 
 这个怎么说呢，拿数据说话
 
-[![中国高昂的矿戴妃](http://baham.co/wp-content/uploads/2012/07/中国宽带费为何上百倍于韩国.png)](http://baham.co/?attachment_id=79) 可恶的电信，中国高昂的宽带费[/caption]
+![中国高昂的矿戴妃](http://baham.co/wp-content/uploads/2012/07/中国宽带费为何上百倍于韩国.png)可恶的电信，中国高昂的宽带费[/caption]
 
 
 
@@ -188,7 +188,7 @@ tags:
 
 
 
-[![可恶的中国ISP](http://baham.co/wp-content/uploads/2012/07/中国互联网还有多少令人汗颜的指标.png)] 中国宽带环境倒数第二[/caption]
+![可恶的中国ISP](http://baham.co/wp-content/uploads/2012/07/中国互联网还有多少令人汗颜的指标.png) 中国宽带环境倒数第二[/caption]
 
 
 

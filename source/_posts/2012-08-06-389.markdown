@@ -14,7 +14,7 @@ tags:
 - 集合
 ---
 
-[caption id="attachment_390" align="alignleft" width="300"][![Java集合框架-java collection framework-示意图](http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png)](http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png) Java集合框架（点击浏览大图）[/caption]
+![Java集合框架-java collection framework-示意图](http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png)(http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png) Java集合框架（点击浏览大图）
 
 ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用**node（节点）**存储元素的**LinkedList（链表）**。LinkedList满足**Collection接口**，而**Collection接口**和**Map接口**构成了**Java集合框架**的主体。
 

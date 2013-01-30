@@ -16,11 +16,11 @@ tags:
 ---
 
 1  娱乐之上-**江南Style大集合**-PSY - GANGNAM STYLE
+
+<embed src="http://player.youku.com/player.php/sid/XNDY3NTU5NjEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 <!-- more -->
 2  娱乐之上-**江南Style大集合**-Korean dance team
-![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
 3 娱乐之上-江南**Style**大集合-**婚礼**版
-![](http://baham.co/wp-includes/js/tinymce/themes/advanced/img/trans.gif)
 4 娱乐之上-江南Style大集PSY (ft.** HYUNA**) 오빤 딱 내 스타일
 
 5 娱乐之上-江南Style大集合-**GUNMAN STYLE**
@@ -48,3 +48,4 @@ tags:
 
 11 MIT 麻省理工 Style
 
+由于网站迁移，请移步<a href="http://www.youku.com/playlist_show/id_18469431.html">这里</a>进行观看

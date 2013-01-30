@@ -10,7 +10,7 @@ categories:
 - 书籍
 ---
 
-[caption id="attachment_467" align="alignleft" width="150"][![building-java-programs-封面](http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg)]第二版封面[/caption]
+![building-java-programs-封面](http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg)第二版封面
 
 **《Bulding Java Programs》**作者**Stuart Reges**，**Marty Stepp**，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“**循循善诱 ，由浅入深**”，实在是Java入门必备好书。
 

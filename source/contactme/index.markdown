@@ -11,7 +11,7 @@ wordpress_id: 33
 
 您可以留言联系我。
 
-也可以向我发送邮件  baham_msn@live.com      或者    admin@baham.co
+也可以向我发送邮件  <baham_msn@live.com>      或者    <admin@baham.co>
 
 
 
@@ -21,4 +21,4 @@ wordpress_id: 33
 
 
 
-[扭曲的谷歌](http://baham.co/wp-content/uploads/2012/07/捕获6_副00.png)
+![扭曲的谷歌](http://baham.co/wp-content/uploads/2012/07/捕获6_副00.png)

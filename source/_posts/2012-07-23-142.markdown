@@ -12,7 +12,9 @@ tags:
 - Java Zone
 ---
 
-**[![javazone logo](http://baham.co/wp-content/uploads/2012/07/splashlogo-300x272.png)]Java Zone简介：**
+![javazone logo](http://baham.co/wp-content/uploads/2012/07/splashlogo-300x272.png)
+
+** Java Zone简介：**
 
 Java Zone是斯堪的纳维亚半岛上**软件开发者**最大会议场所，也是欧洲最重要的会议之一。
 

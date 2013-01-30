@@ -10,7 +10,7 @@ categories:
 - 书籍
 ---
 
-[caption id="attachment_149" align="alignleft" width="250"][![java的科学与艺术](http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png)] java语言艺术与科学的图片[/caption]
+![java的科学与艺术](http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png) java语言艺术与科学的图片
 
 成书于2006年，作者Eric S. Roberts![Eric S. Roberts  斯坦福大学](http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg)。
 
