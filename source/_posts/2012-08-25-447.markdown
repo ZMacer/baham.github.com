@@ -14,7 +14,7 @@ tags:
 
 每个人都应改有一款自己的**操作系统**，我一直这么想的，本来想[LFS](http://www.linuxfromscratch.org/lfs/)的,不过最后选择了Suse Studio。当然这没有LFS技术含量高，不过，也算是一款属于自己的操作系统。
 
-![Binix登录界面](http://baham.co/wp-content/uploads/2012/08/抓图2-300x225.png)**Binix**-Baham Linux OS基于OpenSuse 14，默认浏览器为[火狐](http://baham.co/bearfox)，使用KDE4.8作为X桌面，包好gpg软件包，提供安全保护。
+![Binix登录界面](http://baham.co/wp-content/uploads/2012/08/抓图2-300x225.png)**Binix**-Baham Linux OS基于OpenSuse，默认浏览器为[火狐](http://baham.co/bearfox)，使用KDE4.8作为X桌面，包好gpg软件包，提供安全保护。
 
 Binix属于微型系统，目的在于小巧，只有OpenSuse基本的软件包，无冗余。
 

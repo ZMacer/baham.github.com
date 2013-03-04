@@ -17,6 +17,15 @@ wordpress_id: 446
 
 
 
+Binix1.1 
+[下载地址](http://susestudio.com/download/a5ab5c4a373d2e8000e5f6cb5af4c365/marks_KDE_4_desktop.x86_64-1.1.0.iso)  
+
+
+
+
+Binix1.0(旧)
 Binix 下载地址  susestudio.com/download/9250b985e2cc16ff5dbc868f11c2d383/Binix.i686-0.0.1.iso  已失效
 
-[Binix 种子下载](http://baham.co/wp-files/Binix.torrent)（做种时间较短，可能速度较慢，不定期补种）
+[Binix 种子下载](http://baham.co/wp-files/Binix.torrent)
+
+
