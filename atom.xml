@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.github.com/atom.xml" rel="self"/>
   <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T07:24:27+00:00</updated>
+  <updated>2013-03-12T09:42:28+00:00</updated>
   <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[码农第四期，图灵社区出品]]></title>
+    <link href="http://baham.github.com/03_12_ma-nong-di-si-qi-%2Ctu-ling-she-qu-chu-pin.html"/>
+    <updated>2013-03-12T17:37:00+00:00</updated>
+    <id>http://baham.github.com/ma-nong-di-si-qi-,tu-ling-she-qu-chu-pin</id>
+    <content type="html"><![CDATA[<p>这次更新有点晚，比图灵社区发布要晚很久，不过迟到总比不到好。</p>
+
+<p>本期目录：</p>
+
+<p>专题:活的信息
+1   信息是神马——论信息的消失与重生
+10  信息可视化的科学
+17  用编程工具实现数据可视化的几个选择
+32  用 R 语言处理大数据:课程 101
+44  iGraph——图挖掘助力社会网络分析
+59  量化分析:用数据、指标、信息讲述的故事
+人物
+67  冯大辉:信息真正的意义
+践行
+82  三天准备,迎战千倍用户
+九卦
+90  码农餐厅(一)
+鲜阅
+97  宇宙一种:程序员创造的虚拟宇宙</p>
+
+<!--more-->
+
+
+<p>出版的未来
+106 DRM-free,不止拥抱这一天
+书榜
+112  2012 年十大不能错过的好书
+妙评
+116 《图灵的秘密》
+121 《程序员的数学》
+成书手记
+125  听《量化》译者讲“故事会”
+社区动态
+135  iTran 乐译 13 期
+136  好运电子书第 1 期
+137 “听”书计划</p>
+
+<p><a href="http://www.ituring.com.cn/book/download/00354d5a-fa88-4f8b-b538-da51a42f3144">下载地址</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blender Wiki PDF文档分享]]></title>
@@ -528,27 +574,6 @@ md5:<code>b1c86914f0e7bbbb724ec326a9ca8984</code></p>
 <p>CNAME   www.xxx.com 到  name.github.com</p>
 
 <p>github英文帮助内容-<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
-    <link href="http://baham.github.com/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
-    <updated>2013-01-10T22:10:00+00:00</updated>
-    <id>http://baham.github.com/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
-    <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
-
-<p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>
-
-<p><a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">Octopress常用插件汇总</a></p>
-
-<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">Octopress主题汇总</a></p>
-
-<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-tools">常用工具汇总</a></p>
-
-<p><a href="https://github.com/imathis/octopress/wiki/FAQ">Octopress常见问题汇总</a></p>
-
-<p><a href="http://www.freehao123.com/octopress/">Octopress、Gihub在Windows环境下配置及部分中文资料</a></p>
 ]]></content>
   </entry>
   
