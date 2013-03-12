@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 选矿学 | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/选矿学/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/选矿学/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -14,27 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[跳汰过程物料分层经过]]></title>
-    <link href="http://baham.co/01_03_782.html"/>
-    <updated>2013-01-03T16:25:00+00:00</updated>
-    <id>http://baham.co/782</id>
-    <content type="html"><![CDATA[<p>被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。</p>
-
-<p>1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状），彼此作相对运动，开始进行分层。</p>
-
-<p>2）在水流已停止上升，但还没有转为下降水流之前，由于惯性力的作用，矿粒仍在运动，床层继续松散、分层。</p>
-
-<p>3）水流转为下降，床层逐渐紧密，但分层仍在继续。当全部矿粒落回筛面，它们彼此之间已丧失相对运动的可能，则分层作用基本停止。此时，只有那些密度较高、粒度很细的矿粒，穿过床层中大块物料的间隙，仍在向下运动。</p>
-
-<p>4）下降水流结束，床层完全紧密，分层便暂告终止。在一个跳汰周期内，床层经历了从紧密到松散分层再紧密的过程，颗粒受到了分选作用。只有经过多个跳汰周期之后，分层才逐趋完善。最后，高密度矿粒集中在床层下部，低密度矿粒则聚集在上层。然后，从跳汰机分别排放出来，从而获得了两种密度不同，即质量不同的产物。</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[错配物总量的计算方法及错配物曲线的绘制方法]]></title>
-    <link href="http://baham.co/01_01_776.html"/>
+    <link href="http://baham.github.com/01_01_776.html"/>
     <updated>2013-01-01T12:51:00+00:00</updated>
-    <id>http://baham.co/776</id>
+    <id>http://baham.github.com/776</id>
     <content type="html"><![CDATA[<p>计算方法：(3 步, 包含绘制曲线)
 <blockquote><p>1 列表计算各密度级的错配物数量：</p></blockquote></p>
 

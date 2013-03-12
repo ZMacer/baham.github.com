@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Baham | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/baham/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/baham/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[新年寄语]]></title>
-    <link href="http://baham.co/03_04_xin-nian-ji-yu.html"/>
+    <link href="http://baham.github.com/03_04_xin-nian-ji-yu.html"/>
     <updated>2013-03-04T22:11:00+00:00</updated>
-    <id>http://baham.co/xin-nian-ji-yu</id>
+    <id>http://baham.github.com/xin-nian-ji-yu</id>
     <content type="html"><![CDATA[<p>许久不更新博客，全怪自己贪玩。虽然，不久就要毕业，但是总觉得自己和这个社会上多数人走不到一块去。</p>
 
 <p>这么讲吧，道不同，不相与谋。孔夫子，两千多年前就这么告诉世人。</p>
@@ -45,9 +45,9 @@
   
   <entry>
     <title type="html"><![CDATA[我今年(农历年)的兼职工作结束了]]></title>
-    <link href="http://baham.co/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html"/>
+    <link href="http://baham.github.com/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html"/>
     <updated>2013-01-12T21:17:00+00:00</updated>
-    <id>http://baham.co/wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao</id>
+    <id>http://baham.github.com/wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao</id>
     <content type="html"><![CDATA[<p>这段时间，一直在学校附近的餐馆打工，工资不高（可能比很多兼职工作还高一点），但是时间也不长。</p>
 
 <!-- more -->
@@ -76,15 +76,15 @@
   
   <entry>
     <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
-    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <link href="http://baham.github.com/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
     <updated>2013-01-10T15:50:00+00:00</updated>
-    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
+    <id>http://baham.github.com/cong-wordpresszhuan-yi-dao-octopress</id>
     <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
 但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
 在谷歌搜索到了相关迁移的文章。</p>
 
 <p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
-可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+可以参考<a href="http://baham.github.com/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
 当然，一切不会那么顺利。</p>
 
 <p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
@@ -112,9 +112,9 @@
   
   <entry>
     <title type="html"><![CDATA[电影泰迪熊穿帮镜头]]></title>
-    <link href="http://baham.co/11_23_724.html"/>
+    <link href="http://baham.github.com/11_23_724.html"/>
     <updated>2012-11-23T20:44:37+00:00</updated>
-    <id>http://baham.co/724</id>
+    <id>http://baham.github.com/724</id>
     <content type="html"><![CDATA[<p>电影最后，在男主，女主结婚后，婚礼在剑桥举行。
 但是，两人跑出教堂，乘车却是靠右行驶，而且路边停车也是靠右，但英国是左侧通行。</p>
 ]]></content>
@@ -122,9 +122,9 @@
   
   <entry>
     <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
-    <link href="http://baham.co/11_01_673.html"/>
+    <link href="http://baham.github.com/11_01_673.html"/>
     <updated>2012-11-01T19:40:55+00:00</updated>
-    <id>http://baham.co/673</id>
+    <id>http://baham.github.com/673</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XMjY1MjI2MjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 ]]></content>
   </entry>

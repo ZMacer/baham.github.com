@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: slider | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/slider/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/slider/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[树莓派/Raspberry Pi上线软件市场]]></title>
-    <link href="http://baham.co/12_17_757.html"/>
+    <link href="http://baham.github.com/12_17_757.html"/>
     <updated>2012-12-17T23:19:49+00:00</updated>
-    <id>http://baham.co/757</id>
+    <id>http://baham.github.com/757</id>
     <content type="html"><![CDATA[<p>Store地址：http://store.raspberrypi.com/</p>
 
 <p>软件不多，只有25款。</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
-    <link href="http://baham.co/11_29_734.html"/>
+    <link href="http://baham.github.com/11_29_734.html"/>
     <updated>2012-11-29T11:19:36+00:00</updated>
-    <id>http://baham.co/734</id>
+    <id>http://baham.github.com/734</id>
     <content type="html"><![CDATA[<p>主讲内容：</p>
 
 <blockquote><p><strong>• 本期专题:JavaScript</strong>
@@ -92,9 +92,9 @@
   
   <entry>
     <title type="html"><![CDATA[娱乐之上-江南Style大集合]]></title>
-    <link href="http://baham.co/10_27_658.html"/>
+    <link href="http://baham.github.com/10_27_658.html"/>
     <updated>2012-10-27T16:03:45+00:00</updated>
-    <id>http://baham.co/658</id>
+    <id>http://baham.github.com/658</id>
     <content type="html"><![CDATA[<p>1  娱乐之上-<strong>江南Style大集合</strong>-PSY - GANGNAM STYLE</p>
 
 <p><embed src="http://player.youku.com/player.php/sid/XNDY3NTU5NjEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
@@ -128,9 +128,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blender快捷键汇总]]></title>
-    <link href="http://baham.co/09_15_601.html"/>
+    <link href="http://baham.github.com/09_15_601.html"/>
     <updated>2012-09-15T00:25:49+00:00</updated>
-    <id>http://baham.co/601</id>
+    <id>http://baham.github.com/601</id>
     <content type="html"><![CDATA[<ul>
 <li><p>shift+a添加</p></li>
 <li><p>shift+d复制</p></li>
@@ -164,9 +164,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blender视频教程收集整理]]></title>
-    <link href="http://baham.co/09_14_595.html"/>
+    <link href="http://baham.github.com/09_14_595.html"/>
     <updated>2012-09-14T23:49:43+00:00</updated>
-    <id>http://baham.co/595</id>
+    <id>http://baham.github.com/595</id>
     <content type="html"><![CDATA[<h1>1 Super3Boy系列教程：</h1>
 
 <!-- more -->

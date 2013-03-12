@@ -9,8 +9,7 @@
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content="Java中所有图形组件拥有共同的继承结构，所以它们都包含一些可以对属性进行访问和设置的共同函数，比如背景颜色、大小、字体等。
-组件被布局管理器（Layout Manager）放在框架（Frame）或其他容器之中，比如BorderLayout、FlowLayout、GridLayout。 &hellip;">
+  <meta name="description" content="很久很久以前，谷歌推出了Chrome，有人告诉我们，Chrome和微软是这样的关系。 现在呢，谷歌更换了自己的favicon，然后我们知道，谷歌的搜索引擎和Windows8也是一样的关系。">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.co/blog/page/6/index.html">
+  <link rel="canonical" href="http://baham.github.com/blog/page/6/index.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +67,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:baham.co" />
+    <input type="hidden" name="q" value="site:baham.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -88,6 +87,153 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/08_15_433.html">谷歌和微软到底什么关系</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-15T23:34:42+00:00" pubdate data-updated="true">Aug 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>很久很久以前，谷歌推出了Chrome，有人告诉我们，Chrome和微软是这样的关系。</p>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows3.png" alt="Google-Chrome-Microsoft-Windows-logo-关系" />现在呢，谷歌更换了自己的favicon，然后我们知道，谷歌的搜索引擎和Windows8也是一样的关系。</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_15_433.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/08_15_429.html">Java中的正则表达式（RegularExpression）</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-15T22:52:06+00:00" pubdate data-updated="true">Aug 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>前一段时间，想处理点文件，将其中特定自负提取出来，于是就想到了Scanner对象中的<strong>useDelimiter()</strong>方法。可是对正则表达式了解不多，然后，就去图书馆找了些资料，有谷歌了一下，算是有一点了解了吧。</p>
+
+<p>首先不得不说，<strong>正则表达式</strong>（Regular Expression）并非Java独有，Perl、PHP、Python、<strong>JavaScript</strong>和JScript均支持使用正则表达式。数据库检索、搜索引擎使用其实也会用到类似的知识。</p>
+
+<h1>特殊符号：</h1>
+
+<h2>连字符-</h2>
+
+<p>-表示连续的关系，比如a-z表示，a,b,c……z。</p>
+
+<h2>句点.</h2>
+
+<p>. 是个通配符，例如，c.r表示car，cor，cbr，c4r，cfr等。</p>
+
+<h2>或|</h2>
+
+<p>| 表示 或 的关系，不像在Java代码中用“||”表示或，正则表达式中用|表示或。例如：c|r表示c或者r。</p>
+
+<h2>否^</h2>
+
+<p>不同于代码中，正则表达式使用<sup>表示非，而不是!。&lt;!&#8211;</sup> more &#8211;></p>
+
+<h2>组()</h2>
+
+<p>()表示一组，具体请见后边的例子。</p>
+
+<h2>方括号[]</h2>
+
+<p>[]的用途不能用一个词来形容，但它也是一种或的关系，是一个或的范围。比如c[oiu]r</p>
+
+<p>表示，cor,cir,cur。</p>
+
+<h2>反斜杠\</h2>
+
+<p>\表示一种引用的关系，比如\，-分别表示\和-，因为\和-都是特殊符号，无法直接在表达式中表示。</p>
+
+<h2>统计次数的符号</h2>
+
+<p>*表示0次或者多次</p>
+
+<p>+表示一次或者多次</p>
+
+<p>？表示0次或者1次</p>
+
+<p>{n}表示n次</p>
+
+<p>{n-m}表示n-m次</p>
+
+<h2>其他常用符号</h2>
+
+<p>\s   [\t\n\r\f]</p>
+
+<p>\S   [<sup>\t\n\r\f]</sup></p>
+
+<p>\d  [0-9]</p>
+
+<p>\D   [<sup>0-9]</sup></p>
+
+<p>\w    [A-Z0-9]</p>
+
+<p>\W  [<sup>A-Z0-9]</sup></p>
+
+<h1>举例：正则表达式表示年月日</h1>
+
+<p>[0-9]{4}-[0-9]{2}-[0-9]{2}</p>
+
+<p>分别表示 年-月-日，分别是4位、2位、及2位。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -579,103 +725,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/08_06_370.html">JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-06T00:00:57+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
-
-<h1></h1>
-
-<h1></h1>
-
-<h1></h1>
-
-<h1></div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/08_06_370.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/08_05_365.html">百度内部邮件-非法删帖遭拘留</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-05T16:46:05+00:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/%E7%99%BE%E5%BA%A6%E5%86%85%E9%83%A8%E5%88%A0%E5%B8%96%E9%82%AE%E4%BB%B6-300x237.png" alt="百度内部邮件-内部员工非法删帖遭拘留" /> 百度内部邮件截图</p>
-
-<p>北京市委机关刊物《<a href="http://www.bjqx.org.cn/qxweb/n43259c638.aspx">前线</a>》曾经报道过，百度截止2010年12月，有党员<strong>975人</strong>，占员工比例<strong>约9%</strong>。</p>
-
-<p>百度和李彦宏也因为积极的合作态度，多次受到相关部门的表扬。</p>
-
-<p>不过，今日百度被爆“<strong>发生了几起严重违规违纪乃至涉嫌犯罪的案件</strong>”，</p>
-
-<p>其中，邮件内容如左图。</p>
-
-<p>内容大意为：百度内部员工与外部人员勾结，非法删帖。有四位员工已经被<strong>刑事拘留</strong>，百度也同时与相关员工解除劳动合同。并且表示，百度将“<strong>坚决查处，严惩不贷</strong>”。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -690,11 +739,19 @@
   
     <section>
   <h1>Tag Cloud</h1>
-    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 107.05882352941177%'>Blender(2)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 103.52941176470588%'>Edu(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 121.17647058823529%'>Geek(6)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 152.94117647058823%'>Linux(15)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/opensuse' style='font-size: 103.52941176470588%'>openSuse(1)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 128.23529411764707%'>站长(8)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 107.05882352941177%'>选矿学(2)</a> </span>
+    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 110.58823529411765%'>Blender(3)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 121.17647058823529%'>Geek(6)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 145.88235294117646%'>Linux(13)</a> <a href='/blog/categories/linux-opensuse' style='font-size: 103.52941176470588%'>Linux,openSuse(1)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 124.70588235294117%'>站长(7)</a> <a href='/blog/categories/站长-linux' style='font-size: 103.52941176470588%'>站长,Linux(1)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 103.52941176470588%'>选矿学(1)</a> <a href='/blog/categories/选矿学-edu' style='font-size: 103.52941176470588%'>选矿学,Edu(1)</a> </span>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/03_12_test.html">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Blender Wiki PDF文档分享</a>
+      </li>
     
       <li class="post">
         <a href="/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html">Ubuntu中安装配置Octopress碰到的问题</a>
@@ -726,14 +783,6 @@
     
       <li class="post">
         <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html">我今年(农历年)的兼职工作结束了</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_12_octopressru-he-an-zhuang-cha-jian.html">Octopress如何安装插件</a>
       </li>
     
   </ul>

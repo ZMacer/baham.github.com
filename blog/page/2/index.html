@@ -9,8 +9,7 @@
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content="废话不多说，有图为证。 在今天的CES大会上，微软正式公布了一个叫做 IllumiRoom 的项目，围绕一个电视，它能将你的整个客厅变成一个沉浸式 3D 游戏影院。
-不过，仔细观察演示视频，出现了非常著名的开源赛车游戏SuperTuxKart。 ">
+  <meta name="description" content="默认，Octopress没有相关文章插件。不过，有人为Octopress写了一个relatedposts 演示可以看本站右下位置。 相应的配置安装也很简单。 1 配置_config.yml 添加lsi: true。 2 设置侧边栏 在default_asides中添加custom/asides/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.co/blog/page/2/index.html">
+  <link rel="canonical" href="http://baham.github.com/blog/page/2/index.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +67,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:baham.co" />
+    <input type="hidden" name="q" value="site:baham.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -88,6 +87,127 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/01_12_octopressxiang-guan-wen-zhang-cha-jian.html">Octopress相关文章插件</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-12T11:44:00+00:00" pubdate data-updated="true">Jan 12<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
+
+<p>演示可以看本站右下位置。</p>
+
+<p>相应的配置安装也很简单。</p>
+
+<h2>1 配置_config.yml</h2>
+
+<p>添加<code>lsi: true</code>。</p>
+
+<h2>2 设置侧边栏</h2>
+
+<p>在default_asides中添加<code>custom/asides/related.html</code></p>
+
+<h2>3 添加插件</h2>
+
+<p>复制<a href="https://nodeload.github.com/jcftang/octopress-relatedposts/zip/master">压缩包</a>内的related.html文件到这里 source/_includes/custom/asides/related.html</p>
+
+<p>至此Octopress的相关文章插件，配置完成。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/01_11_octopress-robots-dot-txtxie-fa.html">Octopress robots.txt写法</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-11T22:23:00+00:00" pubdate data-updated="true">Jan 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>又想了想Octopress的robots.txt写法。
+现在我的是这样：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>User-agent: *
+</span><span class='line'>Disallow: /*?*
+</span><span class='line'>Disallow: /archives
+</span><span class='line'>Disallow: /javascripts
+</span><span class='line'>Disallow: /font
+</span><span class='line'>Disallow: /assets
+</span><span class='line'>Disallow: /blog
+</span><span class='line'>Sitemap: http://baham.co/sitemap.xml</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Line 1:对于所有搜索引擎</p>
+
+<p>Line 2:禁止访问所有动态内容（虽然Octopress的文章都是纯净态，但是此处还是加上，比如我在用Cloudflare时，Cloudflare默认就会生成一些带?的缓存链接）</p>
+
+<p>Line 3～7:禁止访问archives,javascripts,font,assets,blog目录，archives是归档内容，blog目录下是归档内容以及分类内容和页号内容，由于更新较频繁，建议禁止。</p>
+
+<p>Line 8: sitemap地址</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -578,119 +698,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/01_10_cong-wordpresszhuan-yi-dao-octopress.html">从Wordpress转移到Octopress</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-10T15:50:00+00:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
-但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
-在谷歌搜索到了相关迁移的文章。</p>
-
-<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
-可以参考<a href="/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
-当然，一切不会那么顺利。</p>
-
-<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
-我的wp用的固定链接为-月日postid。
-但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
-
-<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
-
-<p>在谷歌搜索后，找到了解决方案。
-使用</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure>
-
-
-<p>代替rake generate</p>
-
-<p>ps：   cct：表示中国东部标准时。</p>
-
-<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
-
-<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
-
-<p>——Baham</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/01_03_782.html">跳汰过程物料分层经过</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-03T16:25:00+00:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。</p>
-
-<p>1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状），彼此作相对运动，开始进行分层。</p>
-
-<p>2）在水流已停止上升，但还没有转为下降水流之前，由于惯性力的作用，矿粒仍在运动，床层继续松散、分层。</p>
-
-<p>3）水流转为下降，床层逐渐紧密，但分层仍在继续。当全部矿粒落回筛面，它们彼此之间已丧失相对运动的可能，则分层作用基本停止。此时，只有那些密度较高、粒度很细的矿粒，穿过床层中大块物料的间隙，仍在向下运动。</p>
-
-<p>4）下降水流结束，床层完全紧密，分层便暂告终止。在一个跳汰周期内，床层经历了从紧密到松散分层再紧密的过程，颗粒受到了分选作用。只有经过多个跳汰周期之后，分层才逐趋完善。最后，高密度矿粒集中在床层下部，低密度矿粒则聚集在上层。然后，从跳汰机分别排放出来，从而获得了两种密度不同，即质量不同的产物。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -705,11 +712,19 @@
   
     <section>
   <h1>Tag Cloud</h1>
-    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 107.05882352941177%'>Blender(2)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 103.52941176470588%'>Edu(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 121.17647058823529%'>Geek(6)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 152.94117647058823%'>Linux(15)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/opensuse' style='font-size: 103.52941176470588%'>openSuse(1)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 128.23529411764707%'>站长(8)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 107.05882352941177%'>选矿学(2)</a> </span>
+    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 110.58823529411765%'>Blender(3)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 121.17647058823529%'>Geek(6)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 145.88235294117646%'>Linux(13)</a> <a href='/blog/categories/linux-opensuse' style='font-size: 103.52941176470588%'>Linux,openSuse(1)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 124.70588235294117%'>站长(7)</a> <a href='/blog/categories/站长-linux' style='font-size: 103.52941176470588%'>站长,Linux(1)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 103.52941176470588%'>选矿学(1)</a> <a href='/blog/categories/选矿学-edu' style='font-size: 103.52941176470588%'>选矿学,Edu(1)</a> </span>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/03_12_test.html">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Blender Wiki PDF文档分享</a>
+      </li>
     
       <li class="post">
         <a href="/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html">Ubuntu中安装配置Octopress碰到的问题</a>
@@ -741,14 +756,6 @@
     
       <li class="post">
         <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html">我今年(农历年)的兼职工作结束了</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_12_octopressru-he-an-zhuang-cha-jian.html">Octopress如何安装插件</a>
       </li>
     
   </ul>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: openSuse | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/opensuse/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <title><![CDATA[Category: Linux,openSuse | Baham's Blog]]></title>
+  <link href="http://baham.github.com/blog/categories/linux-opensuse/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[openSuse使用Tumbleweed源，实现滚动更新]]></title>
-    <link href="http://baham.co/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html"/>
+    <link href="http://baham.github.com/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html"/>
     <updated>2013-01-30T16:32:00+00:00</updated>
-    <id>http://baham.co/opensuseshi-yong-tumbleweedyuan-,shi-xian-gun-dong-geng-xin</id>
+    <id>http://baham.github.com/opensuseshi-yong-tumbleweedyuan-,shi-xian-gun-dong-geng-xin</id>
     <content type="html"><![CDATA[<p>openSuse很早就支持，通过Tumbleweed源，实现滚动更新。
 官方Wiki很早就给出了，如何配置，以及注意事项。不过，这段时间使用openSuse的经历，告诉我，Wiki不是总是对的。
 至少，我已经发现两处，一是，openSuse Wiki中关于使用Tumbleweed源的问题，一个是在Tumbleweed如何安装Virtualbox。配置Virtualbox，以后再说，今天，先讲讲Tumbleweed源的配置。</p>

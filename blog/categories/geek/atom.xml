@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geek | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/geek/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/geek/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第三期-图灵社区出品]]></title>
-    <link href="http://baham.co/01_10_ma-nong-di-san-qi-tu-ling-she-qu-chu-pin.html"/>
+    <link href="http://baham.github.com/01_10_ma-nong-di-san-qi-tu-ling-she-qu-chu-pin.html"/>
     <updated>2013-01-10T16:55:00+00:00</updated>
-    <id>http://baham.co/ma-nong-di-san-qi-tu-ling-she-qu-chu-pin</id>
+    <id>http://baham.github.com/ma-nong-di-san-qi-tu-ling-she-qu-chu-pin</id>
     <content type="html"><![CDATA[<p>从第一期到现在，每一期图灵社区的杂志，我都会转载。</p>
 
 <p><img class="[码农第三期截图]" src="/images/码农第三期.png" title="" ></p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[想学脚本-就学python，想学python-必看这20本免费python电子书]]></title>
-    <link href="http://baham.co/12_30_771.html"/>
+    <link href="http://baham.github.com/12_30_771.html"/>
     <updated>2012-12-30T23:49:05+00:00</updated>
-    <id>http://baham.co/771</id>
+    <id>http://baham.github.com/771</id>
     <content type="html"><![CDATA[<p>Think Python（貌似很多think系列都很贵）</p>
 
 <p>Invent Your Own Computer Games with Python</p>
@@ -63,9 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
-    <link href="http://baham.co/11_29_734.html"/>
+    <link href="http://baham.github.com/11_29_734.html"/>
     <updated>2012-11-29T11:19:36+00:00</updated>
-    <id>http://baham.co/734</id>
+    <id>http://baham.github.com/734</id>
     <content type="html"><![CDATA[<p>主讲内容：</p>
 
 <blockquote><p><strong>• 本期专题:JavaScript</strong>
@@ -123,9 +123,9 @@
   
   <entry>
     <title type="html"><![CDATA[谷歌和微软到底什么关系]]></title>
-    <link href="http://baham.co/08_15_433.html"/>
+    <link href="http://baham.github.com/08_15_433.html"/>
     <updated>2012-08-15T23:34:42+00:00</updated>
-    <id>http://baham.co/433</id>
+    <id>http://baham.github.com/433</id>
     <content type="html"><![CDATA[<p>很久很久以前，谷歌推出了Chrome，有人告诉我们，Chrome和微软是这样的关系。</p>
 
 <p><img src="http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows3.png" alt="Google-Chrome-Microsoft-Windows-logo-关系" />现在呢，谷歌更换了自己的favicon，然后我们知道，谷歌的搜索引擎和Windows8也是一样的关系。<!-- more --> <img src="http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows_%E5%89%AF%E6%9C%AC.png" alt="google和windows8的关系" /></p>
@@ -134,9 +134,9 @@
   
   <entry>
     <title type="html"><![CDATA[Learn to hack-如何成为一个黑客]]></title>
-    <link href="http://baham.co/08_02_318.html"/>
+    <link href="http://baham.github.com/08_02_318.html"/>
     <updated>2012-08-02T12:19:34+00:00</updated>
-    <id>http://baham.co/318</id>
+    <id>http://baham.github.com/318</id>
     <content type="html"><![CDATA[<p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
 
 <p>安全的计算机需要两种规则可以实现，</p>

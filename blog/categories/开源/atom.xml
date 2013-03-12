@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 开源 | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/开源/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/开源/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[使用fedup从Fedora 17更新到 Fedora 18]]></title>
-    <link href="http://baham.co/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html"/>
+    <link href="http://baham.github.com/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html"/>
     <updated>2013-01-15T23:29:00+00:00</updated>
-    <id>http://baham.co/shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18</id>
+    <id>http://baham.github.com/shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18</id>
     <content type="html"><![CDATA[<h2>1 联网升级</h2>
 
 <p>适用于网速较好，且网络环境稳定的用户。</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[准备好升级了吗？使用Preupgrade升级Fedora 18]]></title>
-    <link href="http://baham.co/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html"/>
+    <link href="http://baham.github.com/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html"/>
     <updated>2013-01-15T17:51:00+00:00</updated>
-    <id>http://baham.co/zhun-bei-hao-sheng-ji-liao-ma-?shi-yong-preupgradesheng-ji-fedora-18</id>
+    <id>http://baham.github.com/zhun-bei-hao-sheng-ji-liao-ma-?shi-yong-preupgradesheng-ji-fedora-18</id>
     <content type="html"><![CDATA[<p>还有几个小时，Fedora 18的正式版就将释出。</p>
 
 <p>Fedora 18的桌面环境默认是<a href="https://fedoraproject.org/wiki/Features/Gnome3.6">Gnome3.6</a>，而且全新加入了Gnome 2的分支<a href="https://fedoraproject.org/wiki/Features/MATE-Desktop">Mate</a>，终端可以使用256色替代旧的8色。firewalld成为默认的防火墙。而且更新了Samba到4……</p>
@@ -124,9 +124,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress如何安装插件]]></title>
-    <link href="http://baham.co/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
+    <link href="http://baham.github.com/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
     <updated>2013-01-12T12:02:00+00:00</updated>
-    <id>http://baham.co/octopressru-he-an-zhuang-cha-jian</id>
+    <id>http://baham.github.com/octopressru-he-an-zhuang-cha-jian</id>
     <content type="html"><![CDATA[<p>Octopress有如下<strong>目录结构</strong>：
 <img src="/images/octopress%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="Octopress目录结构" /></p>
 
@@ -147,9 +147,9 @@
   
   <entry>
     <title type="html"><![CDATA[Github绑定域名]]></title>
-    <link href="http://baham.co/01_10_githubbang-ding-yu-ming.html"/>
+    <link href="http://baham.github.com/01_10_githubbang-ding-yu-ming.html"/>
     <updated>2013-01-10T22:35:00+00:00</updated>
-    <id>http://baham.co/githubbang-ding-yu-ming</id>
+    <id>http://baham.github.com/githubbang-ding-yu-ming</id>
     <content type="html"><![CDATA[<p>1 创建CNAME在你的repo
 此处CNAME指的是一个文件，文件名即CNAME，在其中，填入你想要绑定的域名。
 比如本站：
@@ -166,9 +166,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
-    <link href="http://baham.co/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
+    <link href="http://baham.github.com/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
     <updated>2013-01-10T22:10:00+00:00</updated>
-    <id>http://baham.co/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
+    <id>http://baham.github.com/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
     <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
 
 <p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>

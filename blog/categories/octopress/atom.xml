@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2013-03-12T03:10:41+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://baham.github.com/"/>
+  <updated>2013-03-12T07:17:05+00:00</updated>
+  <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
-    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
+    <link href="http://baham.github.com/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
     <updated>2013-01-16T13:10:00+00:00</updated>
-    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
+    <id>http://baham.github.com/octopressshi-yong-disqusliu-yan-xi-tong</id>
     <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
 
 <p>开启也Disqus留言系统也很简单，</p>
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress如何安装插件]]></title>
-    <link href="http://baham.co/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
+    <link href="http://baham.github.com/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
     <updated>2013-01-12T12:02:00+00:00</updated>
-    <id>http://baham.co/octopressru-he-an-zhuang-cha-jian</id>
+    <id>http://baham.github.com/octopressru-he-an-zhuang-cha-jian</id>
     <content type="html"><![CDATA[<p>Octopress有如下<strong>目录结构</strong>：
 <img src="/images/octopress%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="Octopress目录结构" /></p>
 
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress相关文章插件]]></title>
-    <link href="http://baham.co/01_12_octopressxiang-guan-wen-zhang-cha-jian.html"/>
+    <link href="http://baham.github.com/01_12_octopressxiang-guan-wen-zhang-cha-jian.html"/>
     <updated>2013-01-12T11:44:00+00:00</updated>
-    <id>http://baham.co/octopressxiang-guan-wen-zhang-cha-jian</id>
+    <id>http://baham.github.com/octopressxiang-guan-wen-zhang-cha-jian</id>
     <content type="html"><![CDATA[<p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
 
 <p>演示可以看本站右下位置。</p>
@@ -89,9 +89,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress robots.txt写法]]></title>
-    <link href="http://baham.co/01_11_octopress-robots-dot-txtxie-fa.html"/>
+    <link href="http://baham.github.com/01_11_octopress-robots-dot-txtxie-fa.html"/>
     <updated>2013-01-11T22:23:00+00:00</updated>
-    <id>http://baham.co/octopress-robots-dot-txtxie-fa</id>
+    <id>http://baham.github.com/octopress-robots-dot-txtxie-fa</id>
     <content type="html"><![CDATA[<p>又想了想Octopress的robots.txt写法。
 现在我的是这样：
 <div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -122,9 +122,9 @@ Line 1:对于所有搜索引擎</p>
   
   <entry>
     <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
-    <link href="http://baham.co/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
+    <link href="http://baham.github.com/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
     <updated>2013-01-10T22:10:00+00:00</updated>
-    <id>http://baham.co/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
+    <id>http://baham.github.com/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
     <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
 
 <p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>
