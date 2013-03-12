@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 程序员 | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/程序员/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[码农第三期-图灵社区出品]]></title>
+    <link href="http://baham.co/01_10_ma-nong-di-san-qi-tu-ling-she-qu-chu-pin.html"/>
+    <updated>2013-01-10T16:55:00+00:00</updated>
+    <id>http://baham.co/ma-nong-di-san-qi-tu-ling-she-qu-chu-pin</id>
+    <content type="html"><![CDATA[<p>从第一期到现在，每一期图灵社区的杂志，我都会转载。</p>
+
+<p><img class="[码农第三期截图]" src="/images/码农第三期.png" title="" ></p>
+
+<p>本期专题：开源意味着什么？</p>
+
+<p>目录：</p>
+
+<!-- more -->
+
+
+<p><blockquote><p>专题:<br/> 开源意味着什么?<br/>大教堂?多怪异<br/>Linux/Unix 哲学的印证<br/>——对话 Mike Gancarz<br/>玩家也编程<br/>——“韦诺之战”的开放软件架构<br/>图灵访谈:<br/> 我们的开源项目<br/>Mozilla 首席技术官的工作进行时<br/>人物<br/>47<br/>59<br/>代码的未来<br/>——专访 Ruby 之父松本行弘<br/>创造的乐趣<br/>——专访郝培强(@Tinyfool)<br/>九卦<br/>73<br/> 程序员的时间换算表<br/>——为什么程序员不擅长估算时间<br/>出版的未来<br/>76<br/> 为什么写作自由书籍?<br/>践行<br/>83<br/> 用 Markdown 来写自由书籍<br/>——开源技术的方案<br/>鲜阅<br/>94<br/> 英雄出少年:<br/>大金刚、小金刚和跳跳人儿<br/>书榜<br/>101 看看大家都在看什么?<br/>妙评<br/>104 精益 VS Scrum<br/>——《精益开发实战:<br/> 用看板管理大型项目》读书笔记<br/>社区动态<br/>120121122iTran 乐译 12 期<br/>专家审读 6-8 期<br/>12 月,跟着图灵听课去!</p></blockquote></p>
+
+<p>下载地址 <a href="http://www.ituring.com.cn/book/download/a15c9bac-33c0-4ba0-92dc-2d29ce2b24f4">码农第三期 </a></p>
+]]></content>
+  </entry>
+  
+</feed>

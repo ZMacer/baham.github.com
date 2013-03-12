@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Baham | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/baham/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[新年寄语]]></title>
+    <link href="http://baham.co/03_04_xin-nian-ji-yu.html"/>
+    <updated>2013-03-04T22:11:00+00:00</updated>
+    <id>http://baham.co/xin-nian-ji-yu</id>
+    <content type="html"><![CDATA[<p>许久不更新博客，全怪自己贪玩。虽然，不久就要毕业，但是总觉得自己和这个社会上多数人走不到一块去。</p>
+
+<p>这么讲吧，道不同，不相与谋。孔夫子，两千多年前就这么告诉世人。</p>
+
+<p>和别人不同就是错吗？</p>
+
+<p>屈子说：“举世皆浊我独清，众人皆醉我独醒”</p>
+
+<p>投汨罗江自尽，而留万世芳名。</p>
+
+<p>虽然，有历史学家认为，屈原自尽，系受搞基的楚王冷落。</p>
+
+<p>不过，屈子之名，终究已经定格。恐怕无论真假，都改不了了。</p>
+
+<p>很多话说不得，更写不得。</p>
+
+<p>写不得，就不写。说不得，就不说。玩不起，就不玩呗！</p>
+
+<p>敬献给少数关注我博客的人，住你们在大雾天气中，总能记得带着口罩。</p>
+
+<pre><code>                ——Baham（我这蹩脚的英文代号）
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我今年(农历年)的兼职工作结束了]]></title>
+    <link href="http://baham.co/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html"/>
+    <updated>2013-01-12T21:17:00+00:00</updated>
+    <id>http://baham.co/wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao</id>
+    <content type="html"><![CDATA[<p>这段时间，一直在学校附近的餐馆打工，工资不高（可能比很多兼职工作还高一点），但是时间也不长。</p>
+
+<!-- more -->
+
+
+<p>餐馆不大，在忙的时候，真忙，闲的时候，也真闲。</p>
+
+<p>每周五、周六、周日以及节假日学校放假的时候，都是我的工作时间，下午五点开始。</p>
+
+<p>回来的时候，身上、手上永远沾着一股油腥味。虽然如此，实话实说，我并没有厌恶这份工作，有些时候，甚至还有些期待。
+至于为什么期待它，我也不能给出一个准确的答案，可能因为，能看到不同的人、经历不同的事、也可能因为店内不拘一格的房屋布局或者奇妙的餐桌编号。总之，不知不觉，它融入了我的生活。</p>
+
+<p>第一天工作是在12月21日，你没看错，就是那个“世界末日”，那天，恰好是周五。本来，并没打算去那工作，因为那几天一直在玩《骑马与砍杀》，不过，阴差阳错，还是去工作了（实话实说，在这工作比去发传单、或者那些大型酒店要轻松）。</p>
+
+<p>结果呢，当天，停电了，让我还高兴了一刹那，因为，那一刻让人以为末日真的来临了。不过，几分钟后，电力就恢复了，看来不是世界末日。</p>
+
+<p>连续5天，晚上一直在工作，因为周一恰好是平安夜、周二是圣诞节。</p>
+
+<p>最累得应该是22日，人多的要命，几乎坐满了，而且还会出现顾客接踵而至的状况，大概九点半，我才离开。</p>
+
+<p>在之后，就是周末+元旦，前前后后，大概有半个月，今天，晚上终于可以休息、休息了，不过，回来的路上，心中却有那么一丝感伤。至于感伤什么，我自己也不清楚，也许是两个会和我偶尔交谈的女服务员、也许是那的饭菜……不过不管是什么，貌似这确实已经融入了我的生活。就像《肖申克的救赎》里Red说的，在监狱待久了，你就会被体制化。当然，这不是监狱。</p>
+
+<p>总之，这段经历会成为我生命中的一个点，一个个点连成线，就会绘成人生，我还得好好画下去。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
+    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <updated>2013-01-10T15:50:00+00:00</updated>
+    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
+    <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
+但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
+在谷歌搜索到了相关迁移的文章。</p>
+
+<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
+可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+当然，一切不会那么顺利。</p>
+
+<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
+我的wp用的固定链接为-月日postid。
+但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
+
+<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
+
+<p>在谷歌搜索后，找到了解决方案。
+使用
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>代替rake generate</p>
+
+<p>ps：   cct：表示中国东部标准时。</p>
+
+<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
+
+<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
+
+<p>——Baham</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[电影泰迪熊穿帮镜头]]></title>
+    <link href="http://baham.co/11_23_724.html"/>
+    <updated>2012-11-23T20:44:37+00:00</updated>
+    <id>http://baham.co/724</id>
+    <content type="html"><![CDATA[<p>电影最后，在男主，女主结婚后，婚礼在剑桥举行。
+但是，两人跑出教堂，乘车却是靠右行驶，而且路边停车也是靠右，但英国是左侧通行。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
+    <link href="http://baham.co/11_01_673.html"/>
+    <updated>2012-11-01T19:40:55+00:00</updated>
+    <id>http://baham.co/673</id>
+    <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XMjY1MjI2MjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+]]></content>
+  </entry>
+  
+</feed>

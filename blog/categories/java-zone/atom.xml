@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Java Zone | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/java-zone/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频]]></title>
+    <link href="http://baham.co/08_06_370.html"/>
+    <updated>2012-08-06T00:00:57+00:00</updated>
+    <id>http://baham.co/370</id>
+    <content type="html"><![CDATA[<h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1><!-- more --></h1>
+
+<h1>第四名 Cool Code</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲者: Kevlin Henney</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：61：33<!-- more --></p>
+
+<p><a href="http://vimeo.com/28772428/download?t=1344181972&amp;v=64503253&amp;s=a9ea13f168350043bc31460753a189f5">下载地址</a></p>
+
+<h1>第三名 CoffeeScript: JavaScript without the Fail</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Bodil Stokke</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：56：25</p>
+
+<p><a href="http://vimeo.com/28772382/download?t=1344182175&amp;v=64501495&amp;s=79c1e76f291d90a551aab9f3e730fb3d">下载地址</a></p>
+
+<p>顾名思义，主讲内容为JavaScript</p>
+
+<h1>第二名 High Wizardry in the Land of Scala</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Daniel Spiewak</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：56：45</p>
+
+<p><a href="http://vimeo.com/28793245/download?t=1344181348&amp;v=64555757&amp;s=2d975fc2bc45867043fdca4d5c52d1f4">下载地址</a></p>
+
+<p>其中Wizardry是巫术的意思。</p>
+
+<h1>第一名 Hibernate should be to programmers what cake mixes are to bakers: beneath their dignity.</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Christin Gorman</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：8:50</p>
+
+<p><a href="http://vimeo.com/28885655/download?t=1344181056&amp;v=64787460&amp;s=0e023ee400d6352dc5617b15df6d4a82">下载地址</a></p>
+
+<p>少有的女开发人员，一场简短精悍的演讲。</p>
+
+<p>其中排名依据Vimeo Like数量</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java Zone简介]]></title>
+    <link href="http://baham.co/07_23_142.html"/>
+    <updated>2012-07-23T20:20:17+00:00</updated>
+    <id>http://baham.co/142</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/splashlogo-300x272.png" alt="javazone logo" /></p>
+
+<p><strong> Java Zone简介：</strong></p>
+
+<p>Java Zone是斯堪的纳维亚半岛上<strong>软件开发者</strong>最大会议场所，也是欧洲最重要的会议之一。</p>
+
+<p>Java Zone可以说是<strong>顶尖IT人士</strong>交流的高品质独立论坛。每年都有约2300张门票售出，今年是第11届，当然并非最后一届。</p>
+
+<p>有超过三十个大中型公司是其合作伙伴，回忆期间会战时其产品及服务，还有100多次的演讲。</p>
+
+<p>在两个会议室，有超过20000小时可以用来交流专业知识，也有很多其他地方可以作为非正式的交流场所，总之Java Zone是一个知识交流的巨大舞台。</p>
+
+<p>有如此多的软件开发者参加，意味着这也是一个重要的招聘会，通过展览，我们的合作伙伴利用此契机，拓展他们的业务、招聘新员工。总之，Java Zone不仅仅是一个会议，也是一个拓展人脉和社交的场所。</p>
+
+<p>很多志愿者的支持是Java Zone成功的关键因素之一，Java Zone既为软件开发商提供了平台，也从那里得到了支持，每年软件开发商都有成千上万小时的投入，以保证会议的成功。</p>
+
+<p>筹备委员会邀请了来自世界各地的演讲者，拥有专业知识的演讲人士，都知道相关的听众想听些什么，所以所有的演讲都极富<strong>针对性</strong>。遵循会议传统，演讲这<strong>没有商业报酬</strong>，大概一半的演讲语言是英语，另一半是斯堪的纳维亚语。</p>
+
+<p>Java Zone的<strong>非商业</strong>和<strong>非常规性</strong>极大地推动了它的普及。</p>
+
+<!-- more -->
+
+
+<p><em>翻译来自Baham，水平不高，见谅。</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java Zone 视频集锦]]></title>
+    <link href="http://baham.co/07_23_134.html"/>
+    <updated>2012-07-23T19:25:05+00:00</updated>
+    <id>http://baham.co/134</id>
+    <content type="html"><![CDATA[<h1>Java大盗(<strong>The Java Heist</strong>)</h1>
+
+<p><embed src="http://player.youku.com/player.php/Type/Folder/Fid/17905217/Ob/1/sid/XNDMwODk5Nzk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
+
+<p>Java Zone 2012</p>
+
+<p>"No f<strong>king checking in on f</strong>cking facebook!"</p>
+
+<p>"With the java platform,we can do anything."</p>
+
+<p>"This is f<strong>king brilliant."全都是出自这里，3分58秒的视频中出现了15个f</strong>k  or f**king，如果不看到最后，真让人怀疑这是以java为主题的宣传片。<!-- more --></p>
+
+<h1>Lady Java</h1>
+
+<p>Lady Java    超棒的 javaMV。</p>
+
+<h1> Java Zone Trailer</h1>
+
+<p>2分40秒时亮点，告诉你Java的魅力。</p>
+
+<h1>JavaZone X  The Streaming</h1>
+
+<p>像部惊悚片一样，有点吓人！</p>
+
+<p>有于网站迁移，请移步<a href="http://www.youku.com/playlist_show/id_17905217.html">这里</a>进行观看。</p>
+]]></content>
+  </entry>
+  
+</feed>

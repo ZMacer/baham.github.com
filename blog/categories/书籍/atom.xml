@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 书籍 | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/书籍/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[想学脚本-就学python，想学python-必看这20本免费python电子书]]></title>
+    <link href="http://baham.co/12_30_771.html"/>
+    <updated>2012-12-30T23:49:05+00:00</updated>
+    <id>http://baham.co/771</id>
+    <content type="html"><![CDATA[<p>Think Python（貌似很多think系列都很贵）</p>
+
+<p>Invent Your Own Computer Games with Python</p>
+
+<p>Snake Wrangling for Kids</p>
+
+<p>Learn Python the Hard Way, 2nd Edition</p>
+
+<p>Natural Language Processing with Python</p>
+
+<p>Building Skills in Python</p>
+
+<p>……</p>
+
+<!-- more -->
+
+
+<p>原文地址  http://www.linuxlinks.com/article/20121228122411139/20oftheBestFreePythonBooks-Part2.html</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[《Bulding Java Programs》文章索引]]></title>
+    <link href="http://baham.co/08_26_466.html"/>
+    <updated>2012-08-26T22:57:29+00:00</updated>
+    <id>http://baham.co/466</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg" alt="building-java-programs-封面" />第二版封面</p>
+
+<p><strong>《Bulding Java Programs》</strong>作者<strong>Stuart Reges</strong>，<strong>Marty Stepp</strong>，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“<strong>循循善诱 ，由浅入深</strong>”，实在是Java入门必备好书。</p>
+
+<p>博客内很多文章时受该书启发，将书中部分总结性语句直接分享给大家。现在想做一下汇总，以方便大家阅读。</p>
+
+<!-- more -->
+
+
+<ol>
+<li><p><a href="http://baham.co/07_25_221.html">参数和对象导论</a></p></li>
+<li><p><a href="http://baham.co/07_28_238.html">Java文件处理</a></p></li>
+<li><p><a href="http://baham.co/07_29_275.html">Java数组小结</a></p></li>
+<li><p><a href="http://baham.co/08_02_310.html">“类”小结</a></p></li>
+<li><p><a href="http://baham.co/08_02_313.html">继承和接口</a></p></li>
+<li><p><a href="http://baham.co/08_03_353.html">ArrayList小结</a></p></li>
+<li><p><a href="http://baham.co/08_06_389.html">Java集合框架</a>（关于泛型）</p></li>
+<li><p><a href="http://baham.co/08_09_405.html">递归小结</a></p></li>
+<li><p><a href="http://baham.co/08_10_420.html">查找与排序</a></p></li>
+<li><p><a href="http://baham.co/08_15_424.html">图形用户界面小结</a></p></li>
+</ol>
+
+
+<p>该书第一版总共有14章，此处只是主要内容的总结，并非该书的完整内容。书的末尾还附带一些关于<a href="http://baham.co/08_26_470.html">JavaDoc注释</a>以及JavaAPI的内容。</p>
+
+<p>总之，这是一本好书，强烈推荐阅读。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Art and Science of Java/Java语言艺术与科学]]></title>
+    <link href="http://baham.co/07_23_148.html"/>
+    <updated>2012-07-23T20:57:17+00:00</updated>
+    <id>http://baham.co/148</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png" alt="java的科学与艺术" /> java语言艺术与科学的图片</p>
+
+<p>成书于2006年，作者Eric S. Roberts<img src="http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg" alt="Eric S. Roberts  斯坦福大学" />。</p>
+
+<p>该书是斯坦福大学CS106a 编程方法学课程的教材。</p>
+
+<p>还没看完，因为英语太差，看得有些吃力，分享出来给大家。</p>
+
+<!-- more -->
+
+
+<p><strong>Java语言艺术与科学<em>下载</em></strong><em>地址</em>（下载前请注意）</p>
+
+<p><a href="http://www.t00y.com/file/8483970">The Art And Science of Java</a></p>
+]]></content>
+  </entry>
+  
+</feed>

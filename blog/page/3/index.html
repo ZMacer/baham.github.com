@@ -1,0 +1,822 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Baham's Blog</title>
+  <meta name="author" content="Baham">
+
+  
+  <meta name="description" content="计算方法：(3 步, 包含绘制曲线) 1 列表计算各密度级的错配物数量： 2绘制错配物曲线： a，根据表4，5栏和4，6栏数据绘制高密度分割错配物曲线：污染曲线和损失曲线据表查值获取信息。 b，根据表的10，11栏和10，12栏，分别绘制精煤、中煤的低密度分割错配物曲线据表查值获取信息。 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://baham.co/blog/page/3/index.html">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://baham.co/feeds/" rel="alternate" title="Baham's Blog" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33861107-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <div id="logo">
+  
+  	<div class="clear"></div>
+  </div>
+  <h1><a href="/">Baham's Blog</a></h1>
+  
+    <h2>Baham的个人博客</h2>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://baham.co/feeds/" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:baham.co" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/binix-baham-linux-os">Binix</a></li>
+  <li><a href="/bearfox">BearFox</a></li>
+  <li><a href="/contactme">About</a></li>
+  
+  
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/01_01_776.html">错配物总量的计算方法及错配物曲线的绘制方法</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-01T12:51:00+00:00" pubdate data-updated="true">Jan 1<span>st</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>计算方法：(3 步, 包含绘制曲线)</p>
+
+<blockquote><p>1 列表计算各密度级的错配物数量：</p></blockquote>
+
+
+
+
+<blockquote><p>2绘制错配物曲线：<br/>   a，根据表4，5栏和4，6栏数据绘制高密度分割错配物曲线：污染曲线和损失曲线</p><p>据表查值获取信息。<br/> b，根据表的10，11栏和10，12栏，分别绘制精煤、中煤的低密度分割错配物曲线<br/>据表查值获取信息。</p></blockquote>
+
+
+
+
+<blockquote><p>3获取数据指标后，填入重选设备工艺效果试验报告表</p><p>PS：&#8211;相关概念：<br/>错配物总量，是物料分选或分级时，混入各产品中非规定成分的物料。特鲁姆普(与英国车手同名)称之为迷路的矸石/迷路的精煤。<br/>总量-m0=mh+m1<br/>m0:错配物总量-%，精度取到小数点后一位<br/>mh:轻产品中大于分选密度的数量占原料的百分数，%<br/>m1:重产品中小于分选密度的数量占原料的百分数，%</p><p>一般，计算错配物总量分选密度采用分配密度δp或等误密度δe（两重产物中，错配物相等时的密度）。<br/>在日常检查可用产品百分数来表达，分选密度采用接近理论分选密度的数值，密度级差取0.05g/cm的立方。<br/>δe=δt-0.05</p></blockquote>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_30_771.html">想学脚本-就学python，想学python-必看这20本免费python电子书</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-30T23:49:05+00:00" pubdate data-updated="true">Dec 30<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Think Python（貌似很多think系列都很贵）</p>
+
+<p>Invent Your Own Computer Games with Python</p>
+
+<p>Snake Wrangling for Kids</p>
+
+<p>Learn Python the Hard Way, 2nd Edition</p>
+
+<p>Natural Language Processing with Python</p>
+
+<p>Building Skills in Python</p>
+
+<p>……</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_30_771.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_23_764.html">Enlightenment-V0.17发布</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-23T15:42:06+00:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>历经12年,Enlightenment正式版终于发布。从2000年项目开始到2012年11月发布alpha版，在到12月19号发布RC版，在到昨天发布正式版。Enlightenment一路走到今天。向Enlightenment忠诚的开发者们致敬！</p>
+
+<p><img src="http://enlightenment.org/p/index/d/diagram-efl-simple-small.png" alt="EFL Block Diagram" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_17_757.html">树莓派/Raspberry Pi上线软件市场</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-17T23:19:49+00:00" pubdate data-updated="true">Dec 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Store地址：http://store.raspberrypi.com/</p>
+
+<p>软件不多，只有25款。</p>
+
+<p>不过，一眼就看中了<strong>Free-civ</strong>，这款一直关注的<strong><em>类</em>文明</strong>游戏。</p>
+
+<p>有星级评价，直接提供下载，而且有付费软件提供。</p>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/12/pi.png"><img src="http://baham.co/wp-content/uploads/2012/12/pi-300x167.png" alt="Raspberry-Pi-软件市场" /></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_17_752.html">Git 常用命令速查表</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-17T19:28:36+00:00" pubdate data-updated="true">Dec 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Git 常用命令速查表
+master origin :默认远程版本库
+:默认开发分支
+Head Head^ :Head :默认开发分支
+的父提交
+创建版本库
+$ git clone <url>
+$ git init
+修改和提交
+$ git status
+$ git diff
+$ git add .
+$ git add <file>
+$ git mv <old> <new>
+$ git rm <file>
+$ git rm &#8211;cached <file>
+$ git commit -m &#8220;commit message&#8221;
+$ git commit &#8211;amend</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_17_752.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_10_748.html">什么是泥炭化作用？</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-10T23:37:20+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>泥炭化作用定义：植物物质经受生物化学分解及合成的复杂的过程且最终形成泥炭的作用</p>
+
+<p>条件:发生于覆水地区的水位以下，即与大气局部沟通的状态下。泥炭化作用的直接产物除了泥炭以外，分解出的气态产物有二氧化碳、水、沼气和少量氮。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_10_746.html">泥炭沼泽形成环境、泥炭沼泽的成因</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-10T23:35:58+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>沼泽是地表土壤充分湿润、季节性或长期积水，丛生着喜湿性沼泽植物的低洼地段。</p>
+
+<p><strong>1.</strong><strong>泥炭沼泽重要发育地带——滨海平原</strong></p>
+
+<p>滨海地带海水与沿海陆地地表水与潜水之间相互关系，有利于泥炭沼泽发育；</p>
+
+<p>滨海地带的海湾内，由于波浪作用微弱，形成了海湾封闭形成海湾泻湖，有利于泥炭沼泽发育；</p>
+
+<p>三角洲平原上分流河道之间的低洼地及靠近海边缘部分的泻湖湿洼地；</p>
+
+<p>在热带、亚热带地区的海岸和河口地区，还可以形成一种特殊类型的滨海泥炭沼泽——红树林泥炭沼泽。</p>
+
+<p><strong>2.</strong><strong>内陆有利发育泥炭沼泽的地区—河湖地带。</strong></p>
+
+<p>在山丘、丘陵等暂时性水流附近有一些洼地，平原地带经常性水流周围的洼地成为泥炭沼泽场所；</p>
+
+<p>河流发源地沟谷地区，由于在径流地区的谷底易形成相对平衡剖面，取得较稳定潜水补给，易泥炭沼泽；</p>
+
+<p>山前冲积扇地区的扇前洼地地下水不断溢出，形成养分较好条件，有利于泥炭沼泽；</p>
+
+<p>曲流河形成的牛轭湖及河漫滩或河漫湖泊等地成为良好泥炭沼泽聚集场所；</p>
+
+<p>滨湖洼地由于受到潜水和洪水泛滥影响，由于湖水上涨，形成了植物生长，有利于泥炭沼泽发育；</p>
+
+<p><strong>3</strong><strong>成因</strong></p>
+
+<p><strong>气候条件</strong>对泥炭沼泽起重要作用，影响了植物的生长和植物残体分级强度，从而控制了泥炭的发育。</p>
+
+<p>形成泥炭沼泽的<strong>水文条件</strong>主要是入水量，即地表水和地下水流入量及大气降水量要大于出水量，才能使泥炭沼泽持续发育。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_10_742.html">煤的显微组分和宏观媒岩成分之间的关系</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-10T23:31:50+00:00" pubdate data-updated="true">Dec 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>三类煤岩显微组分与四种宏观成分之间的关系：</strong></p>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp"><img src="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp" alt="煤的显微组分和宏观媒岩成分之间的关系" /></a></p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_10_742.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/12_05_738.html">还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-05T22:19:40+00:00" pubdate data-updated="true">Dec 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://baham.co/wp-content/uploads/2012/12/toolwizcare.png"><img src="http://baham.co/wp-content/uploads/2012/12/toolwizcare-300x198.png" alt="toolwizcare主界面" /></a></p>
+
+<p>小清新的界面，不像国产安全软件一样，喜欢打仗。</p>
+
+<p>全球装机量不断提升。</p>
+
+<p>是时候让他也回到中国了。</p>
+
+<p>Toolwiz Care 创建之初就是模仿国内的安全辅助软件。</p>
+
+<p>比如开机时间、温度条、密盘、还有图片编辑器（仿美图秀秀）……</p>
+
+<p>甚至界面上显示位置都和360很像。</p>
+
+<p>看一款国外克隆国内软件的软件，真是别有一番风味。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/11_29_734.html">码农第二期-图灵社区出品</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-29T11:19:36+00:00" pubdate data-updated="true">Nov 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>主讲内容：</p>
+
+<blockquote><p><strong>• 本期专题:JavaScript</strong>
+<strong>• 七大大框架论剑</strong>
+<strong>• Nicholas C. Zakas 和他的</strong>
+<strong>《JavaScript高高级程序设计》</strong>
+<strong>• 陈皓:我的精神家园</strong>
+<strong>• 老老赵:以“玩”之名</strong>
+<strong>• 迄今为止止最伟大大的极客</strong>
+<strong>• 深入入Markdown</strong></p></blockquote>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/11_29_734.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-28T22:22:57+00:00" pubdate data-updated="true">Nov 28<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>为什么中国官方的，身为喉舌的《人民日报》会引用美国不入流的洋葱社的新闻，为什么我们义务地为金正恩搞宣传？</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/11_23_724.html">电影泰迪熊穿帮镜头</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-23T20:44:37+00:00" pubdate data-updated="true">Nov 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>电影最后，在男主，女主结婚后，婚礼在剑桥举行。
+但是，两人跑出教堂，乘车却是靠右行驶，而且路边停车也是靠右，但英国是左侧通行。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/4/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Tag Cloud</h1>
+    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 107.05882352941177%'>Blender(2)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 103.52941176470588%'>Edu(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 121.17647058823529%'>Geek(6)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 152.94117647058823%'>Linux(15)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/opensuse' style='font-size: 103.52941176470588%'>openSuse(1)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 128.23529411764707%'>站长(8)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 107.05882352941177%'>选矿学(2)</a> </span>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html">Ubuntu中安装配置Octopress碰到的问题</a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_04_xin-nian-ji-yu.html">新年寄语</a>
+      </li>
+    
+      <li class="post">
+        <a href="/02_01_binix-1-dot-1-shi-chu.html">Binix 1.1 释出</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html">openSuse使用Tumbleweed源，实现滚动更新</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_30_hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin.html">很久没有更新博客的原因</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html">Octopress使用Disqus留言系统</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html">使用fedup从Fedora 17更新到 Fedora 18</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html">我今年(农历年)的兼职工作结束了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_12_octopressru-he-an-zhuang-cha-jian.html">Octopress如何安装插件</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+<section>
+本站<strong>采用<a href="http://baham.co/07_18_40.html">创作共用协议</a></strong>，<br>
+如非标注，内容均为原创。<br>
+如需转载,请<strong>保留出处</strong>并<strong>标注</strong>:<br>
+
+“&#8212;&#8212;&#8212;-转载自 <a href="http://baham.co">Baham&#8217;s Blog</a>”
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Baham -
+  <span class="credit">Powered by <a href=https://Gihub.com>Github</a> and <a href="http://octopress.org">Octopress</a> | <a href="http://baham.co/07_18_40.html">本站采用创作共用版权协议</a> | <a href="http://baham.co/sitemap.xml">Sitemap</a> </span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'baham';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

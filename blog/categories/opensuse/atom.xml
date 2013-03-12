@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: openSuse | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/opensuse/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[openSuse使用Tumbleweed源，实现滚动更新]]></title>
+    <link href="http://baham.co/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html"/>
+    <updated>2013-01-30T16:32:00+00:00</updated>
+    <id>http://baham.co/opensuseshi-yong-tumbleweedyuan-,shi-xian-gun-dong-geng-xin</id>
+    <content type="html"><![CDATA[<p>openSuse很早就支持，通过Tumbleweed源，实现滚动更新。
+官方Wiki很早就给出了，如何配置，以及注意事项。不过，这段时间使用openSuse的经历，告诉我，Wiki不是总是对的。
+至少，我已经发现两处，一是，openSuse Wiki中关于使用Tumbleweed源的问题，一个是在Tumbleweed如何安装Virtualbox。配置Virtualbox，以后再说，今天，先讲讲Tumbleweed源的配置。</p>
+
+<p><img src="/images/tumbleweed_en.png" alt="tumbleweed英文Wiki" /></p>
+
+<p><img src="/images/tumbleweed_zh.png" alt="tumbleweed中文维基" /></p>
+
+<p><strong>在官方Wiki英文版中，写着要添加4个源。
+而中文的，却写着5个。</strong></p>
+
+<p>后来，我才知道，适用Tumbleweed的关键不是源的多少，像中文wiki中写的,non-oss-current-os源，是后来添加的。但是openSuse英文Wiki并没有添加进去。就像没有维基教程将packman和为Virtualbox准备的虚拟化相关的源添加进去一样。</p>
+
+<p>这些源都是，在Google后openSuse论坛中找到的。</p>
+
+<p>所以，像我之前所说的，不要一切靠Wiki。</p>
+
+<p>现在，Tumbleweed有以下7个源。
+(http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/)Tumpleweed最主要的一个源，国内镜像站，均未提供镜像，不过，官方的速度也不慢。</p>
+
+<p>(http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/oss/)</p>
+
+<p>(http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/non-oss/)</p>
+
+<p>(http://mirrors.sohu.com/opensuse/update/openSUSE-current/) 搜狐提供的3个CurrentOs源，速度较快</p>
+
+<p>(http://mirrors.ustc.edu.cn/opensuse/update/openSUSE-non-oss-current/) 中科大的non-oss更新源</p>
+
+<p>(http://packman.inode.at/suse/openSUSE_Tumbleweed) packman的Tumbleweed源</p>
+
+<p>(http://download.opensuse.org/repositories/Virtualization:/VirtualBox_Tumbleweed/openSUSE_Tumbleweed/)虚拟化的源</p>
+
+<p>zypper更新到Tumbleweed时，需要这七个源，其中，后两个是非必须的。</p>
+
+<p>其实，第一次，升Tumbleweed并非因为源的问题，而是因为Wiki中，少写了一步，就是，升级你的软件为当前opensuse版本的最新版，不用补丁最新，只需要软件均为最新。</p>
+
+<p>然后，才可以安全的</p>
+
+<p><code>sudo zypper dup --from Tumbleweed</code>更新到tumbleweed</p>
+
+<p>总结Tumbleweed更新步骤：</p>
+
+<h2>1 更新所有软件为当前版本最新</h2>
+
+<h2>2 移出所有当前版本的openSuse源</h2>
+
+<h2>3 添加以上七个Tumbleweed需要的源</h2>
+
+<h2>4 zypper duo --from Tumbleweed</h2>
+
+<p>对于，配置Virtualbox以后再讲。</p>
+]]></content>
+  </entry>
+  
+</feed>

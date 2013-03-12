@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Java | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
+    <link href="http://baham.co/11_29_734.html"/>
+    <updated>2012-11-29T11:19:36+00:00</updated>
+    <id>http://baham.co/734</id>
+    <content type="html"><![CDATA[<p>主讲内容：</p>
+
+<blockquote><p><strong>• 本期专题:JavaScript</strong>
+<strong>• 七大大框架论剑</strong>
+<strong>• Nicholas C. Zakas 和他的</strong>
+<strong>《JavaScript高高级程序设计》</strong>
+<strong>• 陈皓:我的精神家园</strong>
+<strong>• 老老赵:以“玩”之名</strong>
+<strong>• 迄今为止止最伟大大的极客</strong>
+<strong>• 深入入Markdown</strong></p></blockquote>
+
+<!-- more -->
+
+
+<p>（以上均为原文引用）</p>
+
+<p>目录：</p>
+
+<blockquote><p><strong>卷首语</strong>
+<strong>1 改变世界的好码农</strong>
+<strong>专题:JavaScript</strong>
+<strong>3 JavaScript 宝座:七大框架论剑 </strong>
+<strong>19 JavaScript 模块化开发一瞥 </strong>
+<strong>27 对话 Nicholas C. Zakas</strong>
+<strong>——《JavaScript 高级程序设计》作者</strong>
+<strong>34 通过对象图学习 JavaScript</strong>
+<strong>人物</strong>
+<strong>41 我的精神家园——陈皓(@ 左耳朵耗子)专访</strong>
+<strong>54 以“玩”之名——赵劼(@ 老赵)专访</strong>
+<strong>践行</strong>
+<strong>70 通才还是专才——由摩托裁员引发的讨论</strong>
+<strong>九卦</strong>
+<strong>73 为什么 Nikola Tesla 是迄今为止最伟大的极客</strong>
+<strong>鲜阅</strong>
+<strong>88 善言的 JavaScript</strong>
+<strong>——选自《善言的 JavaScript: 现代化编程指南》</strong>
+<strong>出版的未来</strong>
+<strong>96 Markdown 作者谈“深入 Markdown”</strong>
+<strong>书榜</strong>
+<strong>106 看看大家都在看什么?</strong>
+<strong>妙评</strong>
+<strong>109 《Erlang/OTP 并发编程实战》</strong>
+<strong>成书手记</strong>
+<strong>115 从失败中学习</strong>
+<strong> </strong>
+<strong> ——《30 天自制操作系统》译者自述</strong>
+<strong>社区动态</strong>
+<strong>119 iTran 乐译 10 期</strong>
+<strong>120 专家审读 5 期</strong>
+<strong>121 十月,跟着图灵听课去!</strong></p></blockquote>
+
+<p>全文下载：<a href="http://www.ituring.com.cn/book/download/ac4c3832-bce6-488b-bd39-54ccbbd4e3d9">码农第二期</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iQQ-开源Java版qq客户端]]></title>
+    <link href="http://baham.co/07_29_251.html"/>
+    <updated>2012-07-29T00:42:26+00:00</updated>
+    <id>http://baham.co/251</id>
+    <content type="html"><![CDATA[<p><img src="https://iqq-java.googlecode.com/files/loginProccess.jpg" alt="iQQ登陆界面" />        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如<a href="http://libqq-pidgin.googlecode.com/">libqq-pidgin</a>，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样，很多小问题没有解决。问题主要原因显然不在软件，而在腾讯方面。</p>
+
+<p>今天无意中，看到了iQQ的介绍，这是一个新项目，距离谷歌Code的项目提交只有几天。看了一些iQQ的截图，至少觉着这个图形界面，要比QQforLinux或者其他第三方客户端要好那么一点。</p>
+
+<p>iQQ是一项<strong>开源项目</strong>，源码托管在google code上，基于腾讯<strong>WebQQ 3.0网络协议</strong>，可以通过JRE运行在任何平台上，作者基于Linux(Ubuntu 12.04)系统，使用IDE NetBeans开发。项目伊始，作者（<em>chengnuo128@gmail.com</em>）将源代码公开，希望寻找爱好者一同开发。</p>
+
+<p>截至目前，iQQ仍处于<strong>Beta测试</strong>阶段，通过项目问题也看到，仍有部分小问题没有解决。</p>
+
+<!-- more -->
+
+
+<p>iQQ截图：</p>
+
+<p><img src="https://iqq-java.googlecode.com/files/mainFrame.jpg" alt="xfce ubuntu12.04 iqq客户端" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/cap.jpg" alt="" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/login.jpg" alt="iQQ登陆界面" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/1.jpg" alt="iqq使用界面" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/chating.jpg" alt="iqq聊天示例" /></p>
+
+<p>总结来讲，我很看好<strong>iQQ项目</strong>，虽然我还不能为其贡献代码，但真心希望有兴趣者积极参加。没有什么别的原因，只是希望Linux的桌面应用能更丰富。</p>
+
+<p><a href="https://code.google.com/p/iqq/">iqq项目地址</a></p>
+
+<p><a href="https://code.google.com/p/iqq/downloads/detail?name=iQQ_beta1.02.zip&amp;can=2&amp;q=">iqqBeta1.02下载地址</a></p>
+
+<p>获取iqq源代码：</p>
+
+<p><code># Non-members may check out a read-only working copy anonymously over HTTP.
+svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Art and Science of Java/Java语言艺术与科学]]></title>
+    <link href="http://baham.co/07_23_148.html"/>
+    <updated>2012-07-23T20:57:17+00:00</updated>
+    <id>http://baham.co/148</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png" alt="java的科学与艺术" /> java语言艺术与科学的图片</p>
+
+<p>成书于2006年，作者Eric S. Roberts<img src="http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg" alt="Eric S. Roberts  斯坦福大学" />。</p>
+
+<p>该书是斯坦福大学CS106a 编程方法学课程的教材。</p>
+
+<p>还没看完，因为英语太差，看得有些吃力，分享出来给大家。</p>
+
+<!-- more -->
+
+
+<p><strong>Java语言艺术与科学<em>下载</em></strong><em>地址</em>（下载前请注意）</p>
+
+<p><a href="http://www.t00y.com/file/8483970">The Art And Science of Java</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java Zone简介]]></title>
+    <link href="http://baham.co/07_23_142.html"/>
+    <updated>2012-07-23T20:20:17+00:00</updated>
+    <id>http://baham.co/142</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/splashlogo-300x272.png" alt="javazone logo" /></p>
+
+<p><strong> Java Zone简介：</strong></p>
+
+<p>Java Zone是斯堪的纳维亚半岛上<strong>软件开发者</strong>最大会议场所，也是欧洲最重要的会议之一。</p>
+
+<p>Java Zone可以说是<strong>顶尖IT人士</strong>交流的高品质独立论坛。每年都有约2300张门票售出，今年是第11届，当然并非最后一届。</p>
+
+<p>有超过三十个大中型公司是其合作伙伴，回忆期间会战时其产品及服务，还有100多次的演讲。</p>
+
+<p>在两个会议室，有超过20000小时可以用来交流专业知识，也有很多其他地方可以作为非正式的交流场所，总之Java Zone是一个知识交流的巨大舞台。</p>
+
+<p>有如此多的软件开发者参加，意味着这也是一个重要的招聘会，通过展览，我们的合作伙伴利用此契机，拓展他们的业务、招聘新员工。总之，Java Zone不仅仅是一个会议，也是一个拓展人脉和社交的场所。</p>
+
+<p>很多志愿者的支持是Java Zone成功的关键因素之一，Java Zone既为软件开发商提供了平台，也从那里得到了支持，每年软件开发商都有成千上万小时的投入，以保证会议的成功。</p>
+
+<p>筹备委员会邀请了来自世界各地的演讲者，拥有专业知识的演讲人士，都知道相关的听众想听些什么，所以所有的演讲都极富<strong>针对性</strong>。遵循会议传统，演讲这<strong>没有商业报酬</strong>，大概一半的演讲语言是英语，另一半是斯堪的纳维亚语。</p>
+
+<p>Java Zone的<strong>非商业</strong>和<strong>非常规性</strong>极大地推动了它的普及。</p>
+
+<!-- more -->
+
+
+<p><em>翻译来自Baham，水平不高，见谅。</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java Zone 视频集锦]]></title>
+    <link href="http://baham.co/07_23_134.html"/>
+    <updated>2012-07-23T19:25:05+00:00</updated>
+    <id>http://baham.co/134</id>
+    <content type="html"><![CDATA[<h1>Java大盗(<strong>The Java Heist</strong>)</h1>
+
+<p><embed src="http://player.youku.com/player.php/Type/Folder/Fid/17905217/Ob/1/sid/XNDMwODk5Nzk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
+
+<p>Java Zone 2012</p>
+
+<p>"No f<strong>king checking in on f</strong>cking facebook!"</p>
+
+<p>"With the java platform,we can do anything."</p>
+
+<p>"This is f<strong>king brilliant."全都是出自这里，3分58秒的视频中出现了15个f</strong>k  or f**king，如果不看到最后，真让人怀疑这是以java为主题的宣传片。<!-- more --></p>
+
+<h1>Lady Java</h1>
+
+<p>Lady Java    超棒的 javaMV。</p>
+
+<h1> Java Zone Trailer</h1>
+
+<p>2分40秒时亮点，告诉你Java的魅力。</p>
+
+<h1>JavaZone X  The Streaming</h1>
+
+<p>像部惊悚片一样，有点吓人！</p>
+
+<p>有于网站迁移，请移步<a href="http://www.youku.com/playlist_show/id_17905217.html">这里</a>进行观看。</p>
+]]></content>
+  </entry>
+  
+</feed>

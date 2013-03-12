@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ted | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/ted/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GraphChi—让你迅速提升计算机性能]]></title>
+    <link href="http://baham.co/07_25_225.html"/>
+    <updated>2012-07-25T22:34:58+00:00</updated>
+    <id>http://baham.co/225</id>
+    <content type="html"><![CDATA[<p>GraphChi是从卡内基 - 梅隆大学的<a href="http://www.graphlab.org">GraphLab</a>项目之一。可以让一台普通PC处理N倍于以往的数据。</p>
+
+<p>特点便是能然硬盘当作内存来使用（包括出传统硬盘或固态硬盘）。</p>
+
+<p><a href="https://code.google.com/p/graphchi/">项目Google Code地址 以及完整介绍</a></p>
+
+<p>GraphChi <a href="http://code.google.com/p/graphchi-java">Java版项目地址</a></p>
+]]></content>
+  </entry>
+  
+</feed>

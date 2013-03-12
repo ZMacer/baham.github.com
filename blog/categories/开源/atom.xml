@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 开源 | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/开源/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[使用fedup从Fedora 17更新到 Fedora 18]]></title>
+    <link href="http://baham.co/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html"/>
+    <updated>2013-01-15T23:29:00+00:00</updated>
+    <id>http://baham.co/shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18</id>
+    <content type="html"><![CDATA[<h2>1 联网升级</h2>
+
+<p>适用于网速较好，且网络环境稳定的用户。</p>
+
+<pre><code>sudo fedup-cli --network 18 --debuglog fedupdebug.log --instrepo http://dl.fedoraproject.org/pub/alt/qa/fedup/f18-RC4/&lt;arch&gt;/
+</code></pre>
+
+<p><code>arch 请填写处理器架构——  i386  or X86_64</code></p>
+
+<p>其中，地址部分，此处为RC版。</p>
+
+<p>以上为原RC版升级方案，正式版范例如下。</p>
+
+<p>更新 fedora 18 使用以下命令：</p>
+
+<pre><code>sudo fedup-cli --network 18 --debuglog fedupdebug.log
+</code></pre>
+
+<p><code>其中arch表示处理器架构。</code></p>
+
+<p>对应wiki：<a href="https://fedoraproject.org/w/index.php?title=FedUp&amp;action=history">Fedora fedup  wiki</a></p>
+
+<h2>2 ISO(DVD版)  升级</h2>
+
+<p>适用于网络环境稳定性较差或者网速较慢时。</p>
+
+<pre><code>sudo fedup-cli --iso /home/name/download/fedora-18.iso --debuglog=fedupdebug.log
+</code></pre>
+
+<p>DVD iso 下载地址  (163源  http://mirrors.163.com/fedora/releases/18/Fedora/x86_64/iso/Fedora-18-x86_64-DVD.iso)。</p>
+
+<p>其中fedupdebug.log用于记录升级过程日志。</p>
+
+<p>fedup帮助文档（英文）:</p>
+
+<!-- more -->
+
+
+<p><blockquote><p>usage: fedup SOURCE [options]</p></p><p><p>Prepare system for upgrade.</p></p><p><p>optional arguments:<br/>  -h, --help            show this help message and exit<br/>  -v, --verbose         print more info<br/>  -d, --debug           print lots of debugging info<br/>  --debuglog DEBUGLOG   write lots of debugging output to the given file<br/>  --reboot              automatically reboot to start the upgrade when ready</p></p><p><p>SOURCE:<br/>  Location to search for upgrade data.</p></p><p><p>  --device [DEV]        device or mountpoint. default: check mounted devices<br/>  --iso ISO             installation image file<br/>  --network VERSION     online repos matching VERSION (a number or "rawhide")</p></p><p><p>additional options for --network:<br/>  --enablerepo REPOID   enable one or more repos (wildcards allowed)<br/>  --disablerepo REPOID  disable one or more repos (wildcards allowed)<br/>  --addrepo REPOID=[@]URL</p></p><p><pre><code>                    add the repo at URL (@URL for mirrorlist)<br/></code></pre></p><p><p>  --instrepo REPOID     get upgrader boot images from REPOID (default: auto)</p></p><p><p>cleanup commands:<br/>  --resetbootloader     remove any modifications made to bootloader<br/>  --clean               clean up everything written by fedup</p></blockquote></p>
+
+<p><a href="https://fedoraproject.org/wiki/FedUp">fedup英文Wiki</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[准备好升级了吗？使用Preupgrade升级Fedora 18]]></title>
+    <link href="http://baham.co/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html"/>
+    <updated>2013-01-15T17:51:00+00:00</updated>
+    <id>http://baham.co/zhun-bei-hao-sheng-ji-liao-ma-?shi-yong-preupgradesheng-ji-fedora-18</id>
+    <content type="html"><![CDATA[<p>还有几个小时，Fedora 18的正式版就将释出。</p>
+
+<p>Fedora 18的桌面环境默认是<a href="https://fedoraproject.org/wiki/Features/Gnome3.6">Gnome3.6</a>，而且全新加入了Gnome 2的分支<a href="https://fedoraproject.org/wiki/Features/MATE-Desktop">Mate</a>，终端可以使用256色替代旧的8色。firewalld成为默认的防火墙。而且更新了Samba到4……</p>
+
+<p>使用preupgrade只适用于Fedora 17 及以前版本，不再适用于Fedora 18.</p>
+
+<h2>1 备份</h2>
+
+<p>（在任何系统的变动前，推荐进行备份，虽然多数情况下，不备份，并不会毁掉你的数据，此处，还是老声长谈，备份你的重要数据）</p>
+
+<h2>2 更新一切可更新内容</h2>
+
+<p><code>yum update</code></p>
+
+<h2>3 安装preupgrade</h2>
+
+<p>自从fedora10之后，preupgrade都会被默认安装。此处也可手动安装
+<code>yum install preupgrade</code></p>
+
+<h2>4 开始更新</h2>
+
+<p>在终端中运行  <code>preupgrade</code></p>
+
+<h2>5 配置preupgrade及更新安装fedora 18</h2>
+
+<p><img src="/images/preupgrade1.png" alt="preupgrade 1" /></p>
+
+<p>点击 forward</p>
+
+<!-- more -->
+
+
+<p><img src="/images/preupgrade2.png" alt="preupgrade choose system" /></p>
+
+<p>选择系统，此处以Fedora 17为例。
+点击 Apply</p>
+
+<p><img src="/images/preupgrade3.png" alt="preupgrading" /></p>
+
+<p>升级更新中</p>
+
+<p><img src="/images/preupgrade4.png" alt="preupgraded and reboot" /></p>
+
+<p>重启系统</p>
+
+<p><img src="/images/preupgrade5.png" alt="grub choose update" /></p>
+
+<p>Grub菜单中 选择 对应 update选项,此处以Fedora  17为例。</p>
+
+<p>至此。Fedora更新完成。Fedora 18不支持使用preupgrade更新与此相同。
+当然，也可以使用更稳妥的刻盘升级，以及较复杂的yum更新方法。
+相应资料，可寻找fedora对应Wiki文档</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress如何安装插件]]></title>
+    <link href="http://baham.co/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
+    <updated>2013-01-12T12:02:00+00:00</updated>
+    <id>http://baham.co/octopressru-he-an-zhuang-cha-jian</id>
+    <content type="html"><![CDATA[<p>Octopress有如下<strong>目录结构</strong>：
+<img src="/images/octopress%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="Octopress目录结构" /></p>
+
+<p>其中plugins就是插件存放地址，
+目录里是rb结尾的Ruby脚本，额就是Octopress的插件。</p>
+
+<p>由于插件不同，安装方法也不同，不过大同小异，以下具体说明：</p>
+
+<h3>1 插件只由html文件构成：</h3>
+
+<p>如<a href="01_12_octopressxiang-guan-wen-zhang-cha-jian.html">related-posts</a>,只需要将文件复制到对应asides目录，然后配置一下_config.yml即可。</p>
+
+<h3>2 插件由Ruby脚本构成：</h3>
+
+<p>多数Octopress插件都是如此，方法相似，只是多了一步，要把对应脚本复制到plugins目录下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Github绑定域名]]></title>
+    <link href="http://baham.co/01_10_githubbang-ding-yu-ming.html"/>
+    <updated>2013-01-10T22:35:00+00:00</updated>
+    <id>http://baham.co/githubbang-ding-yu-ming</id>
+    <content type="html"><![CDATA[<p>1 创建CNAME在你的repo
+此处CNAME指的是一个文件，文件名即CNAME，在其中，填入你想要绑定的域名。
+比如本站：
+<blockquote><p>baham.co</p></blockquote></p>
+
+<p>2 配置DNS
+配置A记录到  204.232.175.78</p>
+
+<p>CNAME   www.xxx.com 到  name.github.com</p>
+
+<p>github英文帮助内容-<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
+    <link href="http://baham.co/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
+    <updated>2013-01-10T22:10:00+00:00</updated>
+    <id>http://baham.co/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
+
+<p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">Octopress常用插件汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">Octopress主题汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-tools">常用工具汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/FAQ">Octopress常见问题汇总</a></p>
+
+<p><a href="http://www.freehao123.com/octopress/">Octopress、Gihub在Windows环境下配置及部分中文资料</a></p>
+]]></content>
+  </entry>
+  
+</feed>

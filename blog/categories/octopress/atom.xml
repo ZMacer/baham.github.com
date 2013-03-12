@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
+    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
+    <updated>2013-01-16T13:10:00+00:00</updated>
+    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
+    <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
+
+<p>开启也Disqus留言系统也很简单，</p>
+
+<p>开启也Disqus留言系统也很简单，</p>
+
+<p>首先，需要一个Disqus帐号，<a href="http://disqus.com">注册地址</a>。Disqus功能强大，不仅提供独立的留言系统，还可以显示相关文章。如果你开启，相关文章的广告功能，
+甚至可以通过点击量赚钱。</p>
+
+<p>其次，在_config.yml文件中开启Disqus留言系统</p>
+
+<p>如下：</p>
+
+<p><img src="/images/disqus_%E8%AE%BE%E7%BD%AE.png" title="Disqus" alt="Disqus设置" /></p>
+
+<p>填入你的ID即可。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress如何安装插件]]></title>
+    <link href="http://baham.co/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
+    <updated>2013-01-12T12:02:00+00:00</updated>
+    <id>http://baham.co/octopressru-he-an-zhuang-cha-jian</id>
+    <content type="html"><![CDATA[<p>Octopress有如下<strong>目录结构</strong>：
+<img src="/images/octopress%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="Octopress目录结构" /></p>
+
+<p>其中plugins就是插件存放地址，
+目录里是rb结尾的Ruby脚本，额就是Octopress的插件。</p>
+
+<p>由于插件不同，安装方法也不同，不过大同小异，以下具体说明：</p>
+
+<h3>1 插件只由html文件构成：</h3>
+
+<p>如<a href="01_12_octopressxiang-guan-wen-zhang-cha-jian.html">related-posts</a>,只需要将文件复制到对应asides目录，然后配置一下_config.yml即可。</p>
+
+<h3>2 插件由Ruby脚本构成：</h3>
+
+<p>多数Octopress插件都是如此，方法相似，只是多了一步，要把对应脚本复制到plugins目录下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress相关文章插件]]></title>
+    <link href="http://baham.co/01_12_octopressxiang-guan-wen-zhang-cha-jian.html"/>
+    <updated>2013-01-12T11:44:00+00:00</updated>
+    <id>http://baham.co/octopressxiang-guan-wen-zhang-cha-jian</id>
+    <content type="html"><![CDATA[<p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
+
+<p>演示可以看本站右下位置。</p>
+
+<p>相应的配置安装也很简单。</p>
+
+<h2>1 配置_config.yml</h2>
+
+<p>添加<code>lsi: true</code>。</p>
+
+<h2>2 设置侧边栏</h2>
+
+<p>在default_asides中添加<code>custom/asides/related.html</code></p>
+
+<h2>3 添加插件</h2>
+
+<p>复制<a href="https://nodeload.github.com/jcftang/octopress-relatedposts/zip/master">压缩包</a>内的related.html文件到这里 source/_includes/custom/asides/related.html</p>
+
+<p>至此Octopress的相关文章插件，配置完成。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress robots.txt写法]]></title>
+    <link href="http://baham.co/01_11_octopress-robots-dot-txtxie-fa.html"/>
+    <updated>2013-01-11T22:23:00+00:00</updated>
+    <id>http://baham.co/octopress-robots-dot-txtxie-fa</id>
+    <content type="html"><![CDATA[<p>又想了想Octopress的robots.txt写法。
+现在我的是这样：
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>User-agent: *
+</span><span class='line'>Disallow: /&lt;em>?&lt;/em>
+</span><span class='line'>Disallow: /archives
+</span><span class='line'>Disallow: /javascripts
+</span><span class='line'>Disallow: /font
+</span><span class='line'>Disallow: /assets
+</span><span class='line'>Disallow: /blog
+</span><span class='line'>Sitemap: http://baham.co/sitemap.xml</span></code></pre></td></tr></table></div></figure></notextile></div>
+Line 1:对于所有搜索引擎</p>
+
+<p>Line 2:禁止访问所有动态内容（虽然Octopress的文章都是纯净态，但是此处还是加上，比如我在用Cloudflare时，Cloudflare默认就会生成一些带?的缓存链接）</p>
+
+<p>Line 3～7:禁止访问archives,javascripts,font,assets,blog目录，archives是归档内容，blog目录下是归档内容以及分类内容和页号内容，由于更新较频繁，建议禁止。</p>
+
+<p>Line 8: sitemap地址</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
+    <link href="http://baham.co/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
+    <updated>2013-01-10T22:10:00+00:00</updated>
+    <id>http://baham.co/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
+
+<p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">Octopress常用插件汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">Octopress主题汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-tools">常用工具汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/FAQ">Octopress常见问题汇总</a></p>
+
+<p><a href="http://www.freehao123.com/octopress/">Octopress、Gihub在Windows环境下配置及部分中文资料</a></p>
+]]></content>
+  </entry>
+  
+</feed>

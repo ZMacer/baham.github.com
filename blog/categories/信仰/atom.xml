@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 信仰 | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/信仰/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GooglePlay上四款很棒的圣经软件]]></title>
+    <link href="http://baham.co/11_05_690.html"/>
+    <updated>2012-11-05T22:10:22+00:00</updated>
+    <id>http://baham.co/690</id>
+    <content type="html"><![CDATA[<p>之前介绍过专为基督徒定制的linux发行版-<a href="http://baham.co/11_05_687.html">Ubuntu CE</a>，其实自从IPhone搅局以来，人们用在手机上的时间越来越多，PC上却越来越少，以下为个人手机的几款<strong>非常棒的圣经软件</strong>。鉴于国内网络环境，此处<strong>提供下载</strong>。</p>
+
+<!-- more -->
+
+
+<h1></h1>
+
+<h1>1 聖經/LIFECHURCH.TV</h1>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed.jpg" alt="圣经app" /></a></p>
+
+<p>排名第一，下载量截至目前有60万。平均评分为5分，方便阅读分享，支持多版本多语言。</p>
+
+<ul>
+<li><p>免費使用<strong>多種現代英文聖經譯本</strong>，包括 NIV, ESV, NLT, NKJV, AMP, NASB, CEV, NET, WEB, NCV, TNIV, HCSB, 信息版聖經譯本等。</p></li>
+<li><p>免費使用多種現代<strong>西班牙文</strong>聖經譯本，包括雷納，瓦勒拉 1960（RVR60）版, NVI, LBLA, NBLH 等等。</p></li>
+<li><p>免費使用多種英文以外的聖經譯本，包括德文，法文，義大利文，中文簡體，中文繁體，瑞典文，韓文，日文，挪威文，捷克文，保加利亞文，荷蘭文，葡萄牙文，羅馬尼亞文，俄文等。</p></li>
+</ul>
+
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1>2 DailyBible /JohnSoft</h1>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-1.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-1.jpg" alt="DailyBible-app" /></a></p>
+
+<p><strong>多版本，多语言</strong>支持。9万下载量，评分为5.支持与好友分享，快速检索。可发声。</p>
+
+<h1>3 QuickBible/YuKu</h1>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-2.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-2.jpg" alt="QuickBible-app" /></a></p>
+
+<p>内置<a href="http://baham.co/11_05_680.html">英皇钦定版</a>jkv,支持检索。可下载其他译本（包括中文）。</p>
+
+<p>3万下载量。</p>
+
+<h1></h1>
+
+<h1>4 Bible+/Faith Comes By Hearing</h1>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-3.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-3.jpg" alt="Bible.is-app" /></a></p>
+
+<p>Bible.is/Bible+， 3万下载量。300多个版本的圣经，185种语言支持。支持<strong>发声</strong>。</p>
+
+<h1>小结：</h1>
+
+<p>其实四款软件<strong>差别不大</strong>，主要是<strong>UI设计</strong>以不同。如果不喜欢单独安装软件，也可以下载<a href="http://baham.co/11_05_680.html">电子书</a>用来阅读。</p>
+
+<p>下载地址
+<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7QmltQm4yMG9URUE/edit">Bible</a>
+<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7VVBHenhBZzBYOXc/edit">Bible+</a>
+<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7a0RDX3VGNGk0LVk/edit">DailyBible</a>
+<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7cFZuOUg5RFZOWXc/edit">HolyBible</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu基督教版-Ubuntu Christian Edition]]></title>
+    <link href="http://baham.co/11_05_687.html"/>
+    <updated>2012-11-05T21:21:00+00:00</updated>
+    <id>http://baham.co/687</id>
+    <content type="html"><![CDATA[<p><img src="http://ubuntuce.com/screenshots/12.04/login.png" alt="" /></p>
+
+<p><a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a>自从诞生以来，就有很多一期定制的发行版。</p>
+
+<p>比如非常火的<a href="http://www.linuxmint.com/">Linux Mint</a>，国内的YLMF，深度。</p>
+
+<p>对于<strong>基督徒</strong>，有一款专门为之设计的发行版，<a href="http://ubuntuce.com/">Ubuntu CE</a>。<!-- more --></p>
+
+<p><strong>Ubuntu Christian Edition</strong>：</p>
+
+<blockquote><p>Ubuntu Christian Edition is a free, open source operating system geared towards Christians. It is based on the popular Ubuntu Linux. Ubuntu is a complete Linux-based operating system, freely available with both community and professional support. The goal of Ubuntu Christian Edition is to bring the power and security of Ubuntu to Christians. The current<em> Ubuntu Christian Edition release</em> supports both 32 bit and 64 bit PCs. Ubuntu Christian Edition covers every standard desktop application from word processing and spreadsheet applications to web server software and programming tools.</p></blockquote>
+
+<p>Ubuntu CE 基于Ubuntu，如同其他GNU/Linux系统一样，是一款<strong>自由开放</strong>的系统。特点在于包含很棒的基督教相关的软件，<strong>强大的防火墙</strong>以及<strong>家</strong><img src="http://ubuntuce.com/screenshots/12.04/desktop.png" alt="Desktop" /><strong>长控制系统</strong>。</p>
+
+<p>Ubuntu CE更新很快,最新版基于12.04。</p>
+
+<p>下载地址：</p>
+
+<blockquote><p><strong>Ubuntu 12.04 Christian Edition 32 bit </strong></p>
+
+<ul>
+<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-i386.iso">iso Download</a> -- <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
+<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=749">Torrent</a></p></li>
+</ul>
+</blockquote>
+
+<p><strong>Ubuntu 12.04 Christian Edition 64 bit </strong></p>
+
+<blockquote><ul>
+<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-amd64.iso">iso Download</a> -- <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
+<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=750">Torrent</a></p></li>
+</ul>
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[英皇钦定版圣经(JKV)-中英epub电子书下载]]></title>
+    <link href="http://baham.co/11_05_680.html"/>
+    <updated>2012-11-05T20:56:06+00:00</updated>
+    <id>http://baham.co/680</id>
+    <content type="html"><![CDATA[<p>活了这么多年，突然发现自己根本没有<strong>信仰</strong>。真不知道自己为了什么而活？</p>
+
+<p>最近一直在读圣经</p>
+
+<p>找到了 <strong>King James Version</strong>的<strong>中英</strong>文版</p>
+
+<p>分享给大家</p>
+
+<p>epub电子书格式：</p>
+
+<p><a href="http://baham.co/files/The_Holy_Bible_-_King_James_Version.epub">HolyBible</a></p>
+]]></content>
+  </entry>
+  
+</feed>

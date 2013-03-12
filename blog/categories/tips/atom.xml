@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tips | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-12T03:10:41+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
+    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <updated>2013-01-10T15:50:00+00:00</updated>
+    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
+    <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
+但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
+在谷歌搜索到了相关迁移的文章。</p>
+
+<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
+可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+当然，一切不会那么顺利。</p>
+
+<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
+我的wp用的固定链接为-月日postid。
+但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
+
+<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
+
+<p>在谷歌搜索后，找到了解决方案。
+使用
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>代替rake generate</p>
+
+<p>ps：   cct：表示中国东部标准时。</p>
+
+<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
+
+<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
+
+<p>——Baham</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JavaDoc注释详解]]></title>
+    <link href="http://baham.co/08_26_470.html"/>
+    <updated>2012-08-26T23:02:58+00:00</updated>
+    <id>http://baham.co/470</id>
+    <content type="html"><![CDATA[<p>在<strong>JavaAPI</strong>中，有完整的Java说明，而如果想生成想JavaAPI一样的说明文件，就需要使用<strong>javadoc工具</strong>，同时需要用到Javadoc格式的注释。</p>
+
+<h1> 1 使用/<em>* 而非/</em>开头</h1>
+
+<p>示例如下：</p>
+
+<p>/**</p>
+
+<p>*This is a line about javadoc.</p>
+
+<p>*This the next line.</p>
+
+<p>*/</p>
+
+<p>即javadoc的注释以/<em><em>开头，以</em>作为每一段开头,</em>/结尾</p>
+
+<!-- more -->
+
+
+<h1>2 需要使用特有标记</h1>
+
+<p>在javadoc格式的注释中，使用@XXX表示标签，<strong>以@开头，后面是标记名，再后面是其他信息。</strong></p>
+
+<p>常用javadoc标记名如下：</p>
+
+<p><em>author,param,return,throws,version</em></p>
+
+<p><strong>javadoc标记概述</strong>：</p>
+
+<p>标记名称</p>
+
+<p>介绍</p>
+
+<p>@author <name></p>
+
+<p>编写该类的作者信息</p>
+
+<p>@param <name><description></p>
+
+<p>该方法参数的详细说明</p>
+
+<p>@return <description></p>
+
+<p>该方法<strong>返回值</strong>的详细说明</p>
+
+<p>@throws <type> <description></p>
+
+<p>该方法可能抛出的异常类型，以及在什么情况下抛出该异常</p>
+
+<p>@version <number></p>
+
+<p>标记文件版本号</p>
+
+<h1>3 javadoc注释完整示例</h1>
+
+<p>下面以HelloWorld程序为例，进行javadoc格式的注释。</p>
+
+<pre><code>/**
+*这是HelloWorld的javadoc追时范例，@author和@version通常放在类头部的注释块中
+*@author Baham
+*@version 0.01
+*XXXXXXXX
+*/
+public class HelloWorld{
+    private String s=”HelloWorld”;
+
+    public static void main(String args[]){
+        show();
+    }
+/**
+*通常在方法头部的注释块中，放置@param和@throws标记，对于有返回值的方法还要使用@return
+*标记返回值
+*@param show This method is to show “”HelloWorld”
+*@return here is not return value
+*@throws null
+*xxxxxxxxxx
+*/
+    public void show(){
+        System.out.println(s);
+    }
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[《Bulding Java Programs》文章索引]]></title>
+    <link href="http://baham.co/08_26_466.html"/>
+    <updated>2012-08-26T22:57:29+00:00</updated>
+    <id>http://baham.co/466</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg" alt="building-java-programs-封面" />第二版封面</p>
+
+<p><strong>《Bulding Java Programs》</strong>作者<strong>Stuart Reges</strong>，<strong>Marty Stepp</strong>，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“<strong>循循善诱 ，由浅入深</strong>”，实在是Java入门必备好书。</p>
+
+<p>博客内很多文章时受该书启发，将书中部分总结性语句直接分享给大家。现在想做一下汇总，以方便大家阅读。</p>
+
+<!-- more -->
+
+
+<ol>
+<li><p><a href="http://baham.co/07_25_221.html">参数和对象导论</a></p></li>
+<li><p><a href="http://baham.co/07_28_238.html">Java文件处理</a></p></li>
+<li><p><a href="http://baham.co/07_29_275.html">Java数组小结</a></p></li>
+<li><p><a href="http://baham.co/08_02_310.html">“类”小结</a></p></li>
+<li><p><a href="http://baham.co/08_02_313.html">继承和接口</a></p></li>
+<li><p><a href="http://baham.co/08_03_353.html">ArrayList小结</a></p></li>
+<li><p><a href="http://baham.co/08_06_389.html">Java集合框架</a>（关于泛型）</p></li>
+<li><p><a href="http://baham.co/08_09_405.html">递归小结</a></p></li>
+<li><p><a href="http://baham.co/08_10_420.html">查找与排序</a></p></li>
+<li><p><a href="http://baham.co/08_15_424.html">图形用户界面小结</a></p></li>
+</ol>
+
+
+<p>该书第一版总共有14章，此处只是主要内容的总结，并非该书的完整内容。书的末尾还附带一些关于<a href="http://baham.co/08_26_470.html">JavaDoc注释</a>以及JavaAPI的内容。</p>
+
+<p>总之，这是一本好书，强烈推荐阅读。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JDK工具介绍]]></title>
+    <link href="http://baham.co/08_26_464.html"/>
+    <updated>2012-08-26T22:13:11+00:00</updated>
+    <id>http://baham.co/464</id>
+    <content type="html"><![CDATA[<p>javac</p>
+
+<p>   java<strong>编译器</strong>。将java源码转换成为二进制文件。</p>
+
+<p>java</p>
+
+<p>直接执行.class文件</p>
+
+<p>appletviewer</p>
+
+<p><strong>用于执行Applet程序</strong></p>
+
+<p>javadoc</p>
+
+<p>基于Java源码中的注释提供HTML版本的程序文档（注释需要遵循javadoc标准格式）</p>
+
+<p>rmic</p>
+
+<p>创建支持<strong>远程方法调用（RMI）</strong>的class文件</p>
+
+<p>rmiregistry</p>
+
+<p>使用该工具用以获取对支持RMI对象的访问权限</p>
+
+<p>rmid</p>
+
+<p>为RMI对象的注册、激活，系统<strong>守护进程</strong></p>
+
+<p>native2ascii</p>
+
+<p>转换编码为<strong>ASCII</strong></p>
+
+<p>jar</p>
+
+<p>JAR文件创建工具。允许将多个Java二进制文件和其他资源集合在一起创建一个压缩文件<!-- more --></p>
+
+<p>keytool</p>
+
+<p>用来管理和创建安全Key</p>
+
+<p>jarsigner</p>
+
+<p>java注册认证工具</p>
+
+<p>policytool</p>
+
+<p><strong>隐私策略</strong>配置工具</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java中的正则表达式（RegularExpression）]]></title>
+    <link href="http://baham.co/08_15_429.html"/>
+    <updated>2012-08-15T22:52:06+00:00</updated>
+    <id>http://baham.co/429</id>
+    <content type="html"><![CDATA[<p>前一段时间，想处理点文件，将其中特定自负提取出来，于是就想到了Scanner对象中的<strong>useDelimiter()</strong>方法。可是对正则表达式了解不多，然后，就去图书馆找了些资料，有谷歌了一下，算是有一点了解了吧。</p>
+
+<p>首先不得不说，<strong>正则表达式</strong>（Regular Expression）并非Java独有，Perl、PHP、Python、<strong>JavaScript</strong>和JScript均支持使用正则表达式。数据库检索、搜索引擎使用其实也会用到类似的知识。</p>
+
+<h1>特殊符号：</h1>
+
+<h2>连字符-</h2>
+
+<p>-表示连续的关系，比如a-z表示，a,b,c……z。</p>
+
+<h2>句点.</h2>
+
+<p>. 是个通配符，例如，c.r表示car，cor，cbr，c4r，cfr等。</p>
+
+<h2>或|</h2>
+
+<p>| 表示 或 的关系，不像在Java代码中用“||”表示或，正则表达式中用|表示或。例如：c|r表示c或者r。</p>
+
+<h2>否^</h2>
+
+<p>不同于代码中，正则表达式使用<sup>表示非，而不是!。&lt;!--</sup> more --></p>
+
+<h2>组()</h2>
+
+<p>()表示一组，具体请见后边的例子。</p>
+
+<h2>方括号[]</h2>
+
+<p>[]的用途不能用一个词来形容，但它也是一种或的关系，是一个或的范围。比如c[oiu]r</p>
+
+<p>表示，cor,cir,cur。</p>
+
+<h2>反斜杠\</h2>
+
+<p>\表示一种引用的关系，比如\，-分别表示\和-，因为\和-都是特殊符号，无法直接在表达式中表示。</p>
+
+<h2>统计次数的符号</h2>
+
+<p>*表示0次或者多次</p>
+
+<p>+表示一次或者多次</p>
+
+<p>？表示0次或者1次</p>
+
+<p>{n}表示n次</p>
+
+<p>{n-m}表示n-m次</p>
+
+<h2>其他常用符号</h2>
+
+<p>\s   [\t\n\r\f]</p>
+
+<p>\S   [<sup>\t\n\r\f]</sup></p>
+
+<p>\d  [0-9]</p>
+
+<p>\D   [<sup>0-9]</sup></p>
+
+<p>\w    [A-Z0-9]</p>
+
+<p>\W  [<sup>A-Z0-9]</sup></p>
+
+<h1>举例：正则表达式表示年月日</h1>
+
+<p>[0-9]{4}-[0-9]{2}-[0-9]{2}</p>
+
+<p>分别表示 年-月-日，分别是4位、2位、及2位。</p>
+]]></content>
+  </entry>
+  
+</feed>
