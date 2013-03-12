@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.github.com/atom.xml" rel="self"/>
   <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T07:17:05+00:00</updated>
+  <updated>2013-03-12T07:24:27+00:00</updated>
   <id>http://baham.github.com/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://baham.github.com/03_12_test.html"/>
-    <updated>2013-03-12T15:07:00+00:00</updated>
-    <id>http://baham.github.com/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blender Wiki PDF文档分享]]></title>
@@ -537,6 +528,27 @@ md5:<code>b1c86914f0e7bbbb724ec326a9ca8984</code></p>
 <p>CNAME   www.xxx.com 到  name.github.com</p>
 
 <p>github英文帮助内容-<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress博客常用资源汇总-包括插件、主题、文档等]]></title>
+    <link href="http://baham.github.com/01_10_octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-%2C-zhu-ti-%2C-wen-dang-deng.html"/>
+    <updated>2013-01-10T22:10:00+00:00</updated>
+    <id>http://baham.github.com/octopressbo-ke-chang-yong-zi-yuan-hui-zong-bao-gua-cha-jian-,-zhu-ti-,-wen-dang-deng</id>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress官网</a></p>
+
+<p><a href="http://octopress.org/docs/">Octopress官方手册、教程</a>(英文)</p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">Octopress常用插件汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">Octopress主题汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-tools">常用工具汇总</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/FAQ">Octopress常见问题汇总</a></p>
+
+<p><a href="http://www.freehao123.com/octopress/">Octopress、Gihub在Windows环境下配置及部分中文资料</a></p>
 ]]></content>
   </entry>
   

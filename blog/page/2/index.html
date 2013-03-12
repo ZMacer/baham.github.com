@@ -9,7 +9,21 @@
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content="默认，Octopress没有相关文章插件。不过，有人为Octopress写了一个relatedposts 演示可以看本站右下位置。 相应的配置安装也很简单。 1 配置_config.yml 添加lsi: true。 2 设置侧边栏 在default_asides中添加custom/asides/ &hellip;">
+  <meta name="description" content="又想了想Octopress的robots.txt写法。
+现在我的是这样： 1
+2
+3
+4
+5
+6
+7
+8
+User-agent: *
+Disallow: /*?*
+Disallow: /archives
+Disallow: /javascripts
+Disallow: /font
+Disallow &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,62 +101,6 @@
     <div id="content">
       <div class="blog-index">
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/01_12_octopressxiang-guan-wen-zhang-cha-jian.html">Octopress相关文章插件</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-12T11:44:00+00:00" pubdate data-updated="true">Jan 12<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
-
-<p>演示可以看本站右下位置。</p>
-
-<p>相应的配置安装也很简单。</p>
-
-<h2>1 配置_config.yml</h2>
-
-<p>添加<code>lsi: true</code>。</p>
-
-<h2>2 设置侧边栏</h2>
-
-<p>在default_asides中添加<code>custom/asides/related.html</code></p>
-
-<h2>3 添加插件</h2>
-
-<p>复制<a href="https://nodeload.github.com/jcftang/octopress-relatedposts/zip/master">压缩包</a>内的related.html文件到这里 source/_includes/custom/asides/related.html</p>
-
-<p>至此Octopress的相关文章插件，配置完成。</p>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -698,6 +656,73 @@
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/01_10_cong-wordpresszhuan-yi-dao-octopress.html">从Wordpress转移到Octopress</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-10T15:50:00+00:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
+但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
+在谷歌搜索到了相关迁移的文章。</p>
+
+<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
+可以参考<a href="/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+当然，一切不会那么顺利。</p>
+
+<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
+我的wp用的固定链接为-月日postid。
+但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
+
+<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
+
+<p>在谷歌搜索后，找到了解决方案。
+使用</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure>
+
+
+<p>代替rake generate</p>
+
+<p>ps：   cct：表示中国东部标准时。</p>
+
+<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
+
+<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
+
+<p>——Baham</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -717,10 +742,6 @@
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/03_12_test.html">test</a>
-      </li>
     
       <li class="post">
         <a href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Blender Wiki PDF文档分享</a>
@@ -756,6 +777,10 @@
     
       <li class="post">
         <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html">我今年(农历年)的兼职工作结束了</a>
       </li>
     
   </ul>

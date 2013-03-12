@@ -9,9 +9,7 @@
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content="一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
-但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
-在谷歌搜索到了相关迁移的文章。 &hellip;">
+  <meta name="description" content="被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。 1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状）， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -89,73 +87,6 @@
     <div id="content">
       <div class="blog-index">
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/01_10_cong-wordpresszhuan-yi-dao-octopress.html">从Wordpress转移到Octopress</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-10T15:50:00+00:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
-但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
-在谷歌搜索到了相关迁移的文章。</p>
-
-<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
-可以参考<a href="/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
-当然，一切不会那么顺利。</p>
-
-<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
-我的wp用的固定链接为-月日postid。
-但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
-
-<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
-
-<p>在谷歌搜索后，找到了解决方案。
-使用</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure>
-
-
-<p>代替rake generate</p>
-
-<p>ps：   cct：表示中国东部标准时。</p>
-
-<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
-
-<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
-
-<p>——Baham</p>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -708,6 +639,44 @@ $ git commit &#8211;amend</div>
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-28T22:22:57+00:00" pubdate data-updated="true">Nov 28<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>为什么中国官方的，身为喉舌的《人民日报》会引用美国不入流的洋葱社的新闻，为什么我们义务地为金正恩搞宣传？</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -727,10 +696,6 @@ $ git commit &#8211;amend</div>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/03_12_test.html">test</a>
-      </li>
     
       <li class="post">
         <a href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Blender Wiki PDF文档分享</a>
@@ -766,6 +731,10 @@ $ git commit &#8211;amend</div>
     
       <li class="post">
         <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
+      </li>
+    
+      <li class="post">
+        <a href="/01_12_wo-jin-nian-nong-li-nian-de-jian-zhi-gong-zuo-jie-shu-liao.html">我今年(农历年)的兼职工作结束了</a>
       </li>
     
   </ul>
