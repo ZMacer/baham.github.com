@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2013-03-13T04:51:57+00:00</updated>
+  <updated>2013-03-13T14:26:29+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -75,7 +75,9 @@ alt+tab: 切换窗口
     <id>http://baham.co/opensusezhong-de-virtualboxpei-zhi</id>
     <content type="html"><![CDATA[<p>  在Ubuntu的源中，直接有Virtualbox ose版，以及Oracle版。两者大致相同，但我个人更倾向于Oracle版。</p>
 
-<p>不过，在openSuse中，源里<strong>只有OSE版的Virtualbox</strong>，不过，还好，openSuse中有对应的虚拟化源，添加即可（具体见以前的openSuse文章，里边有地址）。而且，也有对应Tumblewee的虚拟化源。</p>
+<p>  不过，在openSuse中，源里<strong>只有OSE版的Virtualbox</strong>，不过，还好，openSuse中有对应的虚拟化源，添加即可（具体见以前的openSuse文章，里边有地址）。</p>
+
+<p>  而且，也有对应Tumblewee的虚拟化源。</p>
 
 <p>  只不过，在我添加对应源之后，Virtualbox依旧不能完美运行，后来索性去VBox官网，下载对应的rpm包，成功安装成功，且功能齐备。</p>
 
@@ -88,42 +90,69 @@ alt+tab: 切换窗口
     <link href="http://baham.co/03_12_ma-nong-di-si-qi-%2Ctu-ling-she-qu-chu-pin.html"/>
     <updated>2013-03-12T17:37:00+00:00</updated>
     <id>http://baham.co/ma-nong-di-si-qi-,tu-ling-she-qu-chu-pin</id>
-    <content type="html"><![CDATA[<p>这次更新有点晚，比图灵社区发布要晚很久，不过迟到总比不到好。</p>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/images/manong4.png" alt="码农第四期" /></p>
 
-<p>本期目录：</p>
+<p>这次更新有点晚，比图灵社区发布要晚很久，不过迟到总比不到好。</p>
 
-<p>专题:活的信息
-1   信息是神马——论信息的消失与重生
-10  信息可视化的科学
-17  用编程工具实现数据可视化的几个选择
-32  用 R 语言处理大数据:课程 101
-44  iGraph——图挖掘助力社会网络分析
-59  量化分析:用数据、指标、信息讲述的故事
-人物
-67  冯大辉:信息真正的意义
-践行
-82  三天准备,迎战千倍用户
-九卦
-90  码农餐厅(一)
-鲜阅
-97  宇宙一种:程序员创造的虚拟宇宙</p>
+<h3>本期目录：</h3>
+
+<p><strong>专题:活的信息</strong></p>
+
+<p>1   信息是神马——论信息的消失与重生</p>
+
+<p>10  信息可视化的科学</p>
+
+<p>17  用编程工具实现数据可视化的几个选择</p>
+
+<p>32  用 R 语言处理大数据:课程 101</p>
+
+<p>44  iGraph——图挖掘助力社会网络分析</p>
+
+<p>59  量化分析:用数据、指标、信息讲述的故事</p>
+
+<p><strong>人物</strong></p>
+
+<p>67  冯大辉:信息真正的意义</p>
+
+<p><strong>践行</strong></p>
+
+<p>82  三天准备,迎战千倍用户</p>
+
+<p><strong>九卦</strong></p>
+
+<p>90  码农餐厅(一)</p>
+
+<p><strong>鲜阅</strong></p>
+
+<p>97  宇宙一种:程序员创造的虚拟宇宙</p>
 
 <!--more-->
 
 
-<p>出版的未来
-106 DRM-free,不止拥抱这一天
-书榜
-112  2012 年十大不能错过的好书
-妙评
-116 《图灵的秘密》
-121 《程序员的数学》
-成书手记
-125  听《量化》译者讲“故事会”
-社区动态
-135  iTran 乐译 13 期
-136  好运电子书第 1 期
-137 “听”书计划</p>
+<p><strong>出版的未来</strong></p>
+
+<p>106 DRM-free,不止拥抱这一天</p>
+
+<p><strong>书榜</strong></p>
+
+<p>112  2012 年十大不能错过的好书</p>
+
+<p><strong>妙评</strong></p>
+
+<p>116 《图灵的秘密》</p>
+
+<p>121 《程序员的数学》
+<strong>成书手记</strong></p>
+
+<p>125  听《量化》译者讲“故事会”</p>
+
+<p><strong>社区动态</strong></p>
+
+<p>135  iTran 乐译 13 期</p>
+
+<p>136  好运电子书第 1 期</p>
+
+<p>137 “听”书计划</p>
 
 <p><a href="http://www.ituring.com.cn/book/download/00354d5a-fa88-4f8b-b538-da51a42f3144">下载地址</a></p>
 ]]></content>
