@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tips | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/tips/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,15 +15,15 @@
   
   <entry>
     <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
-    <link href="http://baham.github.com/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
     <updated>2013-01-10T15:50:00+00:00</updated>
-    <id>http://baham.github.com/cong-wordpresszhuan-yi-dao-octopress</id>
+    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
     <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
 但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
 在谷歌搜索到了相关迁移的文章。</p>
 
 <p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
-可以参考<a href="http://baham.github.com/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
 当然，一切不会那么顺利。</p>
 
 <p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[JavaDoc注释详解]]></title>
-    <link href="http://baham.github.com/08_26_470.html"/>
+    <link href="http://baham.co/08_26_470.html"/>
     <updated>2012-08-26T23:02:58+00:00</updated>
-    <id>http://baham.github.com/470</id>
+    <id>http://baham.co/470</id>
     <content type="html"><![CDATA[<p>在<strong>JavaAPI</strong>中，有完整的Java说明，而如果想生成想JavaAPI一样的说明文件，就需要使用<strong>javadoc工具</strong>，同时需要用到Javadoc格式的注释。</p>
 
 <h1> 1 使用/<em>* 而非/</em>开头</h1>
@@ -141,9 +141,9 @@ public class HelloWorld{
   
   <entry>
     <title type="html"><![CDATA[《Bulding Java Programs》文章索引]]></title>
-    <link href="http://baham.github.com/08_26_466.html"/>
+    <link href="http://baham.co/08_26_466.html"/>
     <updated>2012-08-26T22:57:29+00:00</updated>
-    <id>http://baham.github.com/466</id>
+    <id>http://baham.co/466</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg" alt="building-java-programs-封面" />第二版封面</p>
 
 <p><strong>《Bulding Java Programs》</strong>作者<strong>Stuart Reges</strong>，<strong>Marty Stepp</strong>，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“<strong>循循善诱 ，由浅入深</strong>”，实在是Java入门必备好书。</p>
@@ -175,9 +175,9 @@ public class HelloWorld{
   
   <entry>
     <title type="html"><![CDATA[JDK工具介绍]]></title>
-    <link href="http://baham.github.com/08_26_464.html"/>
+    <link href="http://baham.co/08_26_464.html"/>
     <updated>2012-08-26T22:13:11+00:00</updated>
-    <id>http://baham.github.com/464</id>
+    <id>http://baham.co/464</id>
     <content type="html"><![CDATA[<p>javac</p>
 
 <p>   java<strong>编译器</strong>。将java源码转换成为二进制文件。</p>
@@ -230,9 +230,9 @@ public class HelloWorld{
   
   <entry>
     <title type="html"><![CDATA[Java中的正则表达式（RegularExpression）]]></title>
-    <link href="http://baham.github.com/08_15_429.html"/>
+    <link href="http://baham.co/08_15_429.html"/>
     <updated>2012-08-15T22:52:06+00:00</updated>
-    <id>http://baham.github.com/429</id>
+    <id>http://baham.co/429</id>
     <content type="html"><![CDATA[<p>前一段时间，想处理点文件，将其中特定自负提取出来，于是就想到了Scanner对象中的<strong>useDelimiter()</strong>方法。可是对正则表达式了解不多，然后，就去图书馆找了些资料，有谷歌了一下，算是有一点了解了吧。</p>
 
 <p>首先不得不说，<strong>正则表达式</strong>（Regular Expression）并非Java独有，Perl、PHP、Python、<strong>JavaScript</strong>和JScript均支持使用正则表达式。数据库检索、搜索引擎使用其实也会用到类似的知识。</p>

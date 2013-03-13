@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IT | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/it/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/it/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[微软IllumiRoom演示视频，惊现开源游戏SuperTuxKart]]></title>
-    <link href="http://baham.github.com/01_10_wei-ruan-illumiroomyan-shi-shi-pin-%2Cliang-xian-kai-yuan-you-xi-tuxracer.html"/>
+    <link href="http://baham.co/01_10_wei-ruan-illumiroomyan-shi-shi-pin-%2Cliang-xian-kai-yuan-you-xi-tuxracer.html"/>
     <updated>2013-01-10T23:38:00+00:00</updated>
-    <id>http://baham.github.com/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
+    <id>http://baham.co/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
     <content type="html"><![CDATA[<p>废话不多说，有图为证。</p>
 
 <p><img src="http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png" width="360" height="240" title="截图 微软演示视频截图" ></p>

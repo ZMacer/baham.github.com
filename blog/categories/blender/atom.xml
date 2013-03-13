@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Blender | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/blender/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/blender/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blender Wiki PDF文档分享]]></title>
-    <link href="http://baham.github.com/03_12_blender-wiki-pdfwen-dang-fen-xiang.html"/>
+    <link href="http://baham.co/03_12_blender-wiki-pdfwen-dang-fen-xiang.html"/>
     <updated>2013-03-12T15:01:00+00:00</updated>
-    <id>http://baham.github.com/blender-wiki-pdfwen-dang-fen-xiang</id>
+    <id>http://baham.co/blender-wiki-pdfwen-dang-fen-xiang</id>
     <content type="html"><![CDATA[<p>从网上找到的，Blender Wiki的离线版，毕竟时刻在线看Wiki对于非包月上网用户实在不划算。</p>
 
 <p>找了很久，不过功夫不负有心人，总算找到了。</p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blender视频教程收集整理]]></title>
-    <link href="http://baham.github.com/09_14_595.html"/>
+    <link href="http://baham.co/09_14_595.html"/>
     <updated>2012-09-14T23:49:43+00:00</updated>
-    <id>http://baham.github.com/595</id>
+    <id>http://baham.co/595</id>
     <content type="html"><![CDATA[<h1>1 Super3Boy系列教程：</h1>
 
 <!-- more -->
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[初学Blender-图片分享]]></title>
-    <link href="http://baham.github.com/09_14_583.html"/>
+    <link href="http://baham.co/09_14_583.html"/>
     <updated>2012-09-14T23:20:54+00:00</updated>
-    <id>http://baham.github.com/583</id>
+    <id>http://baham.co/583</id>
     <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/09/castle222.png"><img src="http://baham.co/wp-content/uploads/2012/09/castle222.png" alt="blender建模-城堡-烟雾" /></a><!-- more --><a href="http://baham.co/wp-content/uploads/2012/09/wneglass.png"><img src="http://baham.co/wp-content/uploads/2012/09/wneglass.png" alt="blender建模-纹理-酒杯" /></a><a href="http://baham.co/wp-content/uploads/2012/09/martina.png"><img src="http://baham.co/wp-content/uploads/2012/09/martina.png" alt="blender建模-Martina-纹理-玻璃特效" /></a><a href="http://baham.co/wp-content/uploads/2012/09/flashlight.png"><img src="http://baham.co/wp-content/uploads/2012/09/flashlight.png" alt="blender建模-手电-灯光" /></a>[<img src="http://baham.co/wp-content/uploads/2012/09/bugle.png" alt="blender建模-喇叭" />]<a href="http://baham.co/wp-content/uploads/2012/09/bugleclolor.png"><img src="http://baham.co/wp-content/uploads/2012/09/bugleclolor.png" alt="blender建模-喇叭-着色" /></a></p>
 ]]></content>
   </entry>

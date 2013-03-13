@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 选矿学 | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/选矿学/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/选矿学/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[错配物总量的计算方法及错配物曲线的绘制方法]]></title>
-    <link href="http://baham.github.com/01_01_776.html"/>
+    <link href="http://baham.co/01_01_776.html"/>
     <updated>2013-01-01T12:51:00+00:00</updated>
-    <id>http://baham.github.com/776</id>
+    <id>http://baham.co/776</id>
     <content type="html"><![CDATA[<p>计算方法：(3 步, 包含绘制曲线)
 <blockquote><p>1 列表计算各密度级的错配物数量：</p></blockquote></p>
 

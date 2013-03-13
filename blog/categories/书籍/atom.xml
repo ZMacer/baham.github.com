@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 书籍 | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/书籍/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/书籍/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[想学脚本-就学python，想学python-必看这20本免费python电子书]]></title>
-    <link href="http://baham.github.com/12_30_771.html"/>
+    <link href="http://baham.co/12_30_771.html"/>
     <updated>2012-12-30T23:49:05+00:00</updated>
-    <id>http://baham.github.com/771</id>
+    <id>http://baham.co/771</id>
     <content type="html"><![CDATA[<p>Think Python（貌似很多think系列都很贵）</p>
 
 <p>Invent Your Own Computer Games with Python</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[《Bulding Java Programs》文章索引]]></title>
-    <link href="http://baham.github.com/08_26_466.html"/>
+    <link href="http://baham.co/08_26_466.html"/>
     <updated>2012-08-26T22:57:29+00:00</updated>
-    <id>http://baham.github.com/466</id>
+    <id>http://baham.co/466</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg" alt="building-java-programs-封面" />第二版封面</p>
 
 <p><strong>《Bulding Java Programs》</strong>作者<strong>Stuart Reges</strong>，<strong>Marty Stepp</strong>，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“<strong>循循善诱 ，由浅入深</strong>”，实在是Java入门必备好书。</p>
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Art and Science of Java/Java语言艺术与科学]]></title>
-    <link href="http://baham.github.com/07_23_148.html"/>
+    <link href="http://baham.co/07_23_148.html"/>
     <updated>2012-07-23T20:57:17+00:00</updated>
-    <id>http://baham.github.com/148</id>
+    <id>http://baham.co/148</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png" alt="java的科学与艺术" /> java语言艺术与科学的图片</p>
 
 <p>成书于2006年，作者Eric S. Roberts<img src="http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg" alt="Eric S. Roberts  斯坦福大学" />。</p>

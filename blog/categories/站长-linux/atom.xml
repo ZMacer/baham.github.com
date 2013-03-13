@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 站长,Linux | Baham's Blog]]></title>
-  <link href="http://baham.github.com/blog/categories/站长-linux/atom.xml" rel="self"/>
-  <link href="http://baham.github.com/"/>
-  <updated>2013-03-12T09:42:28+00:00</updated>
-  <id>http://baham.github.com/</id>
+  <link href="http://baham.co/blog/categories/站长-linux/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2013-03-13T04:51:57+00:00</updated>
+  <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[很久没有更新博客的原因]]></title>
-    <link href="http://baham.github.com/01_30_hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin.html"/>
+    <link href="http://baham.co/01_30_hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin.html"/>
     <updated>2013-01-30T16:02:00+00:00</updated>
-    <id>http://baham.github.com/hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin</id>
+    <id>http://baham.co/hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin</id>
     <content type="html"><![CDATA[<p>  1月份，Fedora18释出，使用Fedup通过DVD镜像成功升级到Fedora18。只不过，之后，无法等如桌面环境，甚至recovery模式，也无法登录。当时想，索性就不用Fedora了，当时用的KDE桌面，资源耗用不少，虽然挺稳定，但是也该换换新事物了。于是，选择了LMDE。</p>
 
 <p><striong>LMDE</strong>什么都好，滚动更新，基于Debian，只不过，装不上。每次进度条未完，就桌面就死了，无论是，电源键还是Ctrl-Del-alt/Backspace，（Google了一下，LM论坛上，也有相应的未解决Issure）。就这么，LMDE被我放弃了。后来，在LILI USB Creator的支持列表中，发现了Fuduntu……</p>

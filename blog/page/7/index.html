@@ -9,7 +9,7 @@
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content=" ">
+  <meta name="description" content="列表、数学集合、映射（List、Set和Map）对比 List 实现 ArrayList、LinkedList 描述/优点 元素按照插入顺序排列 缺点 查询速度慢，在任意位置插入、删除元素也很慢 使用实例 账户列表、等待队列、文件中的内容行。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.github.com/blog/page/7/index.html">
+  <link rel="canonical" href="http://baham.co/blog/page/7/index.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,7 +67,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:baham.github.com" />
+    <input type="hidden" name="q" value="site:baham.co" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -87,6 +87,119 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/08_07_395.html">List、Set和Map之间的比较</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-07T11:25:56+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>列表、数学集合、映射（List、Set和Map）对比</h1>
+
+<h1>List</h1>
+
+<h2>实现</h2>
+
+<p>ArrayList、LinkedList</p>
+
+<h2>描述/优点</h2>
+
+<p>元素按照插入顺序排列</p>
+
+<h2>缺点</h2>
+
+<p>查询速度慢，在任意位置插入、删除元素也很慢</p>
+
+<h2>使用实例</h2>
+
+<p>账户列表、等待队列、文件中的内容行。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_07_395.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/08_06_389.html">《Building Java Programs》-Java集合框架（Java Collection Framework）</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T23:00:55+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png" alt="Java集合框架-java collection framework-示意图" />(http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png) Java集合框架（点击浏览大图）</p>
+
+<p>ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用<strong>node（节点）</strong>存储元素的<strong>LinkedList（链表）</strong>。LinkedList满足<strong>Collection接口</strong>，而<strong>Collection接口</strong>和<strong>Map接口</strong>构成了<strong>Java集合框架</strong>的主体。</p>
+
+<ol>
+<li><p>集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于<strong>保存、组织和查询</strong>数据。</p></li>
+<li><p><strong>链表(LinkedList)</strong>是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“<strong>节点</strong>”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。</p></li>
+<li><p><strong>迭代器（Iterator）</strong>是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快<strong>顺序访问</strong>列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。</p></li>
+<li><p><strong>抽象数据类型（ADT）</strong>，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。</p></li>
+<li><p><strong>数学集合（Set）</strong>中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。</p></li>
+<li><p>Java中有两个主要的数学集合类：<strong>TreeSet</strong>和<strong>HashSet</strong>。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。</p></li>
+<li><p><strong>映射</strong>将一组<strong>键（Key）</strong>对象关联（映射）到一组<strong>值（Value）</strong>对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。</p></li>
+<li><p>Java中使用<strong>Map接口</strong>表示映射，其中有两个主要的映射类：<strong>TreeMap</strong>和<strong>HashMap</strong>。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。</p></li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -578,104 +691,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/07_29_275.html">《Building Java Programs》-Java数组小结</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T18:30:17+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>写在前面</strong>：只能按照顺序来存放或读取<a href="http://baham.co/07_28_241.html">文件</a>中的内容，极大地限制了文件的应用范围。不过，在Java中，数组提供了更灵活的<strong>数据访问方式</strong>，它能同时保存多个<strong>同类型</strong>的值。</p>
-
-<ol>
-<li><p>数组(array)是一个<a href="http://baham.co/07_25_221.html"><strong>对象</strong></a>，它同来将类型相同的多个基本类型的值或对象组织到一起（用同一个名字表示）。其中每一个值被称为一个<strong>元素</strong>（element），可以通过索引来访问数组中的元素，索引为整数。范围从0到数组长度-1.</p></li>
-<li><p>使用小于或大于数组实际长度的值作为索引访问数组元素会引起<strong>ArrayIndexOutOfBoundsException</strong>异常。</p></li>
-<li><p>通常使用for循环来遍历数组，数组大小通过其length()获得，循环变量<strong>从0到length()-1</strong>，也可以用<strong>for-each循环</strong>顺序访问每一个数组中的元素。</p></li>
-<li><p>数组有一些局限性，例如不能改变大小、不支持==运算、不支持println语句等，要实现这些功能，需要自己编写循环处理数组中的元素。//Java中比较数组可以使用<strong>Arrays.equals()</strong>方法，打印输出可以使用<strong>Arrays.toString()</strong>方法。</p></li>
-<li><p>使用<strong>遍历</strong>修改数组元素的方法可以实现很多常用的数组算法，如打印数组、比较数组等。</p></li>
-<li><p>对象数组是由实际对象的<strong>引用</strong>组成。新创建的每个对象数组的元素均为空(null)，所以需要逐个创建这些对象或用循环将一些以创建对象的引用保存到数组中。</p></li>
-<li><p><strong>多维数组</strong>是<strong>数组的数组</strong>。它们经常用于保存二位数据，如表示二维表中的行和列或二维空间中的x,y值等。</p></li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/07_29_271.html">BearFox Browser-熊狐浏览器</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T13:13:27+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>BearFox Browser</strong>（<strong>熊狐浏览器</strong>），来自<a href="http://baham.co">Baham.co</a>， 由Baham定制。 插件包括 Adblock Plus，Auto Proxy，NoScript，Flagfox等安全插件； DownThemAll，IE Tab+，NetVideoHunter，Firebug，Xthunder，TabMixPlus，CreaseMonkey等其他常用插件。 书签包括Baham’s Blog，英文（NCR）、英文（印度）、印地语、德文、法文、中文（简繁）、日文俄语、西班牙语Google站点，以及MIT杂志的中文站、 EDXonline在线教育网站……以及一些其他很有用但国内访问量较少的网站。 主题及皮肤均采用默认。</p>
-
-<p>BearFox 1.0对应Firefox14.1，随火狐更新BearFox会动态更新。</p>
-
-<p>BearFox2.2 于2012年11月6日发布。</p>
-
-<p>下载地址：</p>
-
-<p><a href="http://baham.co/wp-files/BearFox1.0.exe">本站下载  </a>(BearFox1.0)(14.1)</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_29_271.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -690,11 +705,19 @@
   
     <section>
   <h1>Tag Cloud</h1>
-    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 110.58823529411765%'>Blender(3)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 124.70588235294117%'>Geek(7)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 145.88235294117646%'>Linux(13)</a> <a href='/blog/categories/linux-opensuse' style='font-size: 103.52941176470588%'>Linux,openSuse(1)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 124.70588235294117%'>站长(7)</a> <a href='/blog/categories/站长-linux' style='font-size: 103.52941176470588%'>站长,Linux(1)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 103.52941176470588%'>选矿学(1)</a> <a href='/blog/categories/选矿学-edu' style='font-size: 103.52941176470588%'>选矿学,Edu(1)</a> </span>
+    <span id="tag-cloud"><a href='/blog/categories/baham' style='font-size: 145.88235294117646%'>Baham(13)</a> <a href='/blog/categories/baham-software' style='font-size: 114.11764705882354%'>Baham Software(4)</a> <a href='/blog/categories/blender' style='font-size: 110.58823529411765%'>Blender(3)</a> <a href='/blog/categories/cg' style='font-size: 103.52941176470588%'>CG(1)</a> <a href='/blog/categories/edu' style='font-size: 121.17647058823529%'>EDU(6)</a> <a href='/blog/categories/geek' style='font-size: 124.70588235294117%'>Geek(7)</a> <a href='/blog/categories/github' style='font-size: 107.05882352941177%'>Github(2)</a> <a href='/blog/categories/it' style='font-size: 103.52941176470588%'>IT(1)</a> <a href='/blog/categories/java' style='font-size: 117.64705882352942%'>Java(5)</a> <a href='/blog/categories/java-zone' style='font-size: 110.58823529411765%'>Java Zone(3)</a> <a href='/blog/categories/java练习题' style='font-size: 131.76470588235293%'>Java练习题(9)</a> <a href='/blog/categories/linux' style='font-size: 152.94117647058823%'>Linux(15)</a> <a href='/blog/categories/linux-opensuse' style='font-size: 103.52941176470588%'>Linux,openSuse(1)</a> <a href='/blog/categories/octopress' style='font-size: 121.17647058823529%'>Octopress(6)</a> <a href='/blog/categories/seo' style='font-size: 110.58823529411765%'>SEO(3)</a> <a href='/blog/categories/slider' style='font-size: 124.70588235294117%'>slider(7)</a> <a href='/blog/categories/ted' style='font-size: 103.52941176470588%'>Ted(1)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(17)</a> <a href='/blog/categories/书籍' style='font-size: 110.58823529411765%'>书籍(3)</a> <a href='/blog/categories/信仰' style='font-size: 110.58823529411765%'>信仰(3)</a> <a href='/blog/categories/坑爹' style='font-size: 124.70588235294117%'>坑爹(7)</a> <a href='/blog/categories/开源' style='font-size: 121.17647058823529%'>开源(6)</a> <a href='/blog/categories/微软' style='font-size: 103.52941176470588%'>微软(1)</a> <a href='/blog/categories/油兔博' style='font-size: 107.05882352941177%'>油兔博(2)</a> <a href='/blog/categories/游戏' style='font-size: 114.11764705882354%'>游戏(4)</a> <a href='/blog/categories/源码' style='font-size: 114.11764705882354%'>源码(4)</a> <a href='/blog/categories/煤化学' style='font-size: 114.11764705882354%'>煤化学(4)</a> <a href='/blog/categories/程序员' style='font-size: 103.52941176470588%'>程序员(1)</a> <a href='/blog/categories/站长' style='font-size: 124.70588235294117%'>站长(7)</a> <a href='/blog/categories/站长-linux' style='font-size: 103.52941176470588%'>站长,Linux(1)</a> <a href='/blog/categories/软件' style='font-size: 107.05882352941177%'>软件(2)</a> <a href='/blog/categories/选矿学' style='font-size: 103.52941176470588%'>选矿学(1)</a> <a href='/blog/categories/选矿学-edu' style='font-size: 103.52941176470588%'>选矿学,Edu(1)</a> </span>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html">Bodhi Linux Enlightment 环境试用</a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_13_opensusezhong-de-virtualboxpei-zhi.html">openSuse中的Virtualbox配置</a>
+      </li>
     
       <li class="post">
         <a href="/03_12_ma-nong-di-si-qi-%2Ctu-ling-she-qu-chu-pin.html">码农第四期，图灵社区出品</a>
@@ -726,14 +749,6 @@
     
       <li class="post">
         <a href="/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html">Octopress使用Disqus留言系统</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html">使用fedup从Fedora 17更新到 Fedora 18</a>
-      </li>
-    
-      <li class="post">
-        <a href="/01_15_zhun-bei-hao-sheng-ji-liao-ma-%3Fshi-yong-preupgradesheng-ji-fedora-18.html">准备好升级了吗？使用Preupgrade升级Fedora 18</a>
       </li>
     
   </ul>
