@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2013-03-13T14:35:05+00:00</updated>
+  <updated>2013-03-20T14:21:33+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我为什么用Linux]]></title>
+    <link href="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html"/>
+    <updated>2013-03-20T21:27:00+00:00</updated>
+    <id>http://baham.co/wo-wei-shi-yao-yong-linux</id>
+    <content type="html"><![CDATA[<p>  多久前，我不记得了，也懒得百度了（20多年前），Linus 看着minix很不爽，就写了一个linux，在遥远的美国，Richard Stallman的GNU恰好却一个内核，然后，Gnu／linux诞生了。
+ 最早的发行版，名唤Slackware，貌似在94年诞生。后来又有redhat，再后来redhat在纽交所上市，华尔街的资本家们，开始对开源的东西刮目相看。然后呢，南非富翁搞了个以桌面为目的的
+ 发行版，名唤Ubuntu。没人生活能离开linux，Amazon背后的服务器，Google对搜索每次的处理，也包括我校的饭卡充值机……</p>
+
+<p>  人永远不要做违背原则的事，《权力的游戏》里，Stark最后一集，放弃了自己坚持一辈子的荣誉，然后，一辈子就结束了。我也犯了个错误，就是不该在贴吧发那个该死的帖子。Linux社区里，有一种默契，但凡有人发win lin对比的帖子，就不会有人去真正在意。</p>
+
+<p>说正题吧：</p>
+
+<h2>如何在学校里上网</h2>
+
+<!--more-->
+
+
+<p>需要这个<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7TjVhNlJIQUwxb2c/edit?usp=sharing">算密码程序</a>.由学生在线论坛上一个<a href="http://blog.xujif.com/">大神</a>搞的。
+使用很简单，<code>./pwdcalc 123456@internet password</code></p>
+
+<p>嫌麻烦就自己写个脚本，就是把上边这句话，存在一个文件里（wenjian.sh），然后，<code>chmod 733 wenjian.sh</code></p>
+
+<p>以后，./wenjian.sh 就可以了。算出密码，填在对应密码框里。</p>
+
+<p><img src="/images/net.png" alt="mima" /></p>
+
+<p>别再说linux没法上网了。</p>
+
+<h2>我为什么用linux</h2>
+
+<p><strong>安全</strong>，64位Firefox，好用的<strong>git</strong>客户端，支持<strong>虚拟桌面</strong>（win也可以），<strong>低资源</strong>占用。</p>
+
+<p>具体不解释了。</p>
+
+<h2>选择发行版</h2>
+
+<p>最早把linux带给桌面用户的，非ubuntu莫属。不过现在不同了，fedora、linux mint、manjaro、mageia、opensuse，都不错。</p>
+
+<h2>选择桌面</h2>
+
+<p>用的最多的当属gnome和kde。
+也可以选择xfce,enlightment。
+如果从win的角度考虑，选择kde或xfce吧。</p>
+
+<h2>资料推荐</h2>
+
+<p>鸟哥linux私房菜，似乎是很多人推荐的。没看过，但是在图书馆找了两本，不记得名字了，有兴趣可以看看。</p>
+
+<h2>Crack或者想做渗透</h2>
+
+<p>用backtrack或者backbox，也可以添加对应<strong>ppa源</strong></p>
+
+<pre><code>deb http://ppa.launchpad.net/backbox/three/ubuntu precise main
+deb-src http://ppa.launchpad.net/backbox/three/ubuntu precise main
+</code></pre>
+
+<p>文件存在google drive上，如果，无法访问，可以谷歌解决。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bodhi Linux Enlightment 环境试用]]></title>
@@ -132,55 +193,6 @@ md5:<code>e6f6d8801d354efbffc028a01f73d48c</code></p>
 
 <p><a href="http://susestudio.com/download/b1c86914f0e7bbbb724ec326a9ca8984/marks_KDE_4_desktop.x86_64-1.1.0.oem.tar.gz">U盘等移动设备img</a>
 md5:<code>b1c86914f0e7bbbb724ec326a9ca8984</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用fedup从Fedora 17更新到 Fedora 18]]></title>
-    <link href="http://baham.co/01_15_shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18.html"/>
-    <updated>2013-01-15T23:29:00+00:00</updated>
-    <id>http://baham.co/shi-yong-fedupcong-fedora-17geng-xin-dao-fedora-18</id>
-    <content type="html"><![CDATA[<h2>1 联网升级</h2>
-
-<p>适用于网速较好，且网络环境稳定的用户。</p>
-
-<pre><code>sudo fedup-cli --network 18 --debuglog fedupdebug.log --instrepo http://dl.fedoraproject.org/pub/alt/qa/fedup/f18-RC4/&lt;arch&gt;/
-</code></pre>
-
-<p><code>arch 请填写处理器架构——  i386  or X86_64</code></p>
-
-<p>其中，地址部分，此处为RC版。</p>
-
-<p>以上为原RC版升级方案，正式版范例如下。</p>
-
-<p>更新 fedora 18 使用以下命令：</p>
-
-<pre><code>sudo fedup-cli --network 18 --debuglog fedupdebug.log
-</code></pre>
-
-<p><code>其中arch表示处理器架构。</code></p>
-
-<p>对应wiki：<a href="https://fedoraproject.org/w/index.php?title=FedUp&amp;action=history">Fedora fedup  wiki</a></p>
-
-<h2>2 ISO(DVD版)  升级</h2>
-
-<p>适用于网络环境稳定性较差或者网速较慢时。</p>
-
-<pre><code>sudo fedup-cli --iso /home/name/download/fedora-18.iso --debuglog=fedupdebug.log
-</code></pre>
-
-<p>DVD iso 下载地址  (163源  http://mirrors.163.com/fedora/releases/18/Fedora/x86_64/iso/Fedora-18-x86_64-DVD.iso)。</p>
-
-<p>其中fedupdebug.log用于记录升级过程日志。</p>
-
-<p>fedup帮助文档（英文）:</p>
-
-<!-- more -->
-
-
-<p><blockquote><p>usage: fedup SOURCE [options]</p></p><p><p>Prepare system for upgrade.</p></p><p><p>optional arguments:<br/>  -h, --help            show this help message and exit<br/>  -v, --verbose         print more info<br/>  -d, --debug           print lots of debugging info<br/>  --debuglog DEBUGLOG   write lots of debugging output to the given file<br/>  --reboot              automatically reboot to start the upgrade when ready</p></p><p><p>SOURCE:<br/>  Location to search for upgrade data.</p></p><p><p>  --device [DEV]        device or mountpoint. default: check mounted devices<br/>  --iso ISO             installation image file<br/>  --network VERSION     online repos matching VERSION (a number or "rawhide")</p></p><p><p>additional options for --network:<br/>  --enablerepo REPOID   enable one or more repos (wildcards allowed)<br/>  --disablerepo REPOID  disable one or more repos (wildcards allowed)<br/>  --addrepo REPOID=[@]URL</p></p><p><pre><code>                    add the repo at URL (@URL for mirrorlist)<br/></code></pre></p><p><p>  --instrepo REPOID     get upgrader boot images from REPOID (default: auto)</p></p><p><p>cleanup commands:<br/>  --resetbootloader     remove any modifications made to bootloader<br/>  --clean               clean up everything written by fedup</p></blockquote></p>
-
-<p><a href="https://fedoraproject.org/wiki/FedUp">fedup英文Wiki</a></p>
 ]]></content>
   </entry>
   

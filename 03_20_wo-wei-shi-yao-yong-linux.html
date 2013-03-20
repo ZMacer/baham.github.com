@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>iQQ-开源Java版qq客户端 - Baham's Blog</title>
+  <title>我为什么用Linux - Baham's Blog</title>
   <meta name="author" content="Baham">
 
   
-  <meta name="description" content="        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如libqq-pidgin，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样， &hellip;">
+  <meta name="description" content="多久前，我不记得了，也懒得百度了（20多年前），Linus 看着minix很不爽，就写了一个linux，在遥远的美国，Richard Stallman的GNU恰好却一个内核，然后，Gnu／linux诞生了。 最早的发行版，名唤Slackware，貌似在94年诞生。后来又有redhat， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.co/07_29_251.html">
+  <link rel="canonical" href="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -91,7 +91,7 @@
   <header>
     
       
-        <h1 class="entry-title">iQQ-开源Java版qq客户端</h1>
+        <h1 class="entry-title">我为什么用Linux</h1>
       
     
     
@@ -108,46 +108,66 @@
   
 
 
-<time datetime="2012-07-29T00:42:26+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
+<time datetime="2013-03-20T21:27:00+00:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><img src="https://iqq-java.googlecode.com/files/loginProccess.jpg" alt="iQQ登陆界面" />        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如<a href="http://libqq-pidgin.googlecode.com/">libqq-pidgin</a>，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样，很多小问题没有解决。问题主要原因显然不在软件，而在腾讯方面。</p>
+<div class="entry-content"><p>  多久前，我不记得了，也懒得百度了（20多年前），Linus 看着minix很不爽，就写了一个linux，在遥远的美国，Richard Stallman的GNU恰好却一个内核，然后，Gnu／linux诞生了。
+ 最早的发行版，名唤Slackware，貌似在94年诞生。后来又有redhat，再后来redhat在纽交所上市，华尔街的资本家们，开始对开源的东西刮目相看。然后呢，南非富翁搞了个以桌面为目的的
+ 发行版，名唤Ubuntu。没人生活能离开linux，Amazon背后的服务器，Google对搜索每次的处理，也包括我校的饭卡充值机……</p>
 
-<p>今天无意中，看到了iQQ的介绍，这是一个新项目，距离谷歌Code的项目提交只有几天。看了一些iQQ的截图，至少觉着这个图形界面，要比QQforLinux或者其他第三方客户端要好那么一点。</p>
+<p>  人永远不要做违背原则的事，《权力的游戏》里，Stark最后一集，放弃了自己坚持一辈子的荣誉，然后，一辈子就结束了。我也犯了个错误，就是不该在贴吧发那个该死的帖子。Linux社区里，有一种默契，但凡有人发win lin对比的帖子，就不会有人去真正在意。</p>
 
-<p>iQQ是一项<strong>开源项目</strong>，源码托管在google code上，基于腾讯<strong>WebQQ 3.0网络协议</strong>，可以通过JRE运行在任何平台上，作者基于Linux(Ubuntu 12.04)系统，使用IDE NetBeans开发。项目伊始，作者（<em>chengnuo128@gmail.com</em>）将源代码公开，希望寻找爱好者一同开发。</p>
+<p>说正题吧：</p>
 
-<p>截至目前，iQQ仍处于<strong>Beta测试</strong>阶段，通过项目问题也看到，仍有部分小问题没有解决。</p>
+<h2>如何在学校里上网</h2>
 
-<!-- more -->
+<!--more-->
 
 
-<p>iQQ截图：</p>
+<p>需要这个<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7TjVhNlJIQUwxb2c/edit?usp=sharing">算密码程序</a>.由学生在线论坛上一个<a href="http://blog.xujif.com/">大神</a>搞的。
+使用很简单，<code>./pwdcalc 123456@internet password</code></p>
 
-<p><img src="https://iqq-java.googlecode.com/files/mainFrame.jpg" alt="xfce ubuntu12.04 iqq客户端" /></p>
+<p>嫌麻烦就自己写个脚本，就是把上边这句话，存在一个文件里（wenjian.sh），然后，<code>chmod 733 wenjian.sh</code></p>
 
-<p><img src="https://iqq-java.googlecode.com/files/cap.jpg" alt="" /></p>
+<p>以后，./wenjian.sh 就可以了。算出密码，填在对应密码框里。</p>
 
-<p><img src="https://iqq-java.googlecode.com/files/login.jpg" alt="iQQ登陆界面" /></p>
+<p><img src="/images/net.png" alt="mima" /></p>
 
-<p><img src="https://iqq-java.googlecode.com/files/1.jpg" alt="iqq使用界面" /></p>
+<p>别再说linux没法上网了。</p>
 
-<p><img src="https://iqq-java.googlecode.com/files/chating.jpg" alt="iqq聊天示例" /></p>
+<h2>我为什么用linux</h2>
 
-<p>总结来讲，我很看好<strong>iQQ项目</strong>，虽然我还不能为其贡献代码，但真心希望有兴趣者积极参加。没有什么别的原因，只是希望Linux的桌面应用能更丰富。</p>
+<p><strong>安全</strong>，64位Firefox，好用的<strong>git</strong>客户端，支持<strong>虚拟桌面</strong>（win也可以），<strong>低资源</strong>占用。</p>
 
-<p><a href="https://code.google.com/p/iqq/">iqq项目地址</a></p>
+<p>具体不解释了。</p>
 
-<p><a href="https://code.google.com/p/iqq/downloads/detail?name=iQQ_beta1.02.zip&amp;can=2&amp;q=">iqqBeta1.02下载地址</a></p>
+<h2>选择发行版</h2>
 
-<p>获取iqq源代码：</p>
+<p>最早把linux带给桌面用户的，非ubuntu莫属。不过现在不同了，fedora、linux mint、manjaro、mageia、opensuse，都不错。</p>
 
-<p><code># Non-members may check out a read-only working copy anonymously over HTTP.
-svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
+<h2>选择桌面</h2>
+
+<p>用的最多的当属gnome和kde。
+也可以选择xfce,enlightment。
+如果从win的角度考虑，选择kde或xfce吧。</p>
+
+<h2>资料推荐</h2>
+
+<p>鸟哥linux私房菜，似乎是很多人推荐的。没看过，但是在图书馆找了两本，不记得名字了，有兴趣可以看看。</p>
+
+<h2>Crack或者想做渗透</h2>
+
+<p>用backtrack或者backbox，也可以添加对应<strong>ppa源</strong></p>
+
+<pre><code>deb http://ppa.launchpad.net/backbox/three/ubuntu precise main
+deb-src http://ppa.launchpad.net/backbox/three/ubuntu precise main
+</code></pre>
+
+<p>文件存在google drive上，如果，无法访问，可以谷歌解决。</p>
 </div>
 
 
@@ -170,12 +190,12 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
   
 
 
-<time datetime="2012-07-29T00:42:26+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
+<time datetime="2013-03-20T21:27:00+00:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/java/'>Java</a>, <a class='category' href='/blog/categories/linux/'>Linux</a>, <a class='category' href='/blog/categories/源码/'>源码</a>
+    <a class='category' href='/blog/categories/linux/'>Linux</a>
   
 </span>
 
@@ -184,7 +204,7 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://baham.co/07_29_251.html" data-via="" data-counturl="http://baham.co/07_29_251.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html" data-via="" data-counturl="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -197,10 +217,8 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
     
     <p class="meta">
       
-        <a class="basic-alignment left articlenav" href="/07_28_241.html" title="Previous Post: Java文件处理-调整Java源程序缩进">&laquo; Java文件处理-调整Java源程序缩进</a>
+        <a class="basic-alignment left articlenav" href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html" title="Previous Post: Bodhi Linux Enlightment 环境试用">&laquo; Bodhi Linux Enlightment 环境试用</a>
       
-      
-        <a class="basic-alignment right articlenav" href="/07_29_271.html" title="Next Post: BearFox Browser-熊狐浏览器">BearFox Browser-熊狐浏览器 &raquo;</a>
       
     </p>
   </footer>
@@ -219,10 +237,6 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
     <section>
   <h1>Related Posts</h1>
   <ul class="posts">
-    
-      <li class="related">
-        <a href="/03_20_wo-wei-shi-yao-yong-linux.html">我为什么用Linux</a>
-      </li>
     
       <li class="related">
         <a href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html">Bodhi Linux Enlightment 环境试用</a>
@@ -258,6 +272,10 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
     
       <li class="related">
         <a href="/01_30_hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin.html">很久没有更新博客的原因</a>
+      </li>
+    
+      <li class="related">
+        <a href="/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html">Octopress使用Disqus留言系统</a>
       </li>
     
   </ul>
@@ -344,7 +362,7 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
 
 <section>
 <h1>QR-Code<abbr title="The word 'QR Code' is a registered trademark of DENSO WAVE INCORPORATED. It applies only for the word 'QR Code', not for image.--Baham.co">&trade;</abbr></h1>
-<a href="http://baham.co/07_29_251.html"><img src="http://chart.apis.google.com/chart?chs=150x150&cht=qr&chld=|0&chco=165B94&chl=http://baham.co/07_29_251.html" alt="post-qrcode"></a></section>
+<a href="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html"><img src="http://chart.apis.google.com/chart?chs=150x150&cht=qr&chld=|0&chco=165B94&chl=http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html" alt="post-qrcode"></a></section>
 
 
 
@@ -352,10 +370,6 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
 <section>
   <h1>Related Posts</h1>
   <ul class="posts">
-    
-      <li class="related">
-        <a href="/03_20_wo-wei-shi-yao-yong-linux.html">我为什么用Linux</a>
-      </li>
     
       <li class="related">
         <a href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html">Bodhi Linux Enlightment 环境试用</a>
@@ -391,6 +405,10 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
     
       <li class="related">
         <a href="/01_30_hen-jiu-mei-you-geng-xin-bo-ke-de-yuan-yin.html">很久没有更新博客的原因</a>
+      </li>
+    
+      <li class="related">
+        <a href="/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html">Octopress使用Disqus留言系统</a>
       </li>
     
   </ul>
@@ -433,8 +451,8 @@ svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://baham.co/07_29_251.html';
-        var disqus_url = 'http://baham.co/07_29_251.html';
+        var disqus_identifier = 'http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html';
+        var disqus_url = 'http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2013-03-13T14:35:05+00:00</updated>
+  <updated>2013-03-20T14:21:33+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我为什么用Linux]]></title>
+    <link href="http://baham.co/03_20_wo-wei-shi-yao-yong-linux.html"/>
+    <updated>2013-03-20T21:27:00+00:00</updated>
+    <id>http://baham.co/wo-wei-shi-yao-yong-linux</id>
+    <content type="html"><![CDATA[<p>  多久前，我不记得了，也懒得百度了（20多年前），Linus 看着minix很不爽，就写了一个linux，在遥远的美国，Richard Stallman的GNU恰好却一个内核，然后，Gnu／linux诞生了。
+ 最早的发行版，名唤Slackware，貌似在94年诞生。后来又有redhat，再后来redhat在纽交所上市，华尔街的资本家们，开始对开源的东西刮目相看。然后呢，南非富翁搞了个以桌面为目的的
+ 发行版，名唤Ubuntu。没人生活能离开linux，Amazon背后的服务器，Google对搜索每次的处理，也包括我校的饭卡充值机……</p>
+
+<p>  人永远不要做违背原则的事，《权力的游戏》里，Stark最后一集，放弃了自己坚持一辈子的荣誉，然后，一辈子就结束了。我也犯了个错误，就是不该在贴吧发那个该死的帖子。Linux社区里，有一种默契，但凡有人发win lin对比的帖子，就不会有人去真正在意。</p>
+
+<p>说正题吧：</p>
+
+<h2>如何在学校里上网</h2>
+
+<!--more-->
+
+
+<p>需要这个<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7TjVhNlJIQUwxb2c/edit?usp=sharing">算密码程序</a>.由学生在线论坛上一个<a href="http://blog.xujif.com/">大神</a>搞的。
+使用很简单，<code>./pwdcalc 123456@internet password</code></p>
+
+<p>嫌麻烦就自己写个脚本，就是把上边这句话，存在一个文件里（wenjian.sh），然后，<code>chmod 733 wenjian.sh</code></p>
+
+<p>以后，./wenjian.sh 就可以了。算出密码，填在对应密码框里。</p>
+
+<p><img src="http://baham.co/images/net.png" alt="mima" /></p>
+
+<p>别再说linux没法上网了。</p>
+
+<h2>我为什么用linux</h2>
+
+<p><strong>安全</strong>，64位Firefox，好用的<strong>git</strong>客户端，支持<strong>虚拟桌面</strong>（win也可以），<strong>低资源</strong>占用。</p>
+
+<p>具体不解释了。</p>
+
+<h2>选择发行版</h2>
+
+<p>最早把linux带给桌面用户的，非ubuntu莫属。不过现在不同了，fedora、linux mint、manjaro、mageia、opensuse，都不错。</p>
+
+<h2>选择桌面</h2>
+
+<p>用的最多的当属gnome和kde。
+也可以选择xfce,enlightment。
+如果从win的角度考虑，选择kde或xfce吧。</p>
+
+<h2>资料推荐</h2>
+
+<p>鸟哥linux私房菜，似乎是很多人推荐的。没看过，但是在图书馆找了两本，不记得名字了，有兴趣可以看看。</p>
+
+<h2>Crack或者想做渗透</h2>
+
+<p>用backtrack或者backbox，也可以添加对应<strong>ppa源</strong></p>
+
+<pre><code>deb http://ppa.launchpad.net/backbox/three/ubuntu precise main
+deb-src http://ppa.launchpad.net/backbox/three/ubuntu precise main
+</code></pre>
+
+<p>文件存在google drive上，如果，无法访问，可以谷歌解决。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bodhi Linux Enlightment 环境试用]]></title>
@@ -631,16 +692,6 @@ md5:<code>b1c86914f0e7bbbb724ec326a9ca8984</code></p>
     <updated>2013-01-10T22:55:00+00:00</updated>
     <id>http://baham.co/wei-shi-yao-mei-de-da-fen-zi-jie-gou-yi-fang-xiang-jie-gou-wei-zhu</id>
     <content type="html"><![CDATA[<blockquote><p>在成煤植物化学组成中，木质素含量较高，木质素是具有苯基丙烷芳香结构的高分子聚合物，含甲氧基、羟基等官能团。木质素的单体以不同的链连接成三度空间的大分子，比纤维素稳定，不易水解，易保存。在泥炭沼泽中，在水和微生物作用下分解，与其他化合物共同作用生成腐植酸类物质，这些物质最终转化成为煤。所以木质素是植物转变为煤的原始物质中最重要的有机组分。由于含量较少或不易在成煤过程中保存下来，成煤植物中的其他化学组成对成煤的贡献均不如木质素</p></blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[影响煤变质作用的因素]]></title>
-    <link href="http://baham.co/01_10_ying-xiang-mei-bian-zhi-zuo-yong-de-yin-su.html"/>
-    <updated>2013-01-10T22:53:00+00:00</updated>
-    <id>http://baham.co/ying-xiang-mei-bian-zhi-zuo-yong-de-yin-su</id>
-    <content type="html"><![CDATA[<blockquote><p>影响煤变质的因素主要有温度、压力和时间。<br/>温度的影响:促成煤变质作用的主要因素是温度。温度过低（<50～60℃），褐煤的变质就不明显了，如莫斯科煤田早石炭世煤至今已有3亿年以上，但仍处于褐煤阶段。通常认为，煤化程度是煤受热温度和持续时间的函数。温度越高，变质作用的速度越快。因为变质作用的实质是煤分子的化学变化，温度高促进了化学反应速度的提高。 <br/>时间的影响:时间是影响煤变质的另一重要因素。时间因素的重要性表现在以下两个方面：第一，在温度、压力大致相同的条件下，受热时间越长，煤化程度越高。第二，煤受短时间较高温度的作用或受长时间较低温度（超过变质临界温度）作用，可以达到相同的变质程度。<br/>压力的影响:压力可以使煤压实，孔隙率降低，水分减少；并使煤岩组分沿垂直压力的方向作定向排列。静压力促使煤的芳香族稠环平行层面作有规则的排列。</p></blockquote>
 
 ]]></content>
   </entry>
