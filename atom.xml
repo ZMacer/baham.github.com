@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2013-03-20T14:21:33+00:00</updated>
+  <updated>2013-03-22T15:34:18+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[赵本山小品《心病》与王阳明传思录中的死生之道]]></title>
+    <link href="http://baham.co/03_22_zhao-ben-shan-xiao-pin-%3C%3Cxin-bing-%3E%3E-yu-wang-yang-ming-chuan-si-lu-zhong-de-si-sheng-zhi-dao.html"/>
+    <updated>2013-03-22T22:31:00+00:00</updated>
+    <id>http://baham.co/zhao-ben-shan-xiao-pin-<<xin-bing->>-yu-wang-yang-ming-chuan-si-lu-zhong-de-si-sheng-zhi-dao</id>
+    <content type="html"><![CDATA[<p>  看过春晚《心病》这部小品的，应该都记得这样一个情节，高秀敏（死者为大，实无冒犯之意）带着范伟去赵本山处看病。高秀敏告诉赵本山要想办法让范伟接受这笔钱。于是山开始大谈生命，于是范围说了一句话——“<strong>我不想知道我是怎么来的，我只想知道我是怎么没的。</strong>”</p>
+
+<p>可以参看视频。
+<embed src="http://player.youku.com/player.php/sid/XMjQxMzE4MDg4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+
+<p>在<strong>传思录</strong>中（最近王阳明很热，心学大师，大明贤哲，我自是从读《明朝那些事儿》中介绍起处就开始对其佩服得五体投地，只不过我认为，哲学理论是永远飞不进寻常百姓家的，<strong>读之可以，迷之则过。</strong>），有这样一段对话：</p>
+
+<pre><code>萧惠问死生之道
+先生曰：知昼夜即知死生
+问昼夜之道
+曰：知昼则知夜
+曰：昼亦有所不知乎
+</code></pre>
+
+<p><strong>先生曰：汝能知昼，懵懵而兴，蠢蠢而食，行不著，习不察<del>（不会被当作诬蔑国家领导吧？ 此处大意为：学习或温习或指思考时不清醒）</del>，终日昏昏，只是梦昼<del>（白日梦看来早有出处啊，此处书中翻译为梦中的白天）</del>，惟息有养，瞬有存，此心悻悻明明，天理无一息间断，才是能知昼，这便是天德，便是通乎昼夜之道而知，便有什么生死<del>（此处全以逗号断句，是我觉得古书本无标点，如果因为今人标错标点，而使意义大变，那标注之人即为罪人，故权以逗号断句，而且断句也未必断得对）</del></strong></p>
+
+<!--more-->
+
+
+<p>个人观点，最后的大意为，你怎么可能知道<strong>昼</strong>呢？你起床吃饭、行、习都是迷秘糊糊的，这就像梦中的白天。唯有<strong>息有养，瞬有存</strong>，内心清醒明亮，对天理的思考没有一刻间断，才能知道<strong>昼</strong>（个人认为，此处和《大学》里，<code>知止而后有定，定而后能静，静而后能安，安而后能虑，律而后能得</code>有想通之意）</p>
+
+<p>突然觉得《心病》这个小品，范伟、赵本山对话和萧惠、王阳明的对话有着某些相通的道理。所以，写了这个，分享给大家。</p>
+
+<p><strong>生活无处无哲学啊！！！</strong>
+可能分析地不对，欢迎交流！！！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[我为什么用Linux]]></title>
@@ -682,16 +715,6 @@ md5:<code>b1c86914f0e7bbbb724ec326a9ca8984</code></p>
     <content type="html"><![CDATA[<blockquote><p>腐植煤有机显微组分分为三组：镜质组vitrinite 、惰质组inertinite和壳质组exinite。成煤植物的组织在气流闭塞、积水较深的沼泽环境下，产生极其复杂的变化。主要发生两方面的变化：一方面是植物组织在微生物作用下，发生：分解、水解、化合形成新的化合物并破坏植物组织器官的细胞结构；另一方面植物组织在沼泽水的浸泡下吸水膨胀，使植物细胞结构变形、破坏乃至消失，或进一步再分解为凝胶的过程。（成岩作用过程也要答，自己补充）。壳质组来源于高等植物的孢粉外壳、角质层、木栓层等较稳定的器官、组织、树脂、蜡、脂肪和油等植物代谢产物以及藻类、微生物降解物。壳质组是成煤植物中化学稳定性强的组成部分，在泥炭化和成岩阶段保持在煤中的组分几乎没有发生什么质的变化。惰质组的成因多种多样，植物组织的火焚作用，植物组织的腐解。受真菌侵袭和氧化脱水作用（丝炭化作用）以及地球化学煤化作用等都能导致惰质化，但以丝炭化作用和火焚作用为主。丝炭化作用fusinization：成煤植物的组织在积水较少、湿度不足的条件下，木质纤维组织经过:脱水作用dehydration和缓慢的氧化作用后，又转入缺氧的环境，进一步经煤化作用后转化为惰质组分。丝炭化作用也可以作用于已经受不同程度凝胶化作用的组分上，但经丝炭化作用后的组分不能再发生凝胶化作用成为凝胶化组分。火焚作用burning：有的丝炭化组分是由于古代沼泽森林火灾后，由烧焦的炭化组织转化而来的，称为火焚丝质体。</p></blockquote>
 
 
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[为什么煤的大分子结构以芳香结构为主]]></title>
-    <link href="http://baham.co/01_10_wei-shi-yao-mei-de-da-fen-zi-jie-gou-yi-fang-xiang-jie-gou-wei-zhu.html"/>
-    <updated>2013-01-10T22:55:00+00:00</updated>
-    <id>http://baham.co/wei-shi-yao-mei-de-da-fen-zi-jie-gou-yi-fang-xiang-jie-gou-wei-zhu</id>
-    <content type="html"><![CDATA[<blockquote><p>在成煤植物化学组成中，木质素含量较高，木质素是具有苯基丙烷芳香结构的高分子聚合物，含甲氧基、羟基等官能团。木质素的单体以不同的链连接成三度空间的大分子，比纤维素稳定，不易水解，易保存。在泥炭沼泽中，在水和微生物作用下分解，与其他化合物共同作用生成腐植酸类物质，这些物质最终转化成为煤。所以木质素是植物转变为煤的原始物质中最重要的有机组分。由于含量较少或不易在成煤过程中保存下来，成煤植物中的其他化学组成对成煤的贡献均不如木质素</p></blockquote>
 
 ]]></content>
   </entry>
